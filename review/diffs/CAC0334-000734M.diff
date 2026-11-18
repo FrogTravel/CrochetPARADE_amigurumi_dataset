@@ -1,0 +1,15 @@
+--- a/CAC0334-000734M.cp
++++ b/CAC0334-000734M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # KANGAROO MOTHER
+ 
+ # HEAD
+@@ -348,4 +345,3 @@
+ 6*[2sc, sc2tog], ss@[%,0]
+ 6*[sc, sc2tog], ss@[%,0]
+ 6sc2tog, ss@[%,0]
+-sc
+\ No newline at end of file

@@ -1,0 +1,14 @@
+--- a/RHC0334-023999M.cp
++++ b/RHC0334-023999M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HAMBURGER
+ 
+ # TOP BUN (tan/beige)
+@@ -128,4 +127,4 @@
+ # Close
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

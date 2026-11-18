@@ -1,0 +1,62 @@
+--- a/SCC0334-005462M.cp
++++ b/SCC0334-005462M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ # With MC, ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -132,21 +129,21 @@
+ 5sc, 3sc2tog, 6sc, ss@[%,0]
+ 4sc, 2sc2tog, 5sc, ss@[%,0]
+ 3sc, 2sc2tog, 4sc, ss@[%,0]
+-11sc, ss@[%,0] # 8
+-11sc, ss@[%,0] # 9
+-11sc, ss@[%,0] # 10
+-11sc, ss@[%,0] # 11
+-11sc, ss@[%,0] # 12
+-11sc, ss@[%,0] # 13
+-11sc, ss@[%,0] # 14
+-11sc, ss@[%,0] # 15
+-11sc, ss@[%,0] # 16
+-11sc, ss@[%,0] # 17
+-11sc, ss@[%,0] # 18
+-11sc, ss@[%,0] # 19
+-11sc, ss@[%,0] # 20
+-11sc, ss@[%,0] # 21
+-11sc, ss@[%,0] # 22
++9sc, ss@[%,0] # 8
++9sc, ss@[%,0] # 9
++9sc, ss@[%,0] # 10
++9sc, ss@[%,0] # 11
++9sc, ss@[%,0] # 12
++9sc, ss@[%,0] # 13
++9sc, ss@[%,0] # 14
++9sc, ss@[%,0] # 15
++9sc, ss@[%,0] # 16
++9sc, ss@[%,0] # 17
++9sc, ss@[%,0] # 18
++9sc, ss@[%,0] # 19
++9sc, ss@[%,0] # 20
++9sc, ss@[%,0] # 21
++9sc, ss@[%,0] # 22
+ 
+ # ARMS (1/2)
+ # With MC, ch 2.
+@@ -236,7 +233,7 @@
+ # next row:
+ 4sc, 2sc, 5sc, 2sc, 5sc, turn
+ # next row:
+-24sc
++18sc
+ 
+ # STRAPS (1/2)
+ start_a_new_chain
+@@ -290,4 +287,4 @@
+ start_a_new_chain
+ 5ch, turn
+ 5sc
+-```
+\ No newline at end of file
++

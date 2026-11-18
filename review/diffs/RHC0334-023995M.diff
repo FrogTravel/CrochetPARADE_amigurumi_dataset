@@ -1,0 +1,14 @@
+--- a/RHC0334-023995M.cp
++++ b/RHC0334-023995M.cp
+@@ -1,4 +1,3 @@
+-```
+ # ANGRY BIRD BODY
+ # Beginning at top, ch 2.
+ ring.R0
+@@ -148,4 +147,4 @@
+ 12sc, ss@[%,0]
+ 12sc, ss@[%,0]
+ tie_up
+-```
+\ No newline at end of file
++

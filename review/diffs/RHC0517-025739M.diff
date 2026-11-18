@@ -1,0 +1,16 @@
+--- a/RHC0517-025739M.cp
++++ b/RHC0517-025739M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # GNOME
+ 
+ # BOOTS (1/2)
+@@ -161,4 +158,4 @@
+ # Brim: 1 sc in each sc around.
+ 36sc
+ 36sc
+-```
+\ No newline at end of file
++

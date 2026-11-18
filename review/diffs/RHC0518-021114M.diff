@@ -1,0 +1,29 @@
+--- a/RHC0518-021114M.cp
++++ b/RHC0518-021114M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -183,16 +182,16 @@
+ start_a_new_chain
+ 29ch, turn
+ # 1st row: 1 dc in 3rd ch from hook. 1 dc in each ch across. 28 dc.
+-30dc, turn
++30dc, turn # source inconsistency: ch 30 / dc in 3rd ch gives 28 dc, but the armhole row (ch 3 + 5 + 2 + 14 + 2 + 6) needs 30 sts; kept 30 (ch-3 counted as a dc throughout)
+ # 2nd row: Ch 3. 1 dc in each dc across.
+ 30dc, turn
+ # 3rd row: Armhole row
+ # Ch 3. 1 dc in each of next 5 dc. Ch 2. Skip 2 dc. 1 dc in each of next 14 dc. Ch 2. Skip 2 dc. 1 dc in each of last 6 dc.
+-5dc, 2ch.AH1, 2sk, 14dc, 2ch.AH2, 2sk, 6dc, turn
++6dc, 2ch.AH1, 2sk, 14dc, 2ch.AH2, 2sk, 6dc, turn # first dc = the turning ch 3
+ # 4th row: Ch 3. 1 dc in each of next 5 dc. 2 dc in ch-2 sp. 1 dc in each of next 14 dc. 2 dc in ch-2 sp. 1 dc in each of last 6 dc.
+-5dc, 2dc@AH2, 14dc, 2dc@AH1, 6dc, turn
++6dc, 2dc@AH2, 14dc, 2dc@AH1, 6dc, turn # first dc = the turning ch 3
+ # 5th row: Ch 3. 1 dc in each dc across.
+ 30dc, turn
+ # 6th row: Ch 1. 1 sc in each dc across.
+ 30sc
+-```
+\ No newline at end of file
++

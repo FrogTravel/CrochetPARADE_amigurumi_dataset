@@ -1,0 +1,14 @@
+--- a/BRC0334-036172M.cp
++++ b/BRC0334-036172M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ 6sc@R0
+@@ -132,4 +131,4 @@
+ 30sc, turn
+ 30sc, turn
+ 30sc
+-```
+\ No newline at end of file
++

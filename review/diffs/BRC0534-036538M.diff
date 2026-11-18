@@ -1,0 +1,14 @@
+--- a/BRC0534-036538M.cp
++++ b/BRC0534-036538M.cp
+@@ -1,4 +1,3 @@
+-```
+ # BODY (worked from bottom up)
+ ring.R0
+ 6sc@R0
+@@ -268,4 +267,4 @@
+ 4sc
+ 4sc
+ tie_up
+-```
+\ No newline at end of file
++

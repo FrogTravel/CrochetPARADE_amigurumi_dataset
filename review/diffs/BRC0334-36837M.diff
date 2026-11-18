@@ -1,0 +1,16 @@
+--- a/BRC0334-36837M.cp
++++ b/BRC0334-36837M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # FLOWER POM 1 (Pink)
+ ring.R0
+ # 1st rnd: 6 sc in magic loop
+@@ -93,4 +90,4 @@
+ start_a_new_chain
+ 15ch, ss@[%,0]
+ 15sc, ss@[%,0]
+-```
+\ No newline at end of file
++

@@ -1,0 +1,16 @@
+--- a/RHC0334-016805M.cp
++++ b/RHC0334-016805M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD - Brown
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -286,4 +283,4 @@
+ start_a_new_chain
+ 8ch, turn
+ 8sc
+-```
+\ No newline at end of file
++

@@ -1,0 +1,14 @@
+--- a/RHC0552-37725M.cp
++++ b/RHC0552-37725M.cp
+@@ -1,4 +1,3 @@
+-```
+ # STOCKING ORNAMENT
+ # Toe/Foot - With A, ch 2.
+ ring.R0
+@@ -47,4 +46,4 @@
+ # With B, ch 20.
+ start_a_new_chain
+ 20ch
+-```
+\ No newline at end of file
++

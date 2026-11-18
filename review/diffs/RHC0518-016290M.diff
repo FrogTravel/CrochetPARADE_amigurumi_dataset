@@ -1,0 +1,16 @@
+--- a/RHC0518-016290M.cp
++++ b/RHC0518-016290M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # PUMPKIN
+ # Magic ring
+ ring.R
+@@ -68,4 +65,4 @@
+ # Fasten off
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

@@ -1,0 +1,15 @@
+--- a/SCC0234-005766M.cp
++++ b/SCC0234-005766M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BUNNY
+ 
+ # HEAD
+@@ -296,4 +293,3 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc, sc2inc], ss@[%,0]
+ 6*[2sc, sc2inc], ss@[%,0]
+-6*[3sc, sc2inc],
+\ No newline at end of file

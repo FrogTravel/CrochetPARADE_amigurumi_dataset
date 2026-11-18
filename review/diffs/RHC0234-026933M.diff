@@ -1,0 +1,14 @@
+--- a/RHC0234-026933M.cp
++++ b/RHC0234-026933M.cp
+@@ -1,4 +1,3 @@
+-```
+ # OCTOPUS
+ 
+ # HEAD
+@@ -237,4 +236,4 @@
+ 6sc, ss@[%,0]
+ 6sc, ss@[%,0]
+ 6sc, ss@[%,0]
+-```
+\ No newline at end of file
++

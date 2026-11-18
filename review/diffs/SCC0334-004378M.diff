@@ -1,0 +1,16 @@
+--- a/SCC0334-004378M.cp
++++ b/SCC0334-004378M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # TURTLE
+ # This turtle is made with African flower hexagon motifs for the shell,
+ # a head, tail, and 4 legs/flippers.
+@@ -239,4 +236,4 @@
+ 2sc2tog, ss@[%,0]
+ # Fasten off.
+ sc2tog
+-```
+\ No newline at end of file
++

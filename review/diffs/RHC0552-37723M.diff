@@ -1,0 +1,23 @@
+--- a/RHC0552-37723M.cp
++++ b/RHC0552-37723M.cp
+@@ -1,4 +1,3 @@
+-```
+ # CANDY CANE ORNAMENT
+ # Straight section (stem)
+ # With A and B alternating for stripes, ch 2.
+@@ -27,7 +26,7 @@
+ 6sc, ss@[%,0] # 16
+ 6sc, ss@[%,0] # 17
+ # Close top
+-6sc2tog, ss@[%,0]
++3sc2tog, ss@[%,0]
+ sc3tog
+ tie_up
+ 
+@@ -35,4 +34,4 @@
+ # With A, ch 20.
+ start_a_new_chain
+ 20ch
+-```
+\ No newline at end of file
++

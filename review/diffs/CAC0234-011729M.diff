@@ -1,0 +1,37 @@
+--- a/CAC0234-011729M.cp
++++ b/CAC0234-011729M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SUSHI NIGIRI TOY
+ # Rice (white piece)
+ ring.R0
+@@ -12,13 +9,13 @@
+ 6*[sc2inc, 4sc]
+ 6*[sc2inc, 5sc]
+ # 8th to 14th rnds: 1 sc in each sc around.
+-48sc # 8th
+-48sc # 9th
+-48sc # 10th
+-48sc # 11th
+-48sc # 12th
+-48sc # 13th
+-48sc # 14th
++42sc # 8th
++42sc # 9th
++42sc # 10th
++42sc # 11th
++42sc # 12th
++42sc # 13th
++42sc # 14th
+ # Decrease rnds
+ 6*[5sc, sc2tog]
+ 6*[4sc, sc2tog]
+@@ -108,4 +105,4 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc2inc, sc], ss@[%,0]
+ tie_up
+-```
+\ No newline at end of file
++

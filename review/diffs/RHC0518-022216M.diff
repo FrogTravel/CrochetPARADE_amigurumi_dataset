@@ -1,0 +1,16 @@
+--- a/RHC0518-022216M.cp
++++ b/RHC0518-022216M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # CHAMELEON BODY
+ # With A, ch 2.
+ ring.R0
+@@ -121,4 +118,4 @@
+ # HANGING LOOP
+ start_a_new_chain
+ 20ch
+-```
+\ No newline at end of file
++

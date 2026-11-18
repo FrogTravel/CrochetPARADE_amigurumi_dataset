@@ -1,0 +1,14 @@
+--- a/RHC0552-37719M.cp
++++ b/RHC0552-37719M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEART (Make 2 pieces)
+ # First bump
+ ring.R1
+@@ -88,4 +87,4 @@
+ start_a_new_chain
+ 15ch, turn
+ 15ss
+-```
+\ No newline at end of file
++

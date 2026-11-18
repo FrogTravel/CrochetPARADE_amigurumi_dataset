@@ -1,0 +1,16 @@
+--- a/RHC0334-021640M.cp
++++ b/RHC0334-021640M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -189,4 +186,4 @@
+ start_a_new_chain
+ ring.R9
+ 6sc@R9, ss@[%,0]
+-```
+\ No newline at end of file
++

@@ -1,0 +1,16 @@
+--- a/RHC0334-020567M.cp
++++ b/RHC0334-020567M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BODY
+ # With MC, make Magic Loop.
+ ring.R0
+@@ -123,4 +120,4 @@
+ 3sc, turn
+ sc2inc, sc, sc2inc, turn
+ 5sc
+-```
+\ No newline at end of file
++

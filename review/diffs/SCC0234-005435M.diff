@@ -1,0 +1,16 @@
+--- a/SCC0234-005435M.cp
++++ b/SCC0234-005435M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -226,4 +223,4 @@
+ ch.F1[k], ch.F1[++k], ch.F1[++k], ch.F1[++k], ch.F1[++k]
+ ss@F1[k--], sc@F1[k--], dc@F1[k--], sc@F1[k--], ss@F1[k]
+ ss@F1[++k], sc@F1[++k], dc@F1[++k], sc@F1[++k], ss@F1[k]
+-```
+\ No newline at end of file
++

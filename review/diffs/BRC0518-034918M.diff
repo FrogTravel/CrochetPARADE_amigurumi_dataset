@@ -1,0 +1,16 @@
+--- a/BRC0518-034918M.cp
++++ b/BRC0518-034918M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # LARGE PUMPKIN
+ ring.R0
+ # 1st rnd: 6 sc in magic ring.
+@@ -202,4 +199,4 @@
+ 4sc@R8, ss@[%,0]
+ 4sc, ss@[%,0]
+ 4sc, ss@[%,0]
+-```
+\ No newline at end of file
++

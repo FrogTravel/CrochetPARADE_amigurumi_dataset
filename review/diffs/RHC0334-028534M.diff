@@ -1,0 +1,14 @@
+--- a/RHC0334-028534M.cp
++++ b/RHC0334-028534M.cp
+@@ -1,4 +1,3 @@
+-```
+ # DRAGON
+ # BODY
+ # With MC, ch 2.
+@@ -250,4 +249,4 @@
+ start_a_new_chain
+ ring.R19
+ 4sc@R19, ss@[%,0]
+-```
+\ No newline at end of file
++

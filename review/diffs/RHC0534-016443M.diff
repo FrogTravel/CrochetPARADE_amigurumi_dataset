@@ -1,0 +1,16 @@
+--- a/RHC0534-016443M.cp
++++ b/RHC0534-016443M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HIPPOPOTAMUS
+ # HEAD
+ # Make magic ring
+@@ -288,4 +285,4 @@
+ 24sc
+ 24sc
+ tie_up
+-```
+\ No newline at end of file
++

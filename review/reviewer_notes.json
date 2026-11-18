@@ -1,0 +1,2699 @@
+{
+ "ALC0234-035175M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 210,
+    "before": "sc2tog, 10sc",
+    "after": "sc2tog, 11sc",
+    "reason": "Kitty Tail rnd 8: 13 sts to stated 12 sts requires sc2tog + 11 sc"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Kitty Tail round 8 claims a decrease from 13 to 12 stitches but accounts for only 11 of the 13 starting stitches. Work 11 single crochets after the decrease.",
+  "missing_pieces": "not checked",
+  "suggested_confidence": 5,
+  "source_quote_paraphrased": true
+ },
+ "ALC0334-025237M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 229,
+    "before": "7*[ss, 3ch, ss]",
+    "after": "7*[ss, 3ch, ss@[@]]",
+    "reason": "Small Flower round 2 puts the entire slip-stitch and chain group into one stitch. Apply the same attachment to each of the seven flowers."
+   }
+  ],
+  "remaining": "Info only: Headlight closing sc6tog after 12 sts (intentional gather idiom).",
+  "source_inconsistencies": "",
+  "missing_pieces": "Large Flower rounds 2 (front-loop sl st/ch-2 petals in A) and 3 (back loops of Round 1, sl st/ch-3 petals in B) are not in the CP.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0234-005423M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 97,
+    "before": "4*[sc, sc2inc] / 4*[2sc, sc2inc] / 4*[3sc, sc2inc] / 7*[dc4inc, sk, sc]",
+    "after": "8sc2inc / 8*[sc, sc2inc] / 8*[2sc, sc2inc] / 8*[dc4inc, sk, sc, sk]",
+    "reason": "Eye rnds 2-4 had wrong repeat counts (English: 16, 24, 32 sc); rnd 5 dropped the second 'miss next sc', so 8 shells over 32 sts."
+   },
+   {
+    "line": 115,
+    "before": "(single Eye and Eyelid)",
+    "after": "EYES (2/2), EYELIDS (2/2) added",
+    "reason": "Both are 'make 2'; duplicated the identical pieces."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Measured 'work even until N in' rounds are approximated with fixed round counts (unchanged). Body comments on rnds 3-4 mis-quote the English but code matches it.",
+  "suggested_confidence": 4
+ },
+ "BRC0234-012724M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 4,
+    "before": "ring.R1 / 12sc@R1, ss@[%,0]",
+    "after": "ch 7 labelled F[0..6]; oval round sc, 4 sc, 3 sc in last ch, 4 sc, 2 sc in last ch = 14",
+    "reason": "Leg rnd 1 is worked around a ch 7 (14 sc), not 12 sc in a ring; rnds 2-3 need 14"
+   },
+   {
+    "line": 44,
+    "before": "ring.R2 / 12sc@R2",
+    "after": "same oval with labels G[..]",
+    "reason": "Second Leg mirror"
+   },
+   {
+    "line": 74,
+    "before": "18sc@L1, 18sc@L2",
+    "after": "sc@[47,0], 6sc, sc@[23,0], 17sc, sc@[47,7], 10sc",
+    "reason": "English join: 7 sc on Second Leg, all 18 of First Leg, rem 11 of Second Leg (verified attachments); the @L labels were attaching mid-row. Removed the now unused .L1/.L2 labels."
+   },
+   {
+    "line": 107,
+    "before": "4*[sc2tog, 5sc] / 24sc / 3*[sc2tog, 5sc], sc2tog, 3sc / 20sc",
+    "after": "7*[sc2tog, 2sc] / 21sc / 3*[sc2tog, 5sc] / 18sc",
+    "reason": "Body rnds 23-26 per English (21, 21, 18, 18 sts)"
+   },
+   {
+    "line": 132,
+    "before": "16sc / 2*[sc2tog, 6sc] / 14sc / 3*[sc2tog, 2sc], sc2tog / 10sc x11",
+    "after": "16sc x3 (rnds 10-12) / 4*[sc2tog, 2sc] / 12sc x11",
+    "reason": "Arm rnds 10-14+ per English (16, 12 sts); both arms"
+   },
+   {
+    "line": 214,
+    "before": "truncated after ear row 12 ('10')",
+    "after": "ear rows 13-24 completed; Outer Ear 2/2, Inner Ear 1/2 and 2/2, and Head added",
+    "reason": "LLM output was cut off; missing pieces are short and unambiguous in the paired English"
+   }
+  ],
+  "remaining": "Line 74 body join flag is a checker artifact: it works across two leg rows by explicit attachment (verified with a row dump). Oval INFO flags are intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Ear edging (sc 'evenly' along row ends with 3 sc at tip) and the Inner/Outer ear joining round are not transcribed. Leg length 'until 5 in' is kept as the CP's 12 even rounds.",
+  "suggested_confidence": 4
+ },
+ "BRC0234-012728M": {
+  "status": "no_change",
+  "changes": [],
+  "remaining": "3 stated-count flags (lines 15, 23, 27) are false alarms: the numbers 2/4/3 in the comments are 'sc in each of next N' counts, not round totals. All rounds close (18, 30, 24 sts).",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English. Headers say SHEEP (1/5), LEGS (1-4/20), HEARTS (1/10) but only one sheep, 4 legs and 1 heart are written; the 4th rnd ears ('Ch 4 ...') are abbreviated in the comment and rendered as plain 12sc, so the ears are missing.",
+  "suggested_confidence": 3
+ },
+ "BRC0234-026964M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 23,
+    "before": "hdc, 18dcfp, hdc, turn",
+    "after": "hdc, 18dc, hdc, turn",
+    "reason": "Compile error: dcfp/dcbp not in the CP dictionary; approximated as dc with comment (also corrects the first ribbing row, which the English gives as alternating dcfp/dcbp). Both pieces."
+   },
+   {
+    "line": 25,
+    "before": "hdc, 9*[dcfp, dcbp], hdc, turn",
+    "after": "hdc, 9*[dc, dc], hdc, turn",
+    "reason": "Same approximation, both pieces."
+   },
+   {
+    "line": 29,
+    "before": "20sc / 18sc, sc2tog / sc2tog,15sc,sc2tog ... down to 7 sts",
+    "after": "5 x 20sc (rows 2-6), then sc2tog,16sc,sc2tog (18) and dec 2 per row to 8",
+    "reason": "Head rows 2-6 were reduced to one row and the shaping was one-sided, ending at 7 instead of 8. Both pieces."
+   },
+   {
+    "line": 175,
+    "before": "6sc2tog, ss / sc6tog",
+    "after": "6sc2tog, ss / tie_up",
+    "reason": "Invented sc6tog round removed; English threads end through rem sts (both ears)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "BRC0234-029172M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 103,
+    "before": "8*[sc, sc2tog] / sc16tog",
+    "after": "8*[sc, sc2tog, sc] / 8*[sc2tog, sc] / 8sc2tog",
+    "reason": "Body shape-top 27th rnd dropped the trailing sc; 28th and 29th rnds were collapsed into an invented sc16tog."
+   },
+   {
+    "line": 172,
+    "before": "6*[sc2tog, 2sc] then 18scbl + 4x18sc",
+    "after": "8*[sc2tog, sc] then 16scbl + 4x16sc",
+    "reason": "Feet 10th rnd is *Sc2tog, 1 sc in next* -> 16 sts; applied to all 4 feet."
+   },
+   {
+    "line": 264,
+    "before": "EAR (1/4): 10ch, turn / sc2inc, 8sc, sc2inc, turn / # 2nd  (file truncated)",
+    "after": "4 complete ears: 9ch, turn, rows 1-16 (12,12,14,14,16,16,18,18,19,19,20,20,18,16,14,12)",
+    "reason": "LLM output was cut off in the first ear; the ear is short and unambiguous in the English, so it was completed and repeated x4. Chain set to dataset idiom (ch 11, first st in 2nd ch -> 9ch + start = 10 points)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Ear joining rows (sc through both thicknesses around the edge) not modeled.",
+  "suggested_confidence": 4
+ },
+ "BRC0234-029174M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 99,
+    "before": "8*[sc, sc2tog] / 8sc3tog",
+    "after": "8*[sc, sc2tog, sc] / 8*[sc2tog, sc] / 8sc2tog",
+    "reason": "Body rnd 27 dropped the trailing '1 sc in next sc' (32->24); rnds 28 (16 sts) and 29 (8 sts) were missing and replaced by an invalid 8sc3tog."
+   },
+   {
+    "line": 108,
+    "before": "3ch, turn / 3sc, sc3inc, 2sc, sc2inc",
+    "after": "$k=0$ / ch.F1[k], 4*ch.F1[++k] / sc@F1[--k] x3, sc3inc@F1[--k], sc@F1[++k] x2, sc2inc@F1[++k]",
+    "reason": "Feet rnd 1 is worked around both sides of a ch-5; plain row worked past the 3-ch foundation. Rewritten with labelled-chain oval idiom (10 sc); same for FEET 2/4-4/4."
+   },
+   {
+    "line": 204,
+    "before": "6sc / sc2inc,4sc,sc2inc / 8sc / sc2inc,6sc,sc2inc / 8sc / (ears 2-4: extra sc2inc,6sc,sc2inc)",
+    "after": "6sc, 6sc / sc2inc,4sc,sc2inc / 8sc, 8sc / sc2inc,6sc,sc2inc",
+    "reason": "Outer/Inner ear rows 3-8 were misnumbered (missing 4th-row repeat, spurious 8sc after 10 sts). Now rows 3-4 = 6, 5 = 8, 6-7 = 8, 8 = 10 per English; applied to all 4 ears."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 5
+ },
+ "BRC0234-030779M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 64,
+    "before": "6*[11sc, sc, dc5pc], ss@[%,0]",
+    "after": "6*[11sc, sc, dc5pc@[@]], ss@[%,0]",
+    "reason": "21st rnd: '(1 sc. Popcorn) all in next sc' - the popcorn goes in the same st as the sc; the old code consumed 13 per repeat and wrapped."
+   },
+   {
+    "line": 73,
+    "before": "4sc",
+    "after": "3sc, dc5pc",
+    "reason": "Antenna: English is 1 sc in 2nd ch, sc in next 2 ch, Popcorn in last ch; comment updated to quote it."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Top 16th rnd should work the back loops of the 14th rnd (behind the front-loop 15th rnd ruffle); the CP works it onto the 15th rnd (approximation, left as is). Assembly joining rnd (sc through both pieces) not modeled. Color changes not modeled.",
+  "suggested_confidence": 4
+ },
+ "BRC0234-032612M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 11,
+    "before": "8*[sc, sc2inc, 2sc]",
+    "after": "8*[sc, sc2inc, sc]",
+    "reason": "Rnd 4 repeat is 1 sc, 2 sc in next, 1 sc (3 sts) x8 = 32; same fix in Head (line 46)"
+   },
+   {
+    "line": 23,
+    "before": "8*[4sc, sc2inc, 4sc]",
+    "after": "8*[4sc, sc2inc, 4sc], turn",
+    "reason": "English: Do not fasten off. Turn. before the frill rows"
+   },
+   {
+    "line": 27,
+    "before": "frill rows 1-6 simplified (11 repeats, missing ch-1 sps, plain 62/64 sc rows, 2dc2inc groups)",
+    "after": "rows written stitch by stitch: 62 sc+11 ch-1 sps; 62; 74; 74; 86; dc/hdc/sc scallop row with (2dc ch 2dc) in each increase sp",
+    "reason": "LLM used 11 repeats instead of 5, dropped the ch-1 sps and the (sc ch1 sc)/(2dc ch1 2dc) shells; all rows now consume exactly the previous row"
+   },
+   {
+    "line": 70,
+    "before": "2ss",
+    "after": "2ss, turn",
+    "reason": "Head: Do not fasten off. Turn. before Head Frill"
+   },
+   {
+    "line": 74,
+    "before": "Head Frill copy of the wrong frill",
+    "after": "same corrected frill rows, 1st row in back loops",
+    "reason": "English: work as Back Piece Frill"
+   },
+   {
+    "line": 141,
+    "before": "(no 7th rnd)",
+    "after": "12sc # 7th",
+    "reason": "Small Horn round 7 calls for an even single-crochet round before the two finishing slip stitches."
+   }
+  ],
+  "remaining": "The three '2ss' lines are the English's 'Sl st in each of first/next 2 sc' finishing on the horns (intentional). Frill 1st row leaves 19 of 80 unworked as the English says.",
+  "source_inconsistencies": "Small Horn numbers its plain rounds '4th to 6th' after a 4th increase round (should be 5th to 6th); 2nd frill row says 'to last sc', read as to end of row.",
+  "missing_pieces": "Assembly joining round (sl st/sc through both thicknesses) not modelled; eyes are worked into a ring instead of the 2nd ch from hook.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0234-032636M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 13,
+    "before": "5*[4dc, 2sk], ss@[%,0]",
+    "after": "5*[dc4inc, sk], ss@[%,0]",
+    "reason": "Rnd 2: 4 dc in a sp, skip 2 dc, x5 over 10 dc. Old code consumed 30 sts (each dc used its own st). Applied to all 12 motifs."
+   },
+   {
+    "line": 21,
+    "before": "5*[7dc, 4sk], ss@[%,0]",
+    "after": "5*[sk, dc7inc, 2sk], ss@[%,0]",
+    "reason": "Rnd 3: 7 dc in center of each 4-dc cluster, skip the cluster's other dc; consumes 20, makes 35. All 12 motifs."
+   },
+   {
+    "line": 30,
+    "before": "5*[7scbl, hdc], ss@[%,0]",
+    "after": "7scbl, hdc@[-3,1], scbl@[-1,7], 6scbl, hdc@[-3,3], ... hdc@[-3,9], ss@[%,0]",
+    "reason": "Rnd 4: the hdc are spikes worked 3 rnds below into rnd 1, so they must not consume rnd-3 sts; 35 scbl + 5 hdc = 40. All 12 motifs."
+   },
+   {
+    "line": 37,
+    "before": "3sc, sc, ch, sc, 5*[7sc, sc, ch, sc], 4sc, ss@[%,0]",
+    "after": "3sc, sc, ch, sc@[@], 4*[7sc, sc, ch, sc@[@]], 4sc, ss@[%,0]",
+    "reason": "Rnd 5: (sc, ch 1, sc) goes into one st, and 3+1+4*8+4 = 40 means 4 repeats after the first corner (5 corners total), not 5. All 12 motifs."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Flat sl st joining of the 12 motifs into a ball and stuffing are not represented (assembly only). Rnd 4's first st is a plain sc in the English, approximated as scbl.",
+  "suggested_confidence": 4
+ },
+ "BRC0234-033203M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 171,
+    "before": "6sc@R1, ss@[%,0]",
+    "after": "12sc@R1, ss@[%,0] # 1st rnd: ... 12 sc (approximated as a ring)",
+    "reason": "Ball Bottom 1st rnd is 12 sc (2 sc into the bottom of each of the 6 panels); the 2nd rnd *Sc2tog* around then gives 6. CP had only 6 sc, so the sc2tog round wrapped. Panels are sewn, so the round worked into panel bottoms is approximated as a 12-sc ring."
+   }
+  ],
+  "remaining": "Info flag on line 12 (panel 1 starts on 2 of the 12 Ball Top sts) is intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "BRC0234-034461M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 11,
+    "before": "rnd5 10*[sc2inc, 3sc] / rnd6 50sc",
+    "after": "rnd5 40sc / rnd6 10*[sc2inc, 3sc]",
+    "reason": "Body rnds 5 and 6 were swapped: English rnd 5 is even (40), rnd 6 increases to 50."
+   },
+   {
+    "line": 59,
+    "before": "6*[sc2tog, sc] / 6sc2tog / sc6tog",
+    "after": "10*[sc2tog, sc] / 10sc2tog / sc10tog",
+    "reason": "Rnd 35 on 30 sts needs 10 repeats (20 sts); rnd 36 then 10 sc2tog."
+   },
+   {
+    "line": 127,
+    "before": "26scbl / 26sc / sc, 12sc2tog / sc13tog",
+    "after": "8scbl, sk, 4scbl, sk, 12scbl / 24sc / 12sc2tog / 12sc (rnd 7)",
+    "reason": "Feet rnd 4 skips two dc; rnd 6 reduced to stated 12; rnd 7 was missing; invented closing gather removed. Applied to both feet."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Feet rnd 4: as worded (26 sts, skip 2) gives 24 not the stated 23, and rnd 6 '1 sc, (sc2tog) to end' cannot give 12 from 23/24; kept rnd 4 as worded (24) and wrote rnd 6 as 12 sc2tog to reach the stated 12. Beak rnd 1 as worded on ch 7 gives 13 not 14 sc.",
+  "missing_pieces": "Beak is approximated as 14 sc in a ring rather than worked around both sides of a ch-7 (unflagged, left as is).",
+  "suggested_confidence": 4
+ },
+ "BRC0234-036377M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 54,
+    "before": "7*[hdc2inc, 5hdc], ss@[%,0]",
+    "after": "6*[hdc2tog, 5hdc], ss@[%,0]",
+    "reason": "Body 14th rnd in the English is *Hdc2tog, 5 hdc* -> 36 hdc; the CP comment had misquoted it as an increase to 49."
+   },
+   {
+    "line": 56,
+    "before": "8*[hdc2tog, 4hdc], ss@[%,0]",
+    "after": "6*[hdc2tog, 4hdc], ss@[%,0]",
+    "reason": "15th rnd: *Hdc2tog, 4 hdc* on 36 -> 30 hdc."
+   },
+   {
+    "line": 58,
+    "before": "40dc3inc, ss@[%,0]",
+    "after": "30dcfl3inc, ss@[%,0]",
+    "reason": "16th rnd: front loops only, 3 dc in each of 30 hdc -> 90 dc."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "the paired English for the Cap stops at rnd 6; CP cap rnds 7-10 and the 168-dc ruffle could not be checked against the source (they are consistent with their own comments). Embroidered eyes/mouth not modeled (expected).",
+  "suggested_confidence": 4
+ },
+ "BRC0234-37712M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 27,
+    "before": "24sc, ss@[%,0]  (rnd 14) / 6*[sc2tog, 2sc] (rnd 15) / 6*[sc2tog, sc] (rnd 16)",
+    "after": "6*[sc2tog, 2sc] (rnd 14, 18) / 6*[sc2tog, sc] (rnd 15, 12) / 4*[sc2tog, sc] (rnd 16, 8)",
+    "reason": "English rnd 14 is *sc2tog, 2 sc* -> 18, rnd 15 *sc2tog, sc* -> 12, rnd 16 *sc2tog, sc* -> 8; CP had dropped rnd 14's decrease and shifted the rest."
+   },
+   {
+    "line": 33,
+    "before": "12sc2inc / 24sc2inc / 48sc / 12*[sc2inc, 3sc] / 60sc x2",
+    "after": "8sc2inc (16) / 16sc2inc (32) / 32sc / 8*[sc2inc, 3sc] (40) / 40sc x2",
+    "reason": "English body rnds 17-22 give 16, 32, 32, 40, 40, 40 (CP had wrong counts 24/48/60 that came from the head error)."
+   },
+   {
+    "line": 44,
+    "before": "2ch.AH1, 10sk, 20sc, 2ch.AH2, 10sk, 20sc, ss@[%,0] then 20sc2inc",
+    "after": "2ch.AH1, 10sk, 10sc, 2ch.AH2, 10sk, 10sc, ss@[%,0] then 2sk, 10sc2inc, 2sk, 10sc2inc",
+    "reason": "English rnd 23: *ch 2, skip 10, sc in next 10* around = 20 sc + 2 ch-2 sps; rnd 24 works 2 sc in each sc only (chains not worked) = 40."
+   },
+   {
+    "line": 43,
+    "before": "60sc (rnd 22)",
+    "after": "sc.A1, 19sc, sc.A2, 19sc",
+    "reason": "labels for the first skipped st of each armhole so the arms can be joined there."
+   },
+   {
+    "line": 66,
+    "before": "24sc (rnd 35) / 6sc.LG1, 12sk, 6sc.LG2 (rnd 36) / 12sc@LG1 (leg 1 rnd 1) / 12sc@LG2 (leg 2 rnd 1)",
+    "after": "6sc, sc.LG2, 17sc / 6sc, 12sk, 6sc / 12sc / sc@LG2, 11sc",
+    "reason": "First leg continues on the 12 sc of rnd 36; second leg is worked into the 12 sts skipped on rnd 35 (old version attached 12 sc to 6-st groups)."
+   },
+   {
+    "line": 140,
+    "before": "ring.RA1 / 12sc@RA1 (and RA2)",
+    "after": "sc@A1, 9sc, 2sc@AH1 (and A2/AH2)",
+    "reason": "English arms are joined into the 10 skipped sc + ch-2 of the armhole, not started from a new ring."
+   },
+   {
+    "line": 196,
+    "before": "snout 6 sc ring -> 12 sc, 4 rnds",
+    "after": "10sc@RS, 10sc2inc",
+    "reason": "English snout: 10 sc in ring, 2nd rnd 20 sc, fasten off."
+   },
+   {
+    "line": 204,
+    "before": "ears 6 sc ring, rnds 2-4 6 sc",
+    "after": "10 sc ring, rnds 2-4 10 sc, rnd 5 2*[sc2tog, 3sc] = 8",
+    "reason": "English ears: 10 sc, 3 even rnds, 5th rnd decrease to 8 (missing in CP); fixed for both ears."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "BRC0320-000079M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 180,
+    "before": "ss, 28*[sc, dc3inc, sc]",
+    "after": "ss, 27*[sc, dc3inc, sc], sc, dc3inc",
+    "reason": "Face ruffle 2nd row consumed 85 of 84 sc (sl st in first sc + 28 x 3). Kept 28 shells and ended on the last sc. Applied to both ruffles."
+   }
+  ],
+  "remaining": "INFO flags on LEGS 3rd row (`sc2tog, sc3tog` on 7 sts leaves 2): the quoted English is 'Sc2tog. Sc3tog.' and there is no the paired English to tell how the row really ends (possibly another Sc2tog was lost), so left as is.",
+  "source_inconsistencies": "No the paired English; only the CP comments. Ruffle row end and Legs 3rd row cannot be verified. LEGS 1st row comment says 'ch 14 ... 1 sc in 2nd ch and each of next 13 ch, 14 sc', which needs ch 15; CP works 14 sc (consistent with the stated count).",
+  "missing_pieces": "Not checkable without the paired English. Pillow front rows 31-36 and the ear/arm round counts ('rep until 11 in') are LLM estimates per the comments. Pillow back rnds 3-8 are worked in back loops though only rnd 2 says so (unverifiable).",
+  "suggested_confidence": 3
+ },
+ "BRC0320-000084M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 127,
+    "before": "14sc, sc2tog / 13sc, sc2tog / ... / sc2tog, 5sc2tog / 2sc2tog (wing rows 18-24, with LLM 'wait - recalc' comments)",
+    "after": "sc2tog, 12sc, sc2tog ... sc2tog, 2sc, sc2tog (14,12,10,8,6,4), then 2sc2tog",
+    "reason": "The comments require 4 sts at the end of row 23 and (sc2tog) twice in row 24; from 16 sts over 6 rows that is only possible decreasing at both ends, so the quoted instruction evidently lost its leading Sc2tog. The old row 23 consumed 12 of 11 sts."
+   },
+   {
+    "line": 228,
+    "before": "6 labelled ch / ch, 4 sc + sc3inc / 4 sc + sc2inc@B1[k] (two rows)",
+    "after": "6 labelled ch + 1 ch / 5 sc + sc3inc@B1[0], ... / 4 sc + sc2inc@B1[++k] (one round)",
+    "reason": "Beak rnd 1: 1 sc in 2nd ch, 4 sc, 3 sc in last, 4 sc on other side, 2 sc in last = 14 sc. One sc was missing on the first side, the 2-sc inc landed on the wrong ch, and the round was split over two lines so rnd 2 wrapped."
+   }
+  ],
+  "remaining": "Line 113 stated-count flag is a false alarm: the '16 sc' in the comment is the count at the end of the 5th-12th row block, not of the 5th row.",
+  "source_inconsistencies": "The wing decreases described for rows 18–23 do not lead to the stated four stitches. Interpreted the instructions as decreasing at each edge.",
+  "missing_pieces": "No the paired English; checked against the CP comments only.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0320-011713M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 9,
+    "before": "11*[sc, sk, 3dc, sk], ss@[%,%-44]",
+    "after": "11*[sc, sk, dc3inc, sk], ss@[%,0]",
+    "reason": "Rnd 1: '3 dc in next ch' is one group in one ch; old code used 3 ch per group (66 over 44). Join to first st of the round."
+   },
+   {
+    "line": 13,
+    "before": "11*[5dc, ss], ss@[%,0]",
+    "after": "11*[dc5inc, sk, ss, sk], ss@[%,0]",
+    "reason": "Rnd 2: 5 dc in the sc, sl st in center dc of the 3-dc group."
+   },
+   {
+    "line": 17,
+    "before": "11*[5dcbl, ssbl] / 11*[5dc, ss] (rnds 3-18)",
+    "after": "11*[2sk, ssbl, 2sk, dcbl5inc] / 11*[2sk, ss, 2sk, dc5inc]",
+    "reason": "Rnds 3+: sl st in center dc of each 5-dc group, 5 dc in the next sl st; each round consumes and makes 66 instead of drifting."
+   },
+   {
+    "line": 53,
+    "before": "11*[3dcbl, ssbl] / 11*[3dc, ss] (shape top rnds 1-4)",
+    "after": "11*[2sk, ssbl, 2sk, dcbl3inc] then 11*[sk, ss(bl), sk, dc3inc] x3",
+    "reason": "Same shell logic with 3-dc groups: 66 -> 44 -> 44."
+   },
+   {
+    "line": 61,
+    "before": "11*[dc, ss], ss@[%,0]",
+    "after": "11*[sk, ss, sk, dc], ss@[%,0]",
+    "reason": "1 dc at the join point, sl st in center of each 3-dc group = 22 sts, consumed exactly by the following 11 sc2tog."
+   }
+  ],
+  "remaining": "Line 61 stated-count flag (comment 22 vs tool 11) is a counting artifact: the tool does not count the sl sts, but the comment's 22 = 11 dc + 11 sl st, and the next 11sc2tog round consumes 22 with no flag.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; only the quoted comments were available. Number of body repeats ('until ~10 in') and the shape-top rounds (described by the LLM, not quoted) are unverified; the 'tr join' on A rounds is not modeled. Any leaves/top piece or second color details are unknown.",
+  "suggested_confidence": 3
+ },
+ "BRC0334-028479M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 103,
+    "before": "8*[2sc, sc2tog] / 8*[sc, sc2tog] / 8sc2tog (22nd) / sc8tog",
+    "after": "8*[sc, sc2tog, sc] (21st) / 8*[sc2tog, sc] (22nd, 16) / 8sc2tog (23rd, 8) / sc8tog",
+    "reason": "head rnds 21-23 were misaligned with their comments; now match English counts 24/16/8"
+   },
+   {
+    "line": 194,
+    "before": "ring.R2 / 5sc@R2 / 5sc2inc",
+    "after": "ch 5 labelled chain H[0..4]; one oval round 3 sc + 3 sc in last ch + 2 sc + 2 sc in last ch = 10",
+    "reason": "Hands rnd 1 is worked around both sides of a ch 5, not into a ring; old code doubled stitches instead"
+   },
+   {
+    "line": 216,
+    "before": "ring.R3 / 5sc@R3 / 5sc2inc",
+    "after": "same oval with labels J[..]",
+    "reason": "mirror piece HANDS 2/2"
+   },
+   {
+    "line": 245,
+    "before": "sc, 2sc2tog, sc, sc2tog, sc, 2sc2tog, 13sc",
+    "after": "sc, 2*sc2tog, sc, sc2tog, sc, 2*sc2tog, 12sc",
+    "reason": "feet rnd 7: 13 sts consumed before the 'to end' run, so 12 remain; makes 20 as stated (both feet)"
+   }
+  ],
+  "remaining": "Two INFO flags on the hand oval rows (explicit attachments; the chain's hidden start node is unused). Intentional.",
+  "source_inconsistencies": "Hands: English goes '3rd to 6th rnds' then '8th to 10th rnds' (no 7th); CP keeps a 7th even round, reading it as 3rd to 7th.",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "BRC0334-028939M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 90,
+    "before": "8*[2sc, sc2tog] / 8*[sc, sc2tog] / 8sc2tog / 4sc2tog / 2sc2tog / sc2tog",
+    "after": "8*[sc, sc2tog, sc] / 8*[sc2tog, sc] / 8sc2tog",
+    "reason": "Shape top 27th-29th rnds were shifted one row and three invented extra decrease rounds (to 4, 2, 1) added; English ends at 29th rnd 8 sc then draws closed."
+   },
+   {
+    "line": 101,
+    "before": "7ch, turn / 7sc / 7sc / sc2tog,3sc,sc2tog / sc2tog,sc,sc2tog / sc2tog,sc / sc3tog",
+    "after": "8ch, turn / 9sc / 9sc / sc2tog,5sc,sc2tog / sc2tog,3sc,sc2tog / sc2tog,sc,sc2tog / sc3tog",
+    "reason": "Ears: English ch 10 -> 9 sc, decreasing 9-7-5-3-1; CP started with 7 and its last rows did not close (sc3tog on 2 sts). Applied to all 4 ear pieces."
+   },
+   {
+    "line": 160,
+    "before": "6*[sc2tog, 2sc] then 18scbl + 4x18sc",
+    "after": "8*[sc2tog, sc] then 16scbl + 4x16sc",
+    "reason": "Hooves 10th rnd: *Sc2tog, 1 sc in next* -> 16 sc; applied to all 4 hooves."
+   },
+   {
+    "line": 233,
+    "before": "4*[sc2inc, 3sc] / 4*[4sc, sc2inc]",
+    "after": "4*[sc2inc, 2sc] / 4*[3sc, sc2inc]",
+    "reason": "Horn 7th and 10th rnds: stated counts 16 and 20 from 12 and 16 need one fewer sc per repeat (source inconsistency, commented)."
+   },
+   {
+    "line": 253,
+    "before": "29ch, turn / dc2inc, 29dc3inc",
+    "after": "28ch, turn / dc2inc, 28dc3inc",
+    "reason": "Ch 32 with first dc in 4th ch from hook works 29 chains; CP worked 30. Applied to all 15 curls (mane + tail)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Horn 4th, 7th and 10th rnds give repeats that cannot produce the stated 12/16/20 sc (each repeat has one sc too many); used the repeat that reaches the stated count. Ears say '2nd and alt rows' plain but rows 3-6 are all specified consecutively; followed the numbered rows (only row 2 plain).",
+  "missing_pieces": "Ear joining edge row (8 sc, 3 sc in corner, 8 sc through both thicknesses) not modeled. Snout uses a 5-sc magic ring + increase round as approximation of the ch-5 oval first round (10 sc, counts ok). Mane curls modeled as separate pieces rather than one continuous strip.",
+  "suggested_confidence": 4
+ },
+ "BRC0334-030550M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 1,
+    "before": "Legs: 8hdc / 8hdc2inc / 16hdc.L (3 rnds, 16 sts)",
+    "after": "Legs: 8hdc / 8hdc2inc / 8*[hdc2inc, hdc] / 3 x 24hdc, last labelled L1/L2",
+    "reason": "English legs have 6 rnds ending at 24 hdc; rnd 3 and two even rnds were missing (both legs)."
+   },
+   {
+    "line": 27,
+    "before": "16hdc@L1, 16hdc@L2, ss@[%,0] / 16hdc, 3hdc, 16hdc, 3hdc",
+    "after": "24hdc@L2, 3ch.C, 24hdc@L1, ss@[%,0] / 24hdc, 3hdc, 24hdc, 3hdc@C~",
+    "reason": "Join round: 24 hdc on Second Leg, ch 3, 24 hdc on First Leg (51); 2nd rnd works both sides of the ch-3 for 54 hdc. The ch-3 was missing so round 2 wrapped onto itself."
+   },
+   {
+    "line": 31,
+    "before": "38hdc x6 and [7hdc, hdc2tog]*4, 2hdc ... decreases on a 38-st base",
+    "after": "54hdc x6, 6*[7hdc, hdc2tog] -> 48, 48x2, 6*[6hdc,hdc2tog] -> 42, 42x2, 6*[5hdc,hdc2tog] -> 36, 36x2, 6*[4hdc,hdc2tog] -> 30, 6*[3hdc,hdc2tog] -> 24",
+    "reason": "Body counts follow the English 54/48/42/36/30/24; the LLM had guessed 38 sts."
+   },
+   {
+    "line": 74,
+    "before": "7 head even rnds",
+    "after": "8 head even rnds (7th-14th)",
+    "reason": "English: 7th to 14th rnds even = 8 rounds."
+   },
+   {
+    "line": 107,
+    "before": "9hdc2tog / 9scbl / 9sc",
+    "after": "6*[hdc2tog, hdc] (12) / 4*[hdc2tog, hdc] (8) / 8scbl / 3 x 8sc",
+    "reason": "Antennae rnds 6-11 per English; 9hdc2tog consumed 18 to make 9 and rnds 7, 10, 11 were missing."
+   },
+   {
+    "line": 135,
+    "before": "3*[hdc2tog, 2hdc] / 9hdc (both arms)",
+    "after": "4*[hdc2tog, hdc] / 5 x 8hdc",
+    "reason": "English states 8 sts after rnd 10 and 5 even rnds (11-15); only 1 was present."
+   },
+   {
+    "line": 176,
+    "before": "Pupil: 4 rnds to 32 hdc",
+    "after": "Pupil: rnds 1-2 only (16 hdc)",
+    "reason": "Pupil works from *** to *** of Eye = rnds 1-2 only."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Antennae round 3 yields 18 half double crochets. The source states 16, but its round 6 count of 12 is consistent with 18 in round 3. For Arms round 10, the written repeat would leave 9 stitches from 12. The adjusted repeat makes 8, as stated for rounds 10–15.",
+  "missing_pieces": "",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0334-031169M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 5,
+    "before": "10hdc@R0",
+    "after": "sc@R0, 9hdc@R0",
+    "reason": "English rnd 1: 1 sc + 9 hdc in ring (10 sts)"
+   },
+   {
+    "line": 28,
+    "before": "76hdc.L1 # 15th - marker for joining",
+    "after": "76hdc # 15th",
+    "reason": "unused label removed"
+   },
+   {
+    "line": 36,
+    "before": "6sc@Rn / sc, ss / tie_up (x12 spots)",
+    "after": "sc@Rn, 9hdc@Rn / sc, ss (x12 spots)",
+    "reason": "English spots: 1 sc + 9 hdc in ring, then 1 sc, sl st, fasten off; no gather"
+   },
+   {
+    "line": 112,
+    "before": "invented stem rnds 1-5 (12/15/.../24 sts), 24hdc x15, guessed rnds 21-23 and a 40hdc padding row",
+    "after": "stem rnds 1-5 as Top (10/20/30/40/50), 50hdc x15, 10*[4hdc,hdc2inc]=60, 10*[2hdc,hdc2inc,3hdc]=70, 2*[2*[11hdc,hdc2inc],10hdc,hdc2inc]=76",
+    "reason": "The original conversion misread the cross-reference to Mushroom Top. Starting with 50 stitches, later repeats divide evenly and yield the prescribed 60, 70, and 76."
+   },
+   {
+    "line": 141,
+    "before": "(joining rounds only as a comment)",
+    "after": "sc@[-2,0], 75sc, ss@[%,0] / 76sc, ss@[%,0]",
+    "reason": "two joining rounds from the English, worked into the stem's 76-st round"
+   }
+  ],
+  "remaining": "The 14 short two-stitch finishing rows are intentional. The first joining round reaches past that row and is flagged. It attaches only to the stem, with no simultaneous attachment to the top layer.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0334-031873M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 96,
+    "before": "16ch, ss@[%,0] / 2sc, sc3inc, 12sc, sc2inc, ss@[%,0]",
+    "after": "17ch, ss@[%,0] / 18sc, ss@[%,0]",
+    "reason": "Tail: English is ch 18 joined into a ring then 18 sc around; the CP had invented an oval rnd (19 sts, copied from the Nose/Belly wording)."
+   },
+   {
+    "line": 50,
+    "before": "sc6tog / tie_up (Body) and sc3tog / tie_up (Tail)",
+    "after": "tie_up",
+    "reason": "Extra invented decrease rows before the gather; English draws the end through the remaining 6 / 3 sts."
+   },
+   {
+    "line": 52,
+    "before": "BELLY PATCH: 6-sc magic ring increasing to 36",
+    "after": "Belly: ch-4 oval 8 sc, 14 sc, 20 sc (label idiom ch.BL[k])",
+    "reason": "CP belly was invented; English is a 3-rnd oval."
+   },
+   {
+    "line": 64,
+    "before": "(missing)",
+    "after": "Nose: ch-4 oval 8 sc + 2 rnds of 8 sc",
+    "reason": "Nose piece was absent; short and unambiguous."
+   },
+   {
+    "line": 221,
+    "before": "HORNS: magic ring 4 sc increasing to 12, 9 rnds",
+    "after": "3ch, ss (ring of 4) / 4sc / 4sc / 2sc2tog / tie_up",
+    "reason": "CP horns were invented; English: ch 4 joined, 4 sc, 4 sc, (sc2tog) twice, draw closed. Both horns."
+   }
+  ],
+  "remaining": "Only INFO flags: wing edging and eyelid edge rows use explicit attachments along the side edge (intentional); eyelid starts with 2ch for 'ch 2, 3 sc in 2nd ch' leaving one chain unworked (using 1 ch fails to compile).",
+  "source_inconsistencies": "",
+  "missing_pieces": "The wing edging in row 6 and the ear points in row 3 are still missing. The eyelid edge is left at five single crochets. The source calls for four.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0334-035196M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 17,
+    "before": "6*[10hdc, hdc2inc]",
+    "after": "5hdc, hdc2inc, 5*[9hdc, hdc2inc], 4hdc",
+    "reason": "Body rnd 7 per English: 60 -> 66 (LLM version made 72 and wrapped). Same in Top Half (line 49)."
+   },
+   {
+    "line": 21,
+    "before": "6*[11hdc, hdc2inc]",
+    "after": "8hdc, hdc2inc, 3*[17hdc, hdc2inc], 9hdc",
+    "reason": "Rnd 9 per English: 72 -> 76 (LLM 'keeping at 72' made 78). Same in Top Half (line 53)."
+   },
+   {
+    "line": 24,
+    "before": "78hdc (x2 bottom, x4 top)",
+    "after": "76hdc",
+    "reason": "Plain rounds after rnd 9 have 76 sts; rnd 12/14 (dc/tr ears) now consume exactly 76 and make the stated 84."
+   },
+   {
+    "line": 28,
+    "before": "84sc",
+    "after": "sc, ss",
+    "reason": "Round 13 and top round 15 taper the spiral with a short ending that covers two stitches."
+   },
+   {
+    "line": 66,
+    "before": "5sc@R3, turn",
+    "after": "sc@R3, hdc@R3, 3dc@R3, turn",
+    "reason": "Tail row 1: 1 sc, 1 hdc, 3 dc in ring."
+   },
+   {
+    "line": 82,
+    "before": "7sc@R4",
+    "after": "sc@R4, 6hdc@R4",
+    "reason": "Beak rnd 1: 1 sc + 6 hdc in ring."
+   },
+   {
+    "line": 88,
+    "before": "9ch / 7sc / 3ss, turn / sk, 4sc, 3sc, ss ... (both feet)",
+    "after": "8ch / 7sc / 3ss, 5ch, turn / sk, 4sc, 3sc, ss@[-3,0], turn / 3ss, 5ch, turn / sk, 4sc, 3sc, ss@[-6,0]",
+    "reason": "Feet: the ch 5 of each toe was missing, so 'skip first ch, 4 sc' landed on the sc row; chain shortened to the ch-10 idiom so exactly 2 foundation ch remain, and each toe's closing sl st now goes into the next unworked foundation ch (verified in parser output)."
+   }
+  ],
+  "remaining": "2 count flags on 'sc, ss' (body rnd 13 / top rnd 15) are intentional: the English ends the spiral with 1 sc and 1 sl st. Feet partial_row INFO flags are the toe construction.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "BRC0334-035451M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 1,
+    "before": "12 invented hexagon motifs (2dc/ch ring, 6*[3dc, ch], 6*[3dc, 2dc], 6*[3sc, 2hdc]) unrelated to the English",
+    "after": "12 pentagon African-flower motifs per the English: 10dc; 5*[dc4inc, sk] (20); 5*[sk, dc7inc, 2sk] (35); sc, 6scbl + spike hdc into rnd 1 via a second attachment head, x5 (40); 3sc, (sc ch sc), 4*[7sc, (sc ch sc)], 4sc",
+    "reason": "the original code did not follow the English at all; the motif is short and unambiguous, so it was rewritten"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Flat sl st joining of the 12 motifs into a ball is not modelled. Approximations: ch-4 start as a ring; dc worked into spaces between stitches are attached to the adjacent stitch; spike hdc positions in rnd 1 are approximate.",
+  "suggested_confidence": 3
+ },
+ "BRC0334-36837M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags on the invented '15petal' rounds (DEF petal) left as is.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: the English is a Turtle keychain (Shell 8 -> 16 -> 24 sc with front-loop hdc rim and back-loop underside, 4 Flippers on a ch-5, Head 6 -> 12 -> 6 sc), made in 3 colorways. The CP contains four 'flower poms' with petals, 30-ch attachment cords and clip loops, none of which appear in the English. Needs a full rewrite.",
+  "suggested_confidence": 1
+ },
+ "BRC0334-37363M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 53,
+    "before": "sc, sc2inc, sc, sc2inc, sc, 3ch, sc, sc, sc2inc / tie_up",
+    "after": "2*[sc, sc2inc], sc, 2*[sc, 3ch, sc@[@], ss], sc, 3ch, sc@[@], sc, sc2inc (tie_up removed)",
+    "reason": "Wings/Tail rnd 3: three (sc, ch 3, sc) picot groups each in one st with sl sts between, consuming all 12 sts; the LLM had only one group and left 4 sts. English says fasten off, not gather, so tie_up removed. Same for all 3 pieces (lines 53, 61, 69)."
+   },
+   {
+    "line": 72,
+    "before": "# LEGS (1/2) ... (two copies of the ch-8 comb with wrong attachments)",
+    "after": "# COMB (one piece, explicit attachments) + LEGS (1/2), (2/2): 5ch, turn / sc5inc",
+    "reason": "The CP's 'Legs' were the Comb (ch 8, B) duplicated and mislabeled, with the 3 spikes' sl sts attached to the wrong rows. Rewritten as one comb: 3 sc, then 3 spikes of (sl st in next foundation ch, ch 4, 3 sc back, sl st in same ch), verified in parser output. The short, unambiguous Legs (ch 7, 5 sc in 2nd ch from hook, make 2) were added."
+   }
+  ],
+  "remaining": "INFO partial_row flags on comb spikes and legs are intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Beak is embroidered (not crocheted) - nothing to add.",
+  "suggested_confidence": 4
+ },
+ "BRC0334-37367M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 44,
+    "before": "6 labelled chains; 1st row split over 3 lines (4*sc@W1[k--].B1[k] / sc3inc@W1[k] / 4*sc@W1[++k], turn)",
+    "after": "ch.W1[k], 4*ch.W1[++k] / 4*sc@W1[k--], sc3inc@W1[k], 4*sc@W1[++k], turn",
+    "reason": "Ch 6 works 5 chains; the oval 1st row (4 + 3 + 4 = 11 sc) must be one row so the 2nd row (2ss, 2sc, 3hdc2inc, 2sc, 2ss = 11) works into it. Removed the unused B labels. Both wings."
+   },
+   {
+    "line": 40,
+    "before": "sc6tog",
+    "after": "tie_up",
+    "reason": "Invented extra decrease; English draws the end through the remaining 6 sts."
+   },
+   {
+    "line": 60,
+    "before": "(missing)",
+    "after": "ANTENNAE: start_a_new_chain / 19ch",
+    "reason": "Ch 20 antennae piece was absent."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 5
+ },
+ "BRC0504-025906M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 68,
+    "before": "6sc2inc, ss@[%,0]",
+    "after": "12sc2inc, ss@[%,0]",
+    "reason": "Previous round has 12 sts and the following round works 24 sc, so the increase round must be 2 sc in each of 12 sts; 6sc2inc left 6 sts unworked and made the next round wrap."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English and the trunk/ears/sides have no round comments, so the code could not be checked against a source; the structure (64-st basket, trunk with flared 'curl', 60-st ear discs) looks invented rather than transcribed. Fix is purely for internal consistency.",
+  "suggested_confidence": 2
+ },
+ "BRC0518-37124M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 29,
+    "before": "8*[4sc, 4dcfl, 3sc] (rnds 12-26)",
+    "after": "8*[4sc, 4dc, 3sc]",
+    "reason": "English 'dcfp' (front post) had been rendered as dcfl (front loop); per the guide, an unsupported post stitch is approximated by the plain stitch with a comment."
+   },
+   {
+    "line": 81,
+    "before": "6sc, ss@[%,0] # 9th / 6sc, ss@[%,0] # 10th",
+    "after": "(removed)",
+    "reason": "Stem comment quotes '2nd to 8th rnds'; rounds 9 and 10 were extra."
+   }
+  ],
+  "remaining": "Stated-count flag on rnd 12 is a false alarm: the '3 sc' in the comment is the last part of the repeat, not a round total (8 x 11 = 88 is correct).",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; checked only against the quoted comments. The number of textured rounds (12-26) is not confirmed by the comments ('13th to 16th rnds: repeat textured pattern' is a paraphrase), and any leaves/tendrils are unknown.",
+  "suggested_confidence": 3
+ },
+ "BRC0520-002418M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 81,
+    "before": "4ss",
+    "after": "3ss",
+    "reason": "The leaf stem goes back along three links of a four-chain extension. A fourth slip stitch wraps back onto the leaf."
+   }
+  ],
+  "remaining": "Info flags only. The leaf (lines 75/77) starts its first side in the last chain made (A[8]) rather than the '4th ch from hook' (A[5]), so the leaf uses only 7 of the 9 labeled chains (parser warns A[0], A[1] unused); the quoted opposite-side instructions also name 7 sts for 6 remaining chains. Left as is because it compiles and the exact chain mapping is ambiguous without the full English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; the apple-stem round count (13 rounds) could not be verified against the source.",
+  "suggested_confidence": 3,
+  "source_quote_paraphrased": true
+ },
+ "BRC0520-009810M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 112,
+    "before": "5*[ss, 3ch, 2dc, 3ch, ss, sk], ss@[%,0]",
+    "after": "5*[ss, 3ch, dc@[@], dc@[@], 3ch, ss@[@], sk], ss@[%,0]",
+    "reason": "Comment: '(Sl st. Ch 3. 2 dc. Ch 3. Sl st) in next sc. Skip next sc' - the whole petal group goes into one stitch, so the dc and closing ss reuse the last attachment point; round now consumes exactly 10. Same fix on lines 120, 128, 237 (identical flowers)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; only checked against the quoted comments. Front/back panel is 'Make 2' but written once; ribbing row counts ('rep for length needed') and work-even round counts cannot be verified without the source.",
+  "suggested_confidence": 3
+ },
+ "BRC0520-37694M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 53,
+    "before": "ring.R0 / 8sc@R0",
+    "after": "start_a_new_chain / ring.R1 / 8sc@R1",
+    "reason": "Compile error: duplicate label R0; the back piece also lacked start_a_new_chain, so it was not a separate piece."
+   },
+   {
+    "line": 74,
+    "before": "sc@[3,4] ... sc@[3,20] (back piece petals)",
+    "after": "sc@[31,4] ... sc@[31,20]",
+    "reason": "Absolute row 3 is the FRONT centre's 3rd rnd; the back petals must attach to the back's own 3rd rnd (absolute row 31, verified by probing which row index holds 24 sts)."
+   }
+  ],
+  "remaining": "Two INFO partial-row flags (first petal of each piece uses 4 of 24 sts) are intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; completeness could not be checked (any joining/edging of front and back is not in the CP).",
+  "suggested_confidence": 3
+ },
+ "BRC0521-37161M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 40,
+    "before": "6*[4sc, sc4tog]#, ss@[%,0]",
+    "after": "6*[4sc, 4sk]",
+    "reason": "Round 24 keeps only the 4 sc of each section (24 sc stated); the 4 dcfp per section must be skipped, sc4tog gave 30 sts and is not in the instruction."
+   },
+   {
+    "line": 43,
+    "before": "6*[4sk, sc], ss@[%,0]",
+    "after": "6*[sc, 3sk], ss@[%,0]",
+    "reason": "Old line consumed 30 of 24 sts. Round 25 is a garbled needle-gathering instruction; approximated as 1 sc per 4 sts so it consumes exactly round 24."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Round 25 wording (sc + yarn needle through sts, '4 sc') is garbled/incomplete; round 24 comment omits the skip of the dcfp.",
+  "missing_pieces": "No the paired English; checked against comments only. dcfp approximated as dcfl and the round-12 cable crossing is not modeled (pre-existing approximation). Stem/leaves, if any, not checkable.",
+  "suggested_confidence": 3
+ },
+ "BRC0534-034496M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Compile error left (blossom `2dc@[@]` before the attachment head is set): the CP is a generic 'apple' unrelated to this English peach pattern, so it was not repaired.",
+  "source_inconsistencies": "",
+  "missing_pieces": "English Peach: 8-sc spiral body increasing by 8 to 128 sc, straight section, decreasing to 56 then 8; tubular leaf from a ch-26 ring decreasing to 6 and closed through both thicknesses; 5 tubular petals (to 14 sc, closed at 7); spiral 6-sc stem. CP instead has a 6-based 60-st ball, flat chain stem, chain leaf and 5-petal blossom.",
+  "suggested_confidence": 1
+ },
+ "BRC0534-034505M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 23,
+    "before": "40sc (13th rnd)",
+    "after": "10*[sc2tog, 2sc] then 30sc (14th rnd)",
+    "reason": "13th rnd decreases 40 -> 30 and 14th is even; the 30-st neck dec round then closes"
+   },
+   {
+    "line": 51,
+    "before": "sc2inc@B[k--], 26*sc@B[k--], 20sc, 26*sc@B[++k], 2sc@B[k]",
+    "after": "sc2inc@B[--k], 26*sc@B[--k], 20sc, 26*sc@B[k++], sc2inc@B[k]",
+    "reason": "start in 2nd ch from hook and end with the extra 2 sc in that same ch, using all 27 workable ch on both sides (76 sc)"
+   },
+   {
+    "line": 64,
+    "before": "78sc, sc2tog / 79sc / 77sc, sc2tog / ... (tail shaping)",
+    "after": "sc2tog, 76sc, sc2tog / 78sc / sc2tog, 74sc, sc2tog / 76sc / sc2tog, 72sc, sc2tog / 74sc",
+    "reason": "English decreases at both ends (80->78->76->74); CP dropped the first sc2tog so rounds did not close"
+   },
+   {
+    "line": 77,
+    "before": "31sc,2sc2tog,33sc,sc2tog ... (belly rnds 3-11 with wrong 'to last 2' counts)",
+    "after": "sc2tog, 31sc, 2sc2tog, 31sc, sc2tog etc.",
+    "reason": "each belly decrease round starts with Sc2tog per English; counts now 70/66/62/58/54/50"
+   },
+   {
+    "line": 102,
+    "before": "ring.R1 with 9 sc, then 16/20/22-st rounds",
+    "after": "ch-5 oval (10 sc), 14, 14, 18, 18, 20, 20",
+    "reason": "beak is worked around a ch 5 (10 sc) and its counts are 14/18/20 per English"
+   },
+   {
+    "line": 125,
+    "before": "ring.R2, 6sc rounds",
+    "after": "12ch, ss@[%,0] then 12sc spiral rounds",
+    "reason": "leg is a ch-12 ring with 12 sc rounds"
+   },
+   {
+    "line": 148,
+    "before": "6sc, turn",
+    "after": "6sc2tog, turn",
+    "reason": "closing through both thicknesses consumes all 12 sts (approximation)"
+   }
+  ],
+  "remaining": "Line 28/53/57/68/159 stated-count flags are false alarms (comment numbers are partial st counts or the count after the repeat). Line 51 leaves B[27] (the ch at the hook, correctly skipped).",
+  "source_inconsistencies": "",
+  "missing_pieces": "Neck and leg 'until measures' rounds are estimated.",
+  "suggested_confidence": 4
+ },
+ "BRC0534-034510M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Count flag at line 23 (row works past previous row) left: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: English is a spiral-round cat body (6 sc in ch-2, to 42 sc, decreasing to 18 sc over 22 rnds, worn inside out), flat 4-sc paws (3 rows) and a flat 3-sc tail (10 rows). CP instead has two flat triangular body panels with ears, a 6-sc tube tail and magic-ring front legs. The English is short and could be re-converted from scratch.",
+  "suggested_confidence": 1
+ },
+ "BRC0534-036536M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 176 (tail row 1: 12sc after a 12-node chain; comment says 11 sc) not fixed: the flat triangular tail itself is not in the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The CP is a generic invented pigeon, not this pattern. English Body is one 48-round piece (54 -> 60 sts, shaped decreases at rnds 18-23, wing/leg/tail markers, color-change neck rnds 35-44, closes to 6); CP has a 34-rnd symmetric body plus an invented separate HEAD. English Tail is a 20-rnd tube (4 -> 36 sts, back-loop ridges); CP tail is a flat ch-12 triangle. English Left/Right Wings are shaped 23-25-rnd pieces with color work; CP wings differ. Thighs (6 -> 21), Legs (ch-6 ring with 3 toes), Feet, Beak (6 sc, 3 rnds) and Eyes (8 sc) are absent or replaced by invented feet/toes and beak.",
+  "suggested_confidence": 1
+ },
+ "BRC0534-036538M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "7 count flags left untouched (head rnd 10 '60sc' after a 54-st round; horn rounds 5*[sc2inc, sc] etc. on a 5-st round). The CP is not a conversion of the English, so there is no source to correct them against.",
+  "source_inconsistencies": "",
+  "missing_pieces": "the paired English is a one-piece Head and Body rat (51 rnds, 66 sts max), Tail (7 sc, rows 45-49), Feet x4, Nose, Inner/Outer Ears. The CP instead has separate Body, Head, Snout, Ears, Horn, Front/Back Legs and Tail with uncommented generic increase/decrease ladders - it appears invented (unicorn/horse-like), not derived from this English. Nothing of the English pattern is faithfully represented.",
+  "suggested_confidence": 1
+ },
+ "BRC0534-036542M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags in LEGS rnd 5 left: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is a generic amigurumi template, not this pattern: English head starts 10 sc in ch-2 to 40 sc then 50-st two-color Cheeks; ears are a ch-10 ring outer ear plus flat inner ear; body 10 sc -> 50 hdc with color-section decreases; tail from ch-4 ring; arms 6->12 sc; strawberry 4->24->18 sc, strawberry top with 9 ch-3 leaves and stem. CP has 6->42 sc magic-ring head, magic-ring ears, 48-sc body, legs (not in English) and invented strawberry leaves. Needs full rewrite.",
+  "suggested_confidence": 1
+ },
+ "CAC0201-033162M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 119,
+    "before": "sc@L3[++k], hdc@L3[++k], dc@L3[++k], hdc@L3[++k], sc@L3[++k], ss@L3[k]",
+    "after": "hdc@L3[++k], dc@L3[++k], hdc@L3[++k], sc@L3[++k], ss@L3[k]",
+    "reason": "Compile error: second side ran one ch past the 6-ch foundation (L3[6]). Made it the mirror of the first side (sc,hdc,dc,hdc read back), as leaves 1-2 do."
+   },
+   {
+    "line": 126,
+    "before": "sc@L4[++k], hdc@L4[++k], dc@L4[++k], hdc@L4[++k], sc@L4[++k], ss@L4[k]",
+    "after": "hdc@L4[++k], dc@L4[++k], hdc@L4[++k], sc@L4[++k], ss@L4[k]",
+    "reason": "Same off-by-one as leaf 3 (would be the next compile error)."
+   },
+   {
+    "line": 133,
+    "before": "sc@L5[++k], hdc@L5[++k], dc@L5[++k], sc@L5[++k], ss@L5[k]",
+    "after": "dc@L5[++k], hdc@L5[++k], sc@L5[++k], ss@L5[k]",
+    "reason": "Same off-by-one on the 5-ch leaf; mirrored the first side."
+   }
+  ],
+  "remaining": "No count flags. Info flags are the explicit-attachment leaf rows and the leg row 3 'Sc2tog. Sc3tog.' leaving 2 of 7 sts unworked, which matches its comment; without the paired English it cannot be checked further.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Not checkable (no the paired English). Leaves 3-5 stitch sequences for the second side are reconstructed by symmetry, not from source text.",
+  "suggested_confidence": 3
+ },
+ "CAC0334-000707M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 251,
+    "before": "ss / sc6tog (two rows)",
+    "after": "comment only",
+    "reason": "The closing sl st was written as a separate row consuming 1 of 6 sts, and sc6tog was invented (English sews the 6-st opening closed)."
+   },
+   {
+    "line": 258,
+    "before": "2ss, 5hdc",
+    "after": "2ss, hdc@[-2,5], hdc@[-2,4], hdc@[-2,3], hdc@[-2,2], hdc@[-2,1]",
+    "reason": "Tongue: the 5 hdc go into the remaining 5 foundation ch of the ch-8, not onto the ch-3 fork; explicit attachments avoid wrapping."
+   }
+  ],
+  "remaining": "Two INFO partial-row flags on the tongue fork are intentional.",
+  "source_inconsistencies": "Body says 'Repeat Rounds 19-40 eight more times' but the given text only lists body rounds 1-22 (source appears abridged); CP approximates with 176 extra 18-sc rounds, which is harmless for counts.",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "RHC0234-023128M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags (leg rounds '5sc, 3sc2tog, 6sc' and '4sc, 2sc2tog, 5sc' with impossible quoted counts 15/13) left untouched. The CP's '#' comments quote a different pattern (separate head and body, legs with a back-loop round and foot decreases, shirt, tail as crochet). The English is a Bunny with head and body in one 36-round piece, ears 11 rounds, legs (rounds 1-11, round 8 [sc2tog] 3 times + 12 sc = 15), arms (5-sc start, 15 sc), pompon tail and a sweater worked flat in back-loop rows. Not rescued per guide rule 7.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Practically all as written: one-piece head and body, ears, legs, arms, pompon tail, row-worked sweater.",
+  "suggested_confidence": 1
+ },
+ "RHC0234-023194M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 18,
+    "before": "24sc, ss@[%,0]",
+    "after": "12sc, sc.S1, 11sc, ss@[%,0]",
+    "reason": "Label the 13th st of piece 1's 6th rnd for the second hump."
+   },
+   {
+    "line": 34,
+    "before": "sc@[6,12], 11sc, ss@[%,0]",
+    "after": "sc@S1, 11sc, ss@[%,0]",
+    "reason": "Use the label instead of an absolute row reference."
+   },
+   {
+    "line": 48,
+    "before": "24sc, ss@[%,0]",
+    "after": "12sc, sc.S2, 11sc, ss@[%,0]",
+    "reason": "Label the 13th st of piece 2's 6th rnd."
+   },
+   {
+    "line": 59,
+    "before": "sc@[6,12], 11sc, ss@[%,0]",
+    "after": "sc@S2, 11sc, ss@[%,0]",
+    "reason": "Bug: piece 2's second hump pointed at absolute row 6, i.e. piece 1's 6th rnd, so it was attached to the wrong piece."
+   }
+  ],
+  "remaining": "Lines 22 and 51: first hump works 12 of the 24 sts and joins them as a round ('leave rem sts unworked'); intentional, the second hump picks up the other 12 via the label.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; checked only against the CP comments.",
+  "suggested_confidence": 3
+ },
+ "RHC0234-024333M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 5 flag (24 sc on a 23-node chain) left as is: the whole CP does not follow the English, so patching counts would be meaningless.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The written body starts with 52 chains and 51 single crochets and is shaped with slip stitches. It includes double-crochet eyes, a border, four legs, and a treble-cluster spine. The DSL instead has a 25-chain triangle with decreases and an invented tail. The legs, border, and spine are missing.",
+  "suggested_confidence": 1,
+  "source_quote_paraphrased": true
+ },
+ "RHC0334-014011M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 56,
+    "before": "17sc, 16sc, sc, 16sc, turn",
+    "after": "17sc, sc@[-1,0], sc@[-2,-1], ... sc@[-16,-1], sc@RC2, sc@[-16,0], ... sc@[-1,-1], turn",
+    "reason": "Chocolate Row 17: after 17 sc across, the 16 + 1 + 16 edge sc must go into the row ends of Rows 16..1, the tip and back up the other side; the LLM wrote them as plain sc, which wrapped onto earlier rows. Each edge sc now attaches explicitly to the end stitch of the corresponding row (alternating first/last stitch because the rows are turned) and the tip sc to the ring; verified in parser output. 50 sts as stated."
+   }
+  ],
+  "remaining": "INFO partial_row on Row 18 (33scfl over the 33 edge sts) is as written in the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "RHC0334-014286M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 62 flag (invented leg-joining gusset round) left untouched: the CP does not follow the paired English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the English (amigurumi pony): legs lack the rnd 6 decrease to 9 sc and are joined into an invented body (English body is a separate 17-rnd ball to 30 sts); head goes to 36 sts with 7 even rnds (English head shrinks to 18 then grows to 36); invented snout and magic-ring ears (English ears 4 sc to 8 to 3 sc); eyes, eyelids (ch 13 rows) and chain tail are missing or invented. Appears generated from a picture.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-014497M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "1 count flag left untouched: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is invented (looks drawn from a picture): heart is a 6-sc ball to 42 with two bumps, 3 legs, slip-st chain arms and 'arteries'. English: flat-ish heart from 6 sc with two 3-sc corners per round (10..42 sc), rnds 15-19 shaping the top lobes with ch-1 skips and slip sts into skipped sts, 2 arms (5 sc x 8 rnds), 2 legs (6 sc x 10 rnds then 12 sc), optional ch-15 corkscrew hair.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-014676M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 54,
+    "before": "Row 1 split over two lines (first side ... dc6inc@W1[k] / opposite side ... turn)",
+    "after": "first side line ends with ' ...' so both halves form one 16-st row 1",
+    "reason": "Each line is a row; without continuation the opposite side became a separate 5-st row and Row 2 worked onto it. Same for wing 2 (line 67)."
+   },
+   {
+    "line": 59,
+    "before": "2sc, 2hdc, dc, 6dc2inc, 2hdc, 2sc",
+    "after": "2sc, 2hdc, dc, 6dc2inc, dc, 2hdc, 2sc",
+    "reason": "Row 2 must consume Row 1's 16 sts; English lists only 15 (omits the dc from the opposite side of the ch). Added one dc; Row 3's 22 sl sts then match. Same for wing 2."
+   }
+  ],
+  "remaining": "Info flags only: wing row 1 leaves one chain node (W1[0]) unworked; the labeled chain has one ch more than the 6 nodes Row 1 needs (harmless tail).",
+  "source_inconsistencies": "Wing Row 2 instruction works 15 sts but Row 1 produces 16 (sc,sc,hdc,hdc,dc,6dc,dc,hdc,hdc,sc,sc).",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "RHC0334-016621M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "6 count flags (inner/outer ear ovals, line 162, snout) left untouched because the CP does not render the English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Essentially all: the CP is a generic 'bunny plushy' (front/back legs in rounds, 56-sc body and head, magic-ring tail and snout) unrelated to the English, a small flat-worked animal with a 6-to-12-sc turned-row Body, 9-sc Head, 4-sc Outer Ears, ch-15 oval Inner Ears (29/32 sts), 24-sc Face, 4 turned-row Legs, 4 Foot Pads and a 6-sc Tail.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-016805M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags (leg foot-shaping rounds 4sc, 3sc2tog, 5sc, sc2tog on 18 sts) left untouched. The CP does not follow the English: its comments quote a different pattern (magic-loop head with 7th-14th even rounds, separate snout, separate legs from a ring, 3-point crown, dress bodice, layered skirt, apron, collar, bow). The source is a princess bear: head begun at the nose with 22 rounds and an off-center increase round 10, body worked down and divided into two legs (rounds 19-37 with foot shaping by increases), arms with a sc2tog round, a chain crown with picot-like points, top ruffle, flower, and a flat skirt worked in rows with scallops, frill and waistband. Not rescued per guide rule 7.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Practically all as written: head (22 rounds from nose), body divided into legs with foot shaping, arms, crown, top ruffle, flower, row-worked skirt with scallops/frill/waistband.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-019366M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags (spine rows 104-105 '36*[ss, 2p1]' with a picot DEF) left untouched. The CP is a generic hedgehog not following the English: English head starts with 5 sc in ch-2, grows 8/12/18/24, makes the 2 ears in Round 9 as front-loop (sl st, 3 hdc, sl st) groups, works the body in back loops 24 sc and decreases 18/12/6; feet are ch-3 slip-stitch toe pieces; spines are ch-4 slip-st spines worked in 7 turned rows on the front loops of Round 10 onward then 3 spiral rounds. The CP has a 6..30 st joined head/body, magic-ring 12-st legs, 36-repeat picot spine rows, and separate crocheted nose and ear discs (the English embroiders the nose). Not rescued.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Ears in Round 9, back-loop body, slip-stitch toe feet, row-then-round spines as written.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-019373M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 1,
+    "before": "Body increasing to 30 sc, 7 even rnds, decreasing 30-24-18-12-6, sc6tog",
+    "after": "Body 6-12-18-24, 10 even rnds of 24 (Rnds 5-14), 18, 12, 6, tie_up",
+    "reason": "English: Round 4 = 24 sc, Rounds 5-14 even, 15-17 decrease to 6 and close; the invented sc6tog was removed."
+   },
+   {
+    "line": 42,
+    "before": "Beak: ring 5 sc, 5 sc, 5sc2tog (wrapping past the round)",
+    "after": "ch, turn / sc, turn / sc3inc",
+    "reason": "English Beak is worked in rows: ch 2, 1 sc, then 3 sc in sc."
+   },
+   {
+    "line": 50,
+    "before": "Wings: 11ch, 12 sc rows decreasing to 2",
+    "after": "ch 2 tip, 2 sc, then inc 1 per row to 12 sc (Rows 1-11)",
+    "reason": "English wing starts at the tip and increases to 12 sc."
+   },
+   {
+    "line": 0,
+    "before": "EYES (1/2, 2/2) ring pieces, TAIL",
+    "after": "removed",
+    "reason": "Not in the English (eyes are optional unspecified circles or safety eyes; there is no tail)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "the paired English is truncated at the start (begins at Body Round 4); Rounds 1-3 assumed 6/12/18 sc.",
+  "missing_pieces": "Wing Row 12 (fold, 3 hdc/sl st edging across row ends, both thicknesses) not modelled; slip-st feet kept as the existing approximate ch-4 loop macro.",
+  "suggested_confidence": 3
+ },
+ "RHC0334-019389M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Lines 195 and 220 (back legs, '6*[sc, sc2tog]' on 19 sts) leave 1 st unworked; not fixed because the whole CP does not correspond to the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The CP does not follow the paired English: English head starts at the muzzle with a ch-4 oval (12 sc) and peaks at 30 sts; CP head is a 48-st sphere plus a separate 30-st muzzle. English body peaks at 30 sc for 17 rounds; CP body peaks at 54. English has one Leg (make 4) of 12 sc x 12 rounds; CP has invented front legs (18 sts, hoof decreases) and back legs (24 sts). Ears (English increases 6->18 over 22 rounds) are worked as decreasing pieces in CP. Neck piece (ch 20 ring, 4 rounds) is absent. The CP appears to be generated from a different/imagined donkey pattern.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-019492M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags (legs rnd 5 x2) left: CP is an invented generic doll template not matching the English.",
+  "source_inconsistencies": "the paired English appears to start mid-pattern (Waist rounds 28-29); earlier body/head instructions are absent from the source text.",
+  "missing_pieces": "CP does not follow the English: English arms start ch 2 / 6 sc -> 9 sc, 25 rounds with elbow shaping; legs start from a ch-6 oval foot (12 -> 18 sc, dec to 9, inc to 10); hair in rows from ch 34; flower, ears, dress, waist tie. CP has generic 42-sc head, 12-sc arms, 18-sc shoe legs, dc skirt tiers etc.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-019827M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 97,
+    "before": "3ch, turn / sk, 2scbl / ch, sk, 2sc2inc / ch, sk, [sc2inc, sc]*2 / ch, sk, [sc2inc, 2sc]*2",
+    "after": "ch.P0, ch.P1, ch.P2, turn / scbl@P1, scbl@P0 / 2*sc2inc / [sc2inc, sc]*2 / [sc2inc, 2sc]*2",
+    "reason": "Right eye patch rows: 'ch, sk' in turned rows skipped a real stitch, so rows drifted; now 2/4/6/8 sts. Same fix for the left patch (Q labels, mirrored rows 3-4)."
+   },
+   {
+    "line": 107,
+    "before": "4sc, 2sc, 3sc, sc2inc, 6sc, ss@[%,0]",
+    "after": "ch, sc@ row ends of rows 3,2,2,1, sc@P1, sc@P0, sc@ row ends 1,2,3, sc2inc@[-1,0], 6sc, ss@[-1,7]",
+    "reason": "Round 5 goes around the row ends and foundation loops (17 sts); written with explicit attachments. Left patch mirrored (3 + 2 + 4 + 6 + 2 sc in next st)."
+   },
+   {
+    "line": 109,
+    "before": "ch, sk, hdc3inc, 2sc, 3sc2inc, 4sc, hdc3inc, 6hdc, 2hdc, ss@[%,0]",
+    "after": "hdc3inc@[-2,7], sc@[-1,1], sc, 3*sc2inc, 4sc, hdc3inc, 6hdc, hdc@[%,0], hdc@[%,1], ss@[%,2]",
+    "reason": "Round 6: 3 hdc in the joining st, then into Round 5, ending with hdc in the first 2 hdc of Round 6 as the English says (left patch mirrored)."
+   },
+   {
+    "line": 185,
+    "before": "8sc, 8sc, ss@[%,0]",
+    "after": "ch, sk, 8sc, sc@[-10,1], 7sc, ss@[%,0]",
+    "reason": "Back Claw rnd 7 works around 2nd Claw then First Claw (16); both feet; attachments verified."
+   },
+   {
+    "line": 245,
+    "before": "7ch, turn / sk, 5sc, sc3inc, 5sc, sc2inc, ss@[%,0]",
+    "after": "labelled ch 7 W[0..6]; ch, 5 sc down one side, 3 sc in last ch, 5 sc back, 2 sc in end ch",
+    "reason": "Wing rnd 1 is an oval around a ch 7 (15 sts); both wings (V labels for wing 2)."
+   },
+   {
+    "line": 257,
+    "before": "ch, sk, ssfl, [sk, ssfl, hdc5inc]*5, ss@[%,0]",
+    "after": "ch, sk, ssfl, sk, hdc5inc, 4*[sk, ssfl, hdc5inc], sk, ssfl, ss@[%,0]",
+    "reason": "First Ruffle: sl st in same st, skip, 5 hdc, 4 repeats, skip, sl st = all 17 sts; old code left 1 unworked. Both wings."
+   },
+   {
+    "line": 259,
+    "before": "ch, sk, 17sc, ss@[%,0]",
+    "after": "ch, scbl@[-2,1], 16scbl, ss@[%,0]",
+    "reason": "Wing rnd 8 is worked in the remaining loops of rnd 6, not into the ruffle; same for rnd 14 (into rnd 12, 19 sts). Both wings."
+   },
+   {
+    "line": 314,
+    "before": "ring.R8 / 16sc@R8, ss@[%,0]",
+    "after": "ch, scfl@[10,13], 4scfl, scfl@[9,16..9] (8 sts), scfl@[10,10], 2scfl, ss@[%,0]",
+    "reason": "Tail rnd 1 is worked into the remaining front loops of the BLO sts of Body rnds 10 and 9 (16 sts), not a new ring; verified attachments."
+   },
+   {
+    "line": 324,
+    "before": "ch, sk, 18sc, ss@[%,0]",
+    "after": "ch, scbl@[-2,1], 17scbl, ss@[%,0]",
+    "reason": "Tail rnds 5 and 10 work into the remaining loops of the round before the ruffle (18 sts)."
+   }
+  ],
+  "remaining": "8 COUNT flags remain, all checker artifacts of explicit attachments to earlier rows (claw join, wing rnds 8/14, tail rnds 5/10); attachments checked with a row dump. INFO flags on the eye patches are intentional.",
+  "source_inconsistencies": "the paired English's 'Body' section (rnds 1-21, 42 sts max) is actually the Head; the real Body (48 sts with BLO rnds 9, 10 and 25, referenced by the Tail and Finishing) is missing from the paired English. The CP's BODY appears to come from the full source and was kept unchanged.",
+  "missing_pieces": "Ruffle hdc/dc groups are written without the front-loop marker (hdc5inc/dc5inc), as in the original CP.",
+  "suggested_confidence": 4
+ },
+ "RHC0334-020305M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "16 count flags left untouched (arm/leg decrease rounds such as 6*[sc, sc2tog] on 12 sts). The CP describes a generic Mother/Father/Baby doll family with a wheelchair, has no comments quoting the English, and does not correspond to the source, which is 'The Royal Family' (Prince, Princess, Royal Baby and a Pram with shell sides/center, hood, wheels, axles; Prince/Princess head-and-body worked as one piece with legs separated by sewing). Not rescued per guide rule 7.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Essentially all: Pram (outer shell sides/center, inner lining, hood, wheels, axles/handle), Prince head-and-body, jacket detail, shoes, nose, Princess head-and-body, dress collar, hat, skirt, baby pieces as written.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-020454M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "3 count flags (legs rnd 5 x2, hat sides) left: the CP is a generic doll template not derived from the English, so local fixes would not make it faithful.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP does not follow the English: English has shoes (oval foundation ch 8, toe rows), legs from 6-sc ring with knickers and a joining round, head 6->42 spiral, hat with dec to 24 then brim 32/40, jacket in rows (ch 33) with fronts/back/collar/sleeves/cuffs, vest side-to-side, hands with popcorn thumb, bowtie, pot o' gold (to 66 sc), coins. CP instead has invented body ring, shoe-shaped legs, arms, hat brim/sides, hair pieces, etc.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-020509M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 170 flag (heart hump) left untouched: the CP does not follow the paired English.",
+  "source_inconsistencies": "the paired English starts mid-pattern (head rounds 1-3 are missing; text begins at Round 4).",
+  "missing_pieces": "CP is unrelated to the English (flying-pig cupid): head/body with ears worked into rnds 13-16 and tail in rnd 40 replaced by an invented 27-rnd body plus separate snout/ears; legs (knee short rows, rows 14-16) replaced by plain 6-rnd tubes; wings (ch 11, rows 1-7 with dc shells) replaced by invented ch 6 wings; scarf, bow, arrow missing; invented heart and hair bow pieces not in the English.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-021389M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 79,
+    "before": "4sc, 3sc2tog, 5sc, sc2tog, ss@[%,0]",
+    "after": "4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment ...",
+    "reason": "Leg rnd 5 must go 18 -> 12 sts per its comment; the LLM's trailing sc2tog made 13 and left 1 st. Three sc3tog consumes 4+9+5=18 and makes the stated 12; following rounds now close."
+   },
+   {
+    "line": 104,
+    "before": "4sc, 3sc2tog, 5sc, sc2tog, ss@[%,0]",
+    "after": "4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment ...",
+    "reason": "Same fix on mirrored leg 2/2."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "the paired English does not match this CP: it is the Gracie & dragon pattern (ch-2 starts, foot on a ch-6 oval, dragon pieces), while the CP is a different doll (magic rings, 22-round head, dress). The CP's '#' comments were used as source; '3sc2tog' interpreted as 3 x sc3tog, the only reading that closes 18->12.",
+  "missing_pieces": "not checked (the paired English is for a different pattern)",
+  "suggested_confidence": 2
+ },
+ "RHC0334-022185M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "8 count flags (legs/boots rnd 5) left: the CP does not follow the English. English is a doll whose Head and Body is one piece (6/12/18/24/30 sc, rnd 16 to 15 sts, then 22/24 sc for undershirt, waist, knickers, flat joining row), with Arms (9 sc), Ears (5 sc row), Hair, Legs from an oval foot (ch 6, 12/18/15/12/9/10 sc), Mobius Scarf, Hat, Dress and Bag. The CP has a separate 42-sc head, legs from a magic ring, Boots, a three-layer Skirt and Hat Brim, none of which match.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Whole pattern needs re-conversion from the English (Scarf, Dress, Bag, Ears absent; other pieces mismatched).",
+  "suggested_confidence": 1
+ },
+ "RHC0334-022187M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Boot rounds at lines 96-102 and 131-132 (5sc, 3sc2tog, 6sc on 18 etc.) do not close and their counts disagree with the comments; not fixed because the legs do not follow the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The CP does not follow the paired English. English Head and Body is one 35-rnd piece (peak 30 sts, neck decrease to 15, then 22/24 with undershirt/waist/knickers color bands and a flattened joining row); CP has a 42-st head plus a separate body. English Leg starts from a ch-6 oval (12 -> 18 -> 15 -> 12 -> 9 -> 10 sts, 28 rnds) plus Top of Boots; CP legs are magic-ring 18-st boots. English Arms (9 sts, elbow shaping), Ears (5 sc), Bow (ch 80), Skirt (side-to-side 16-st rows with buttonhole), Top (30-st rows with straps), Sweater (34 sc, fronts/back, 21-st sleeves) and Pocketbook (oval base, 24 sts, ch-10 handles) are replaced by invented arms, skirt, blouse, cardigan, headband, hair strands and bag.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-022189M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 94,
+    "before": "4sc, 3sc2tog, 5sc, ss@[%,0]",
+    "after": "4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment ...",
+    "reason": "Leg rnd 5 must go 18 -> 12 sts; '4sc, 3sc2tog, 5sc' only consumed 15. Reading '3sc2tog' as three sc3tog consumes 4+9+5=18 and makes the stated 12."
+   },
+   {
+    "line": 126,
+    "before": "4sc, 3sc2tog, 5sc, ss@[%,0]",
+    "after": "4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment ...",
+    "reason": "Same fix on mirrored leg 2/2."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "the paired English does not match this CP: it is a different doll pattern (head begun on ch 2, legs begun on a ch-6 oval, rounds numbered differently). The CP's own '#' comments were used as the source; the comment's '3sc2tog' was interpreted as 3 x sc3tog, the only reading that closes 18->12.",
+  "missing_pieces": "not checked (the paired English is for a different pattern)",
+  "suggested_confidence": 2
+ },
+ "RHC0334-022428M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "COMPILE ERROR left (attachment to a missing stitch around the body section). The CP is a generic invented gnome (6-sc ring head to 42 sc, pointed hat, 30-sc beard disc, nose ball, body from a magic ring, legs from rings) and does not follow the English, which builds legs and tunic from 70/80-ch rings, joins them, adds belt, top of tunic (decreasing to 24), hands with popcorn thumbs and shaped arms with short-row shoulders, an 8-sc-start head to 48 sc with popcorn nose, shoes from a 28-ch ring, belt buckle, cap (5-sc start to 50), front curl, mustache, eyebrows, beard-and-hair curls and buttons.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Whole pattern needs re-conversion from the English.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-022512M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "5 count flags left untouched (legs rounds 7-8, hair flower petals). The CP does not follow the English: the English is a Tooth Fairy Doll worked in flat turned rows (front/back of doll ch 10, 43 rows; legs ch 7 oval worked in rows; arms; top/bottom wings; 11 ponytail curls + 3 bang curls; headband; skirt ruffle ch 60; tooth necklace pouch; ears). The CP instead has rounds-based head/body/legs from magic rings, 10 hair curls of 15ch/dc3inc, a 5-petal hair flower and a neckline trim, with comments that quote no source text. It looks invented from a picture, so per the guide it was not rescued.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Effectively all English pieces are missing or replaced: tooth necklace, doll front/back in rows, headband, ponytail curls (11) and bang curls (3), 12-sc flower, skirt ruffle/skirt, legs in rows with toes, arms with ruffle, top/bottom wings, ears.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-023118M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "5 count flags (heart join rnd 36sc after 18 sts, all 5 hearts) left: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: English is a wreath-style project with a bird (body 6->24 sc with shaping, wings with hdc/dc/tr, beak, flat ch-9 tail), 9 small hearts (two 18-sc halves joined, to 32 sc then decreases), 3 large hearts (24-sc halves, 40 sc), ring cover, and a shell-stitch globe cover with felted continents. CP has a 54-sc sc globe ball, 5 generic hearts, and a different bird. Needs full rewrite.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-024005M": {
+  "status": "no_change",
+  "changes": [],
+  "remaining": "Line 51 '4ss' after '3ch, turn' is a false alarm: the Stinger is ch 4, sl st in 2nd ch from hook and next 2 ch (3 ss on the 3 counted ch), then 'slip st into end of bee' - the 4th ss intentionally lands on the closing sc6tog. Line 50 partial-row info is the chain leaving the gather, also intended.",
+  "source_inconsistencies": "",
+  "missing_pieces": "none (Head/Body, 2 Wings, 6 Legs all present; only one bee's set, English says per bee)",
+  "suggested_confidence": 5
+ },
+ "RHC0334-024009M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Four count flags remain in back-leg rounds 5–6. The source head starts at the muzzle and grows to 24 stitches. The DSL grows to 36. The source makes four identical six-stitch legs, while the DSL has front and back legs beginning with 18-stitch feet and using 12-stitch leg rounds. Its horn, snout, and mane pieces diverge from the source, and its comments do not track the instructions.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Neck, forelock and the English mane/tail construction; head and legs replaced by different pieces.",
+  "suggested_confidence": 1,
+  "source_quote_paraphrased": true
+ },
+ "RHC0334-024031M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Head line 13 `48sc` after a 42-st round left as-is: the whole CP is a generic invented elephant without comments and does not follow the paired English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Essentially the whole English pattern: head should peak at 42 sc with a ch-3 trunk opening (rnd 16) and a trunk worked from it, ending at 9 sc; body starts with 7 sc to 28 with a striped shirt decreasing to 21/18; English ears are two-part, hat etc. CP pieces (48-st head, 36-st body, separate ring trunk, 30-st ears) do not match.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-024172M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 112,
+    "before": "5sc, 2sc2tog, 5sc, ss@[%,0]",
+    "after": "5sc, 2sc2tog, 4sc, sc2tog, ss@[%,0] # source inconsistency: ...",
+    "reason": "Leg rnd 6 (comment: 5 sc, (sc2tog) twice, 5 sc, sc2tog) on 15 sts; the LLM dropped the final sc2tog and left 1 st. Literal text needs 16 sts and makes 13, so the minimal change that consumes 15 and makes the 12 of rnd 7 was used."
+   },
+   {
+    "line": 140,
+    "before": "5sc, 2sc2tog, 5sc, ss@[%,0]",
+    "after": "5sc, 2sc2tog, 4sc, sc2tog, ss@[%,0] # source inconsistency: ...",
+    "reason": "Same fix on mirrored leg 2/2."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Leg rnd 6 as quoted in the CP comments ('1 sc in each of next 5 sc. (Sc2tog) twice. 1 sc in each of next 5 sc. Sc2tog.') needs 16 sts from a 15-st round. Also: the paired English does not match this CP - it is a lamb pattern worked in flat rows from a ch-7, whereas the CP (head/snout/body/legs/arms/ears/tail from magic rings) follows a different source quoted in its comments; the comments were used as the source.",
+  "missing_pieces": "not checked (the paired English is for a different pattern)",
+  "suggested_confidence": 3
+ },
+ "RHC0334-025742M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 24,
+    "before": "6sc, 3sc2tog, 4sc, 6sc, 3sc2tog, 1sc, ss@[%,0]",
+    "after": "2*[6sc, 3sc2tog, 4sc], ss@[%,0] # 26 sts",
+    "reason": "Nigiri rnd 13: *6 sc, sc2tog 3 times, 4 sc* rep around = 2 repeats, 32 -> 26."
+   },
+   {
+    "line": 26,
+    "before": "5sc, 2sc2tog, 4sc, 5sc, 2sc2tog, ss@[%,0]",
+    "after": "2*[5sc, 2sc2tog, 4sc], ss@[%,0] # 22 sts",
+    "reason": "Nigiri rnd 14: repeat dropped the final 4 sc; 26 -> 22."
+   },
+   {
+    "line": 28,
+    "before": "3sc, 3sc2tog, 2sc, 3sc, 3sc2tog, ss@[%,0]",
+    "after": "2*[3sc, 3sc2tog, 2sc], ss@[%,0] # 16 sts",
+    "reason": "Nigiri rnd 15: 22 -> 16."
+   },
+   {
+    "line": 30,
+    "before": "7sc2tog, ss@[%,0] / sc7tog",
+    "after": "8sc2tog, ss@[%,0] / sc8tog",
+    "reason": "Nigiri rnd 16: sc2tog around 16 -> 8."
+   },
+   {
+    "line": 163,
+    "before": "ring.  (file truncated here)",
+    "after": "ring.R4 + full Uramaki Roll (19 rnds) and Wasabi (18 rnds)",
+    "reason": "LLM output was cut off after 'ring.'; both remaining pieces are short and fully explicit in the paired English, so they were written out (stitch counts 8/16/24/32/40/48/.../8/4 and 6/.../30/24/18/12/6 all match)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Salmon and seaweed row counts are 'repeat until it measures X'; CP's chosen row numbers are an approximation.",
+  "suggested_confidence": 4
+ },
+ "RHC0334-027897M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 140 flag (body joins legs into a guessed '~24 sts' round) left: the CP as a whole does not follow the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is a generic invented amigurumi (48-st head, muzzle, magic-ring ears, legs knitted in rounds joined into a body). English has a 42-st head (rnds 1-21) continuing into the body (rnds 22-46 with FLO/BLO ledge), 8-sc ch-2 ears joined front/back, a 4-round face with hdc/dc shaping, flat ch-17 arms, legs and tail with sl-st fingers/toes. None of this structure is in the CP.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-028528M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "COMPILE ERROR (DEF drip1 uses ss@[%,%-5], an id out of range) left as is.",
+  "source_inconsistencies": "Donut Icing says 'Rep from ** to ** as given for Donut' but the Donut section has no ** markers.",
+  "missing_pieces": "CP is unrelated to the paired English: English Donut is a tube started from a ch-12 ring (12 -> 72 -> 12 sts, 30 rnds, ends sewn together), Icing starts from a ch-18 ring with a 72-st drip round of ch-4/ch-2/ch-6 drips, Donut Holes go to 24 sts over 12 rnds. CP is a 48-st magic-ring ball 'donut', a flat magic-ring icing with sl-st drips, an 18-st timbit, a 'small donut hole' and 'sprinkle' pieces that do not exist in the English. Needs a full rewrite.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-030781M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "1 count flag left (tail closing '6sc2tog' on a 6-st round). The CP is a generic chameleon not following the English: English head is worked nose-first (6, 12, even, 18 via 6 incs, 24, even, dec to 18, left open); body/tail is one piece 6..30 with color stripes, then (Sc2tog) 3 times decreases to 24/18/12 and a long tail 9/8/6 sts; legs are 6-st tubes folded with 3-sc toe row; eyes are 6-sc discs; eyebrows and a 2-piece crest. The CP instead has a 36-st body, a separate head round 27-40 with 36 sts, a separate 6-st tail, front/back legs with back-loop rounds and 12/18 sts, and 12-st eyes. Comments are not quoted from the source. Not rescued.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Eyebrows and crest (as written), correct head/body-tail/legs per English.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-030785M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "5 count flags (head rnds 29-32 repeat counts, flower petals) left: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: English is a snail whose Head and Body is one tube (6->30 sc, then decreases to 20, 15, 12, 10 sc over 57 rnds), with outer eyes (6 sc), sl-st antennae, a flat rolled Shell of 48 rows, hat, bow tie and girl-version hat/flower. CP instead has a body to 36 sc, neck, separate head, eye stalks, eye balls, round shell, antenna balls, mouth. Needs full rewrite.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-030787M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Crown piece flags (lines 178-180) left: the whole CP is invented and does not follow the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is an invented seahorse worked in the round from a magic ring. English has back-of-eye ovals (ch 4), a head from nose tip (rnds 1-23 with FLO sl-st ridge), a flat body-and-tail worked in turned rows 1-54 (ch 15, stripes, inc/dec shaping), a ch-37 spine with points, and 2 dc/hdc fins in BLO rows. None of that is represented.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-030791M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "3 count flags in the invented 'ROCKET FIN' rows (sc2tog, sc, sc2tog from 4 sts) left as is.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: English Rocketship starts with 5 sc in ring and has 50+ rnds, Booster Rockets x3 (6 sc, color changes, 8 sts), dome edging, tassel flames; Alien is two legs joined at rnd 9 (34 sc) into a body, plus topknot and belt. CP has a generic 6-sc alien body/head/antenna/arms, a 36-st rocket body, nose cone, three triangular 'fins' and a window - none of which are in the English. Needs full rewrite.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-030795M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "1 count flag left untouched: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is invented: 24-st head with decreases, legs joined into a 16-st body, 4-sc arms, flat sweater/skirt pieces with armholes. English has two full versions (Boy: 18-st head, 9-st legs, 24-st body of 19 striped rnds closed with 12 sc, dc ears, 12-st arms, hands, ribbed turtle neck and sweater edge; Girl: 30-st head, 12-st legs, 10-st arms, collar, flower, side-to-side short-row skirt), none rendered faithfully.",
+  "suggested_confidence": 1
+ },
+ "RHC0334-031915M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "6 count flags in invented leg rounds (e.g. '5sc, 3sc2tog, 6sc' from 18) left as is; the code does not follow the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP structure is unrelated to the paired English: English is a one-piece Head-and-Body worked from the top (53-st cheek round, 42nd-rnd leg separation with Right/Left Leg, front-loop Skirt), ears in rows of 20 sc, arms from ch-4 ring of 4 sc, sleeves, a ch-25 collar, a ch-13 tail. The CP instead has separate Head/Body balls, magic-ring legs with back-loop rounds, magic-ring arms, a 'dress top', 'collar' in dc rounds, a magic-ring tail - apparently invented. Would need a full rewrite.",
+  "suggested_confidence": 1
+ },
+ "RHC0502-022909M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "COMPILE ERROR: the file contains only the placeholder text 'just dsl' (no pattern); no the paired English to rebuild from.",
+  "source_inconsistencies": "",
+  "missing_pieces": "entire pattern (LLM output is a placeholder; no English source supplied)",
+  "suggested_confidence": 1
+ },
+ "RHC0517-025657M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 116,
+    "before": "sc, sc2tog",
+    "after": "2sc2tog",
+    "reason": "Nose last round consumed 3 of 4 sts; minimal change to close the round (no English to confirm)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English, and the CP comments are CP-style shorthand ('*sc2inc, 5sc') rather than quoted English, so faithfulness cannot be verified; the generic 'snowman ornament' structure (6-sc magic ring to 42, ear-muff pompoms of 6-12-6 sts, sc6tog before tie_up) may be invented. Extra closing rows (sc6tog) before gathers were left as is.",
+  "suggested_confidence": 2
+ },
+ "RHC0517-025669M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 65,
+    "before": "30hdc2incfl, ss@[%,0]",
+    "after": "30hdcfl2inc, ss@[%,0]",
+    "reason": "Compile error: stitch 'hdc2incfl' undefined; the parser's form for 2 hdc in the front loop is 'hdcfl2inc'. Brim count 60 hdc preserved."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; checked against comments only. Body and head are worked as one continuous piece (as the round numbering 1-23 suggests).",
+  "suggested_confidence": 4
+ },
+ "RHC0517-033715M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 8,
+    "before": "5*[sc, dc@[@], 2dc2inc, dc, dc, sc@[@]], ss@[%,0]",
+    "after": "5*[sc, dc@[@], dc2inc, dc, dc, sc@[@]], ss@[%,0]",
+    "reason": "3rd rnd per comment: (sc,dc) in next, 2 dc in next, dc in next, (dc,sc) in next = 4 sts -> 7; CP had two dc2inc (consumed 5). Now 20 -> 35."
+   },
+   {
+    "line": 10,
+    "before": "5*[sc, hdc2inc, sk, 3dcfl, sk, hdc2inc, sc], ss@[%,0]",
+    "after": "5*[sc, hdc2inc, sk, dc3inc, sk, hdc2inc, sc], ss@[%,0]",
+    "reason": "4th rnd '3 dcfp around next st' is 3 sts into one st (7-st repeat on 35 -> 45); front-post approximated as plain dc3inc."
+   },
+   {
+    "line": 73,
+    "before": "same as line 8",
+    "after": "same as line 8",
+    "reason": "Small Pumpkin shares rnds 1-5."
+   },
+   {
+    "line": 74,
+    "before": "same as line 10",
+    "after": "same as line 10",
+    "reason": "Small Pumpkin shares rnds 1-5."
+   }
+  ],
+  "remaining": "44 count flags from Large Pumpkin rnd 6 onward and Small Pumpkin rnd 6 onward. No the paired English; the CP comments omit Large Pumpkin rnds 6-9 entirely ('6th rnd-like continuation'), and the later cable rounds (skip/2 trfp/trfp crossings, dcfp groups) have no quoted text precise enough to reconstruct stitch consumption; the even sc rounds (95/56/40/30...) contradict the cable rounds around them. Rounds 1-5 of both pumpkins now close (10, 20, 35, 45, 45).",
+  "source_inconsistencies": "",
+  "missing_pieces": "No English source. Large Pumpkin rnds 6-9 are missing from the CP; cable rounds 6-42 (large) and 6-30 (small) cannot be verified. Front-post stitches are approximated with fl variants throughout.",
+  "suggested_confidence": 1
+ },
+ "RHC0518-014834M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 27,
+    "before": "sc2inc, 4sc, 3sc2inc, 14sc, sc2tog, 10sc, sc2tog, 14sc, 3sc2inc, 4sc, sc2inc",
+    "after": "sc2inc, 4sc, 3sc2inc, 15sc, sc2tog, 10sc, sc2tog, 15sc, 3sc2inc, 4sc, sc2inc",
+    "reason": "Heart-shaping rnd 11 consumed 58 of 60 and made 64 while rnds 12-18 work 66; one more sc on each side closes 60 -> 66 (mirrors the lid's version)."
+   }
+  ],
+  "remaining": "Info flags on HEART CHOCOLATE (lines 130-131: label-based chain with an unclear working order) and ROSE (line 136: 20 ch but shells consume only 10) left; no English to resolve them.",
+  "source_inconsistencies": "No the paired English; the quoted rnd 11 in the CP comment does not add up (58 of 60 consumed, 64 made vs 66 used later).",
+  "missing_pieces": "Not checkable (no the paired English). The file looks picture-derived (generic truffles in 4 batches, swirl top stopping after rnd 3, heart chocolate/rose sketches).",
+  "suggested_confidence": 2
+ },
+ "RHC0518-015435M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 101,
+    "before": "5sc2inc, ss@[%,0] / DEF: p1=4ch, turn, ss, sc, hdc / 5*[p1, ss@[%,@]]",
+    "after": "sc.S[k], sc@[@], 4*[sc.S[++k], sc@[@]], ss@[%,0] / 5*[4ch, ss@[%,%-2], sc@[%,%-4], hdc@[%,%-6], ss@S[k++]]",
+    "reason": "Compile error: ss@[%,@] is not a valid attachment and the DEF put a turn inside the round. Star points now work back along their own ch-4 (sl st in 2nd ch from hook, sc, hdc) and sl st into every other sc of rnd 2 (labelled S)."
+   }
+  ],
+  "remaining": "Info flag on the star-point row (leaves 5 of 10 sts) is by design. The six LEAF TIER pieces are modelled as free-standing rings of ss/ch/dc4inc rather than being worked into the front loops of the core rounds; left as an approximation (no English to rebuild from).",
+  "source_inconsistencies": "No the paired English; the comment 'Rep from * 5 times' is ambiguous (5 or 6 points); 5 points used.",
+  "missing_pieces": "Not checkable (no the paired English).",
+  "suggested_confidence": 2
+ },
+ "RHC0518-016367M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 42,
+    "before": "ch.L[k] + 7 x ch.L[++k] (8 labelled ch)",
+    "after": "ch.L[k], 6*ch.L[++k] (7 labelled ch)",
+    "reason": "Row 1 works 7 ch (2nd ch from hook to last); L[0] was never used"
+   },
+   {
+    "line": 43,
+    "before": "first side and opposite side of leaf Row 1 on two separate lines",
+    "after": "one line ending in turn (15 sts)",
+    "reason": "Row 1 goes around both sides of the chain in one row; splitting it made Row 2 work into only the 6 opposite-side sts"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; checked only against the quoted comments. Cheeks use a ring for '7 hdc in 3rd ch from hook' (acceptable approximation).",
+  "suggested_confidence": 4
+ },
+ "RHC0518-016373M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 4,
+    "before": "3ch, turn",
+    "after": "4ch, turn",
+    "reason": "Row 1 makes 4 sc (needed by the 4-st increase row 2); the chain had only 3 attach points for the first piece."
+   },
+   {
+    "line": 20,
+    "before": "14sc",
+    "after": "14sc, turn",
+    "reason": "Row 8 now turns so the crust continues on it."
+   },
+   {
+    "line": 27,
+    "before": "start_a_new_chain, turn / sc@[14,0], 13sc, turn",
+    "after": "14sc, turn",
+    "reason": "Compile error: [14,0] referred to a row that does not exist (slice has rows 0-8). Crust is worked across the top edge, i.e. the last slice row, so it continues the piece with a color change."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "No the paired English; the CP comments conflict on Row 1 ('3 sc in 2nd ch from hook' after 'ch 2' vs '1 sc in 2nd ch from hook and each ch'); kept the 4-sc version that the following rows require.",
+  "missing_pieces": "Not checkable (no the paired English). Pepperoni are 2 rnds each; the 'make 2 pieces alike' slice is written once.",
+  "suggested_confidence": 3
+ },
+ "RHC0518-016434M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 8,
+    "before": "10*sc@B[k--], sc3inc@B[k] / 10*sc@B[++k], sc2inc, ss@[%,0]",
+    "after": "10*sc@B[k--], sc3inc@B[k], ... / 9*sc@B[++k], sc2inc@B[++k], ss@[%,0]",
+    "reason": "Round 1 was split into two rows and made 25; now one oval round of 24 (13 + 11) ending with 2 sc in the first-worked ch"
+   },
+   {
+    "line": 11,
+    "before": "2*[10sc, sc2inc, sc]",
+    "after": "2*[10sc, 2*sc2inc]",
+    "reason": "stated 28 sts; as transcribed gives 26"
+   },
+   {
+    "line": 15,
+    "before": "2*[12sc, sc2inc, sc]",
+    "after": "2*[12sc, 2*sc2inc]",
+    "reason": "stated 32 sts"
+   },
+   {
+    "line": 17,
+    "before": "30sc (rounds 5-6)",
+    "after": "32sc",
+    "reason": "follows 32-st round 4"
+   },
+   {
+    "line": 20,
+    "before": "2*[12sc, sc2tog, sc]",
+    "after": "2*[12sc, 2*sc2tog]",
+    "reason": "stated 28 sts; consumes 32"
+   },
+   {
+    "line": 24,
+    "before": "2*[10sc, sc2tog, sc]",
+    "after": "2*[10sc, 2*sc2tog]",
+    "reason": "stated 24 sts; consumes 28"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "No the paired English. Comment text for rounds 2, 4, 7, 9 gives one inc/dec per repeat, but every stated count needs two per repeat (the per-repeat consumption matches the counts). Interpreted as '2 sc in each of next 2 sts' / 'sc2tog twice'; marked inline.",
+  "missing_pieces": "not checked (no the paired English)",
+  "suggested_confidence": 3
+ },
+ "RHC0518-018204M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 99,
+    "before": "12sc, ss@[%,0]",
+    "after": "6sc, sc.H1, 5sc, ss@[%,0]",
+    "reason": "Label the 7th st of the heart's 3rd rnd so the second bump can attach to it."
+   },
+   {
+    "line": 109,
+    "before": "start_a_new_chain, turn / sc@[12,6], 5sc, turn",
+    "after": "sc@H1, 5sc, turn",
+    "reason": "Compile error: @[12,6] pointed to global row 12 (a 6-st round of another piece). Second bump is worked over the remaining 6 sts of the heart's 3rd rnd; removed the bogus start_a_new_chain."
+   },
+   {
+    "line": 178,
+    "before": "12sc, ss@[%,0]",
+    "after": "6sc, sc.H2, 5sc, ss@[%,0]",
+    "reason": "Same fix for the house heart."
+   },
+   {
+    "line": 183,
+    "before": "start_a_new_chain, turn / sc@[12,6], 5sc, turn",
+    "after": "sc@H2, 5sc, turn",
+    "reason": "Same compile fix for the house heart."
+   }
+  ],
+  "remaining": "Lines 110 and 183 are flagged because the second heart bump attaches by label to the 3rd rnd (5 rows back) instead of the previous row; this is the intended split-for-two-bumps structure (sts 6-11 of the 12-st round). Partial-row info flags on the first bump are intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; could not verify. The CP comments look generic/LLM-made (a gingerbread man as a closed 24-st sphere, 4-st and 5-st tubes as arms/legs, a 'heart' as a 12-st circle split into two bumps), so the content itself is doubtful even though it now compiles and closes.",
+  "suggested_confidence": 2
+ },
+ "RHC0518-020163M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 181,
+    "before": "4sc, 3sc2tog, 5sc, ss@[%,0]",
+    "after": "3sc, 6sc2tog, 3sc, ss@[%,0]",
+    "reason": "Leg 1 rnd 5: written instruction consumes only 15 of 18 sts; 6 decreases spread to reach the stated 12"
+   },
+   {
+    "line": 196,
+    "before": "4sc, 3sc2tog, 5sc, ss@[%,0]",
+    "after": "3sc, 6sc2tog, 3sc, ss@[%,0]",
+    "reason": "Same fix on mirrored Leg 2"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "No the paired English; the CP comment '4sc, 3sc2tog, 5sc. 12 sc.' after an 18-st round is self-inconsistent (this exact phrase recurs in several unrelated LLM conversions and looks like a template, not source text).",
+  "missing_pieces": "Not checked (no English source). The whole file (raccoon with 'candy cane detail' arm) may be picture-derived; cannot verify.",
+  "suggested_confidence": 2
+ },
+ "RHC0518-021114M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 190,
+    "before": "5dc, 2ch.AH1, 2sk, 14dc, 2ch.AH2, 2sk, 6dc, turn",
+    "after": "6dc, 2ch.AH1, 2sk, 14dc, 2ch.AH2, 2sk, 6dc, turn # first dc = the turning ch 3",
+    "reason": "Armhole row left 1 st unworked; the 'Ch 3' counts as the first dc, as in the other 30-dc rows."
+   },
+   {
+    "line": 192,
+    "before": "5dc, 2dc@AH2, 14dc, 2dc@AH1, 6dc, turn",
+    "after": "6dc, 2dc@AH2, 14dc, 2dc@AH1, 6dc, turn # first dc = the turning ch 3",
+    "reason": "Same; row now closes and makes 30, so row 5 no longer drifts."
+   },
+   {
+    "line": 185,
+    "before": "30dc, turn",
+    "after": "30dc, turn # source inconsistency: ...",
+    "reason": "Comment only; kept 30 sts."
+   }
+  ],
+  "remaining": "Line 185 stated-count flag: comment says 28 dc, code makes 30. Kept 30 because the armhole row in the comments (ch 3 + 5 + ch2/sk2 + 14 + ch2/sk2 + 6) needs 30 sts. No the paired English, so other pieces (head, muzzle, eye patches, legs, etc.) were only count-checked.",
+  "source_inconsistencies": "Vest: 'ch 30, dc in 3rd ch from hook, 28 dc' does not match the armhole row's 30-st width (as quoted in the CP comments).",
+  "missing_pieces": "Not checkable (no the paired English).",
+  "suggested_confidence": 3
+ },
+ "RHC0518-021253M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 175,
+    "before": "ch.F1[k], 8*ch.F1[++k]",
+    "after": "ch.F1[k], 9*ch.F1[++k]",
+    "reason": "compile error F1[-1]: 9 sc down one side + sc3inc at the end needs 10 labelled chains; gives the 21 sts the following rows work (same fix for F2-F5)"
+   },
+   {
+    "line": 178,
+    "before": "9*sc@F1[k--], sc3inc@F1[k] / 9*sc@F1[++k], turn (two lines)",
+    "after": "9*sc@F1[k--], sc3inc@F1[k], 9*sc@F1[++k], turn",
+    "reason": "the two halves of the 1st row around the chain were split into two rows, so the 21-st rows did not follow on; same for all 5 tail feathers"
+   }
+  ],
+  "remaining": "Wing scallop round `5*[ss, 3ch, ss]` works 10 of 15 sts (both wings); no English is available to say how the scallops are spaced, so left as is. Wattle row `3sc, turn` leaves 1 st (info only), likely an intended decrease shape.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; not checked against the source.",
+  "suggested_confidence": 3
+ },
+ "RHC0518-022293M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 92,
+    "before": "5sc2tog, ss@[%,0]",
+    "after": "tie_up",
+    "reason": "Nose: 5 sc2tog needs 10 sts but the round has 5; with no English to check, closed with a gather (the nose shaping itself is unverified)."
+   },
+   {
+    "line": 123,
+    "before": "7*[sc2inc, 5sc], ss@[%,0]",
+    "after": "6*[sc2inc, 6sc], ss@[%,0]",
+    "reason": "Hat brim: the comment states 48 sc from 42; 7 repeats made 49 and left the next 48-sc round off by one."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Hat 15th rnd comment '*sc2inc, 5sc. 48 sc.' cannot give 48 from 42 (gives 49); used 6 increases.",
+  "missing_pieces": "No the paired English, so completeness and the nose, scarf and invented-looking sc8tog head closure could not be checked against the source.",
+  "suggested_confidence": 3
+ },
+ "RHC0518-023208M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 72,
+    "before": "4*[sc2tog, sc], ss@[%,0]",
+    "after": "4sc2tog, ss@[%,0]",
+    "reason": "nose round has 8 sts; repeat as written needs 12. Guess: decrease every pair."
+   },
+   {
+    "line": 83,
+    "before": "30scbl, ss@[%,0]",
+    "after": "6*[sc2tog, 3sc], ss@[%,0]",
+    "reason": "hat sides are 24 sts after a 30-st brim; the turning round must decrease 30 -> 24. BLO marker lost because no BLO decrease stitch compiles; noted inline."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; the file looks like a generic invented snowman/boy doll (uniform magic-ring shapes, few source-like comments), so faithfulness to the real pattern cannot be checked. Both fixes are guesses that only make the rounds close.",
+  "suggested_confidence": 2
+ },
+ "RHC0518-023212M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 17,
+    "before": "sc2inc, 8sc, sc2inc, turn / 3ch, turn / 4sc, 12sc, turn / 3ch, turn / 4sc, 16sc, turn / 20sc x2",
+    "after": "sc2inc, 8sc, sc2inc, 3ch, turn / 15sc, 3ch, turn / 18sc, turn / 18sc x2",
+    "reason": "Arm chains were separate 3-ch rows and then 4 sc were worked per arm (works past the previous row). Chains now extend the row ends; 'sc in 2nd ch from hook + next 2 ch' = 3 sc per arm, 12 -> 15 -> 18."
+   },
+   {
+    "line": 31,
+    "before": "sc2tog, 2sc, sc2tog, 4sc, sc2tog, 2sc, sc2tog, turn",
+    "after": "3sc2tog, 6sc, 3sc2tog, turn",
+    "reason": "Decrease after arms must take all 18 sts down to the 12 used by the body rows (old row consumed 16 of 20)."
+   },
+   {
+    "line": 35,
+    "before": "12sc, turn / sc@[22,0], 5sc, turn",
+    "after": "5sc, sc.LB, 6sc, turn / sc@LB, 5sc, turn",
+    "reason": "Right leg attached to a nonexistent body position ([22,0] is inside the leg); now labels the 6 sts left by the left leg."
+   },
+   {
+    "line": 70,
+    "before": "12sc, ss@[%,0] / sc@[7,0], 5sc, turn",
+    "after": "6sc, sc.HB, 5sc, ss@[%,0] / sc@HB, 5sc, turn",
+    "reason": "Second heart bump attached to [7,0] (a gingerbread row, not the heart); now attaches to the 6 sts left by the first bump."
+   }
+  ],
+  "remaining": "Info flags: heart bump row 2 (sc2inc, 2sc, sc2inc on 6 sts) leaves 2 sts in both bumps; intended shaping unknowable without English, left as is. Leg-split partial rows are by design.",
+  "source_inconsistencies": "No the paired English. The commented arm instructions (3 sc per arm) disagree with the CP's later 20-st rows; resolved with 18.",
+  "missing_pieces": "Not checkable (no the paired English); arms are not shaped/bound off separately (the 'ARM rows' are full-width rows), which looks invented.",
+  "suggested_confidence": 2
+ },
+ "RHC0534-023989M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 101,
+    "before": "5*[ss, 3ch, 3dc, 3ch, ss, sk]",
+    "after": "5*[ss, 3ch, dc@[@], dc@[@], dc@[@], 3ch, ss@[@], sk]",
+    "reason": "Large flower petals: '(Sl st, ch 3, 3 dc, ch 3, sl st) in next sc, skip next sc' - all petal stitches go into one sc; written plainly they consumed 5 sts each and wrapped. Now each repeat consumes 2 of the 10 sts."
+   },
+   {
+    "line": 109,
+    "before": "5*[ss, 2ch, 2dc, 2ch, ss]",
+    "after": "5*[ss, 2ch, dc@[@], dc@[@], 2ch, ss@[@]]",
+    "reason": "Small flower petals '(Sl st, ch 2, 2 dc, ch 2, sl st) in next sc' - one sc per petal; 5 of 5 sts."
+   },
+   {
+    "line": 115,
+    "before": "5*[ss, 2ch, 2dc, 2ch, ss]",
+    "after": "5*[ss, 2ch, dc@[@], dc@[@], 2ch, ss@[@]]",
+    "reason": "Same fix on small flower 2/2."
+   }
+  ],
+  "remaining": "INFO flags on the leaves (explicit label attachments around a ch-8) are intentional; leaves have no quoted English to check against.",
+  "source_inconsistencies": "the paired English does not match this CP: it is a different skull pattern (ch-3 ring, 48-st max, 10-sc flower eyes and head flowers, embroidered nose). The CP (60-st sugar skull with eye sockets, large/small flowers, leaves, crocheted nose) follows a different source quoted in its comments; those comments were used.",
+  "missing_pieces": "not checked (the paired English is for a different pattern)",
+  "suggested_confidence": 3
+ },
+ "RHC0534-029042M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags in the TAIL (6*[sc, sc2inc] on a 6-st round) left untouched. The CP is a generic 6-sc-start amigurumi (36-st head, snout, body, back legs, arms, tail, 5 spines) whose comments do not match the source. The English (joined rounds throughout) has Feet (6 sc, shaped 2nd rnd with dc/hdc/sc, 24 sts, decreases to 16), Arms (to 18, down to 12, 17 rnds), 6 Spikes (4-sc start to 16 sts), Tail (4-sc start, increases on even rounds to 30), Body (10-sc start, 60 sts, down to 20, 34 rnds) and Head (10-sc start, 50 sts, down to 5, 28 rnds). Not rescued per guide rule 7.",
+  "source_inconsistencies": "Head 25th rnd omits the '*' before Sc2tog; Tail 18th rnd 'As 6th rnd. 25 sts.' cannot be literally the 6th-rnd repeat (on 20 sts *2 sc, 3 sc* gives 25, so it means the same repeat, fine); 22nd rnd 'As 4th rnd' on 30 sts gives 40 with no stated count.",
+  "missing_pieces": "All pieces as written: feet, arms, 6 spikes, tail, body, head.",
+  "suggested_confidence": 1
+ },
+ "RHC0534-38076M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 1,
+    "before": "whole file (130 lines): body 6..48 sts, 12 even rnds, decreases to 18; nose 6-sc ring to 18 sts closed with sc6tog/tie_up; hat 4..48 with wrong repeats and a back-loop round",
+    "after": "whole file rewritten from the paired English (115 lines)",
+    "reason": "Every piece diverged from the short, unambiguous English (body peaks at 54 and decreases 48/42/36/30/24; nose is 4 sc -> 8 -> 8 -> 8 -> 4; hat is 4,6,8,8,10,10, +1 per rnd to 18, then 20..30 in 2 repeats, 36..60 in 6 repeats). Flagged lines 112-124 were part of the wrong hat. Rewriting the three short pieces was cleaner than patching."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Beard is fringe (no crochet), noted as a comment only. Nose 'ch 2, 4 sc in 2nd ch' is rendered with the ring idiom.",
+  "suggested_confidence": 5
+ },
+ "RHC0552-37717M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 72,
+    "before": "start_a_new_chain, turn / sc@[%,3], 2sc, turn",
+    "after": "sc@[-3,4], sc@[-3,3], sc@[-3,2], turn",
+    "reason": "compile error: [%,3] referenced the current empty row and a stray start_a_new_chain detached the antler; now the 3 sc go back along the antler's 1st row after the first branch (same fix in Antler 2/2)"
+   }
+  ],
+  "remaining": "Compiles, no count flags. Info flags are the antler branch chains (intentional).",
+  "source_inconsistencies": "No the paired English; the antler comments are too vague to verify (1st row comment says sl st then sc, code has 6 sc).",
+  "missing_pieces": "Not checkable without English. The generic 6/12/18/24/30-sc head and the antler construction may be invented.",
+  "suggested_confidence": 2
+ },
+ "RHC0552-37723M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 29,
+    "before": "6sc2tog, ss@[%,0]",
+    "after": "3sc2tog, ss@[%,0]",
+    "reason": "6-st round can only take 3 sc2tog; the following sc3tog then closes the 3 remaining sts"
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "No the paired English; the 'close top' round count was not stated.",
+  "missing_pieces": "Not checkable without English; the straight 6-sc tube with no actual curve shaping looks picture-derived/invented.",
+  "suggested_confidence": 2
+ },
+ "SCC0117-005401M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 12,
+    "before": "(missing)",
+    "after": "12sc, ss@[%,0]",
+    "reason": "4th rnd (As 2nd rnd) was omitted"
+   },
+   {
+    "line": 46,
+    "before": "sc@[8,15], 14sc, ss@[%,0]",
+    "after": "sc@[9,15], 14sc, ss@[%,0]",
+    "reason": "row index shifted by the inserted round; still attaches to the first unworked sc of rnd 9 (verified)"
+   }
+  ],
+  "remaining": "line 32 First Hump rnd 1 leaves 15 of 30 unworked: intentional ('Leave rem sts unworked'); Second Hump picks them up.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "SCC0234-005435M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 177 (leaf points DEF p1 repeated 10*[ss, 2p1] on 30 sts) and line 213 (flower petals 5*[p2, ss]) do not consume their previous rounds; not fixed because these pieces do not exist in the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The CP does not follow the paired English. English Head: 6 -> 12 -> 24 then 8 even rnds, 16, 16, 8; CP head goes to 30 with different decreases. English Body starts from a ch-12 ring with a front-loop dc ruffle at rnd 11; CP body is a magic-ring piece to 24. English legs start with a ch-5 oval shoe (10/16/12/8 sts); CP legs are 6/12/9-st tubes. English arms are 6-st tubes with 9 rnds; CP arms 4/8/6. English Hair (cap with ch-5 loops, worked rows, shell edge), Garland of Flowers and the ch-based Stem/Flower are replaced by an invented skirt, leaf crown, dc hair strands, 5-petal flower and leaf.",
+  "suggested_confidence": 1
+ },
+ "SCC0234-005485M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags (legs rnd 5/6 x2) left: CP is a generic doll template not derived from the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP does not follow the English: English head starts 8 sc and grows to 40 sc (CP 6 -> 42); body is a 30-ch ring worked to 24 and 16 sts (CP uses a magic ring); legs start from a ch-5 oval boot (10 -> 16 -> 24 sc, dec to 21/17/14); arms have a tr thumb. Dress pieces were not compared since the base doll is already invented.",
+  "suggested_confidence": 1
+ },
+ "SCC0234-005766M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "6 count flags (legs rnd 5, carrot) left untouched: the CP does not follow the English. English is a bunny/cat-style toy with Body (7-sc start, 49 sc), Head, Arms, Ears with Inserts, Legs (8/16 sc, no decreases), Tail, Cheeks, Nose, Carrot (8-sc start, 16/13/10/7/4 sts), Leaves (flat row of 11) and Necktie. The CP has a 6-sc-start head/body, invented leg decreases, a Scarf and a 'Small Cat Head', and a carrot whose rounds (6/12/8/5/3 sts) do not match the English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Effectively all pieces would need rewriting from the English (Cheeks, Nose, Necktie, Ear Inserts absent or invented; others mismatched).",
+  "suggested_confidence": 1
+ },
+ "SCC0234-033255M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 75,
+    "before": "3sc, 3ch.RB, 18sc, ss@[%,0]",
+    "after": "3sc, 3ch.RB, 21sk, 18sc, ss@[%,0]",
+    "reason": "Right leg: English says skip next 21 sc; skip was missing so the 18 sc landed on the wrong stitches."
+   },
+   {
+    "line": 121,
+    "before": "5ch, turn",
+    "after": "4ch, turn",
+    "reason": "Ear foundation ch 5 with 4 sc rows: 4 attach points needed (same fix at lines 150, 173, 195 for all four ear pieces)."
+   },
+   {
+    "line": 293,
+    "before": "3ch, turn / 3sc, turn",
+    "after": "ch, turn / sc3inc, turn",
+    "reason": "Sleeves: ch 2, 3 sc in 2nd ch from hook (one stitch); same at line 303 for sleeve 2/2."
+   },
+   {
+    "line": 297,
+    "before": "(3rd row only) 6sc",
+    "after": "6sc, turn / 6sc",
+    "reason": "Sleeves: English has 3rd and 4th rows; 4th row was missing (both sleeves)."
+   },
+   {
+    "line": 312,
+    "before": "25ch, turn / 3sc, sc2inc, 3sc, sc2inc, 2hdc, 2dc, ss, turn / 2dc, 2hdc, 2*[sc2inc, 3sc]",
+    "after": "23ch, turn / 3sc, sc2inc, 3sc, sc2inc, 2hdc, 2dc, 2ch, ss@[@], ss, 2ch, dc@[@], dc, 2hdc, 2*[sc2inc, 3sc]",
+    "reason": "Collar is one row along all 24 chains (point made with ch 2, sl st in same ch, sl st in next, ch 2, dc in same); the LLM split it into two turned rows."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Left leg is modelled as a separate ring of 21 sc rather than being joined to the 21 skipped body stitches (approximation left as is).",
+  "suggested_confidence": 4
+ },
+ "SCC0334-003582M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags in invented LEGS rounds (lines 93/95/120/121) left untouched: the CP does not render the English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Essentially all: the CP is a generic amigurumi chef doll (6-sc magic-ring head to 42, body, 6-sc legs with a 3sc2tog toe, chef hat, skirt, 10-sc apron, hair curls) unrelated to the English, which has an 8-sc chain-start head to 40 sc, 30-ch tube body, 5-sc arms with tr thumb, oval-chain shoes/legs, spiral loop hair, pigtails, bow, hat from 21-ch, top-down dress, 6-sc apron, cupcake and cherry.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-003586M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags (shoes x2, tummy patch) left as-is: the CP does not follow the paired English at all, so there is nothing to correct against.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Effectively the whole English pattern (Easter Lily doll): CP head starts with 6 sc (English 8 sc, 40-st max), CP body is a magic-ring piece (English ch 30 tube), CP has invented Hood/Skirt/Tummy patch/Hair/Bunny tail pieces while lacking the English Bunny Hat (rows), Neckband, Dress, Belly, Eggs; Legs/Shoes differ in construction and counts.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-003656M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 192,
+    "before": "# Ch 12.",
+    "after": "# Ch 16.",
+    "reason": "English says ch 16."
+   },
+   {
+    "line": 197,
+    "before": "start_a_new_chain / 12ch, turn / 10sc, turn / 7ch, turn / 12sc",
+    "after": "start_a_new_chain / 14ch, turn / 10sc, 6ch, turn / 6sc, sc@[-2,3], sc@[-2,2], sc@[-2,1], sc@[-2,0], sc@[-3,0]",
+    "reason": "Stem is one row: ch 16 (dataset idiom 14ch + start node = 15 workable ch), 10 sc, then a ch-7 branch worked back with 6 sc (tip ch as 'skip 1'), then continuing along the 5 remaining foundation ch. The LLM chain was too short, turned after 10 sc and worked 12 sc past the end of a 7-ch row. Explicit attachments verified in the parser output to land on the 5 unworked foundation ch incl. the start node."
+   }
+  ],
+  "remaining": "Two INFO partial_row flags on the stem are intentional (branch construction).",
+  "source_inconsistencies": "After 10 single crochets into the 16-chain foundation, the seven-chain branch and remaining foundation provide 11 spaces in total. The source asks for 12 single crochets. The DSL uses 11.",
+  "missing_pieces": "",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "SCC0334-003679M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 15,
+    "before": "2sc, 5*[(9ch),turn,(8scbl),(4sc)], ss@[%,0]",
+    "after": "2sc, 4*[9ch, scbl@1[%,%-2], 7*scbl@1[@1-1], 4sc], 9ch, scbl@1[%,%-2], 7*scbl@1[@1-1], 2sc, ss@[%,0]",
+    "reason": "Compile error (turn mid-row). Arms now worked back down each ch-9 with attachment head @1 while head @0 stays on rnd 3; last repeat ends with 2 sc (consumes 20)."
+   },
+   {
+    "line": 17,
+    "before": "rnds 5-10 as 5*[...] blocks with wrong counts",
+    "after": "rnds 5-10 rewritten per English: 105, 120, 130, 140, 145, 155 sts",
+    "reason": "Old rnds 5-10 ignored the arm chains, the skips, the (sc,hdc)/(hdc,dc,hdc) same-stitch groups and the gap decreases, so no round closed. Same-stitch groups use x@[@]. Same fix applied to STARFISH 2/2."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Approximation in rnds 7-10: the leading sl sts are written as sk, and the final decrease of each round (which in the English also takes in those slipped sts) is written over only the remaining sts (dc / sc2tog / sc2tog / sc). Stitch totals match the English repeat arithmetic; English states no totals after rnd 3.",
+  "suggested_confidence": 4
+ },
+ "SCC0334-004365M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 15,
+    "before": "DEF: pico=2dc,3ch,ss@[%,%-4],2dc and rows 7-24 loosely approximated (compile error: ID not found at row 10)",
+    "after": "DEF: pico=3ch,ss@5[%,-4] (manual's picot idiom on a separate attachment head); shells written dc, dc@[@], pico, dc@[@], dc@[@]; rows 7-24 rewritten stitch by stitch from the English",
+    "reason": "Old alias consumed 4 sts per shell and its ss reset the attachment head, so rows drifted and row 10 referenced a nonexistent stitch; many rows (9-20) were abbreviated/invented ('similar pattern', 'simplified')."
+   },
+   {
+    "line": 52,
+    "before": "FISH (2/2) copy of old rows",
+    "after": "identical copy of the rewritten rows",
+    "reason": "Make 2."
+   }
+  ],
+  "remaining": "Info-only partial-row flags on rows 13, 15-19 (both fish): intentional 'leave rem st(s) unworked' per English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Approximations: 'sl st to first ch-1 sp' / 'sl st in first 3 sts' at row starts written as sk; row 16 MC rejoin at marker written as skipping the 2 sts before the marker; dcbp/dcfp/scbp written as plain dc/sc; ch-6 start of rows 9/13 written as (dc, picot, dc) in the first st.",
+  "suggested_confidence": 4
+ },
+ "SCC0334-004372M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 4,
+    "before": "15ch, turn",
+    "after": "14ch, turn",
+    "reason": "Ch 16 with sl st in 2nd ch from hook works 15 chains (hidden start + 14 ch); 15ch left one chain unworked. All 4 shell pieces."
+   },
+   {
+    "line": 75,
+    "before": "sc, 2sc3tog, ss@[%,0] / sc3tog",
+    "after": "sc, sc3tog, sc, sc3tog, ss@[%,0] / tie_up",
+    "reason": "Pearl 2nd rnd is sc, sc3tog, sc in next dc, sc3tog (8 sts); the CP dropped the middle sc and added an invented sc3tog row instead of drawing the end through."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "Pearl round 1 would yield nine stitches if the starting chain counts as a double crochet. Round 2 consumes eight, so the DSL uses eight double crochets and leaves the starting chain out of the count.",
+  "missing_pieces": "Shell joining edges (sc around both thicknesses with ch-3 loops across top), and the Top/Lower shell joining rows (11 sc; hdc/sc shaping row) are not modeled. 'Ch 3/ch 1 turning' not modeled per dataset idiom.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "SCC0334-004467M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags in LEGS rnd 5 (both copies) left as-is: the CP does not correspond to this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the paired English: English is a doll with head starting 8 sc in ch-2 (max 40 sc), body from ch-30 ring, arms 5 sc, legs from foot oval ch-5, and a flat-row hoodie (back, fronts, sleeves, hood). CP instead has 6-sc magic-ring head to 42 sc, magic-ring body/legs, skirt, cardigan, backpack. Whole CP would need rewriting.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-004469M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags left untouched: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is a generic doll unrelated to the English: head is 6-sc based to 48 sts (English: 8 sc to 40), legs start from a magic ring with 18-st shoe (English: ch-5 oval to 24 sts, stocking, breeches cuff joined through both thicknesses), body is a separate ring piece (English: body worked on from both legs, 28 sc breeches then 32 sc), and a hat brim/crown is invented; the English's later garment/accessory pieces (buckles etc.) are absent.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-004471M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "4 count flags left untouched (legs rounds 5-6 in both legs). The CP does not follow the English: e.g. English head starts with 8 sc in 2nd ch and increases 16/24/32/40, CP head uses a 6-sc magic ring growing to 48; English leg/shoe starts from a ch-5 oval (10/16/24 sc, back-loop round, 21/17/14 sts), CP leg starts from a magic ring 6/12/18. CP comments paraphrase a generic doll, not the source text. Looks invented, so not rescued.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Not checked piece by piece; the CP's head, legs and other pieces do not correspond to the English instructions.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-004473M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags (snowflake rnd 2, invented star) left untouched: the CP does not follow this English pattern.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is a generic doll unrelated to the English: head 6-based to 42 sts (English 8 sc to 40), no Legs, invented bell skirt, crochet hair loops (English: sewn yarn fringe) and crown star; snowflake (3 rnds with picots) and crown (worked in rows with picot points) do not follow the English; Dress and Cape from the English are absent.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-005462M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "8 count flags left untouched: the CP does not follow this English pattern, so fixing individual rounds would not produce a faithful rendering.",
+  "source_inconsistencies": "",
+  "missing_pieces": "The CP is essentially a different doll: head is 6-sc based to 42 sts (English: 8 sc to 40, 10 even rnds), body starts from a magic ring (English: ch 30 tube), legs start from a ring with 18-st shoe (English: ch-5 oval to 24 sts), arms 6-based (English 5 sc + tr thumb), dress is an hdc skirt + armhole bodice (English: sc yoke, dc skirt increasing to 96, picot edge), plus invented hair loops, sunglasses, nose and mouth; English has a sewn yarn fringe, two flowers and a shoe strap that are absent.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-005471M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "2 count flags in the leg rounds left as-is: the CP does not follow the paired English, so there is nothing to correct against.",
+  "source_inconsistencies": "",
+  "missing_pieces": "Essentially the whole English pattern: CP head starts with 6 sc (English 8 sc to 40 sts), CP legs start from a ring (English oval foot from ch 5 to 24 sc), CP has invented Skirt/Top/Hair pieces/Flag pole/Flag while lacking English Sandals, Front/Back straps, Flowers and the ch-24 Dress.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-005483M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 6,
+    "before": "16sc@R0 / 8*[sc, sc2inc] (rnds 1-2)",
+    "after": "8sc@R0 / 8sc2inc / 8*[sc, sc2inc]",
+    "reason": "Body rnd 1 is 8 sc, rnd 2 is 16 sc, rnd 3 is 24 sc; CP started with 16 and skipped a round."
+   },
+   {
+    "line": 57,
+    "before": "8*[3sc,sc2tog] (32) ... 8sc2tog / sc8tog",
+    "after": "10*[2sc,sc2tog] 30 / 30sc / 10*[sc,sc2tog] 20 / 20sc / 10sc2tog 10 / tie_up",
+    "reason": "Final decreases per English (40->30->20->10); invented sc8tog removed, rem sts gathered with tie_up."
+   },
+   {
+    "line": 72,
+    "before": "2ch, turn / sc, turn",
+    "after": "ch, turn / sc, turn",
+    "reason": "Ch 2, 1 sc in 2nd ch: foundation idiom (all wings)."
+   },
+   {
+    "line": 92,
+    "before": "sc2tog, 3sc, turn",
+    "after": "sc2tog, sc, sc2tog, turn",
+    "reason": "Wing row 11 ends with Sc2tog: 3 sts, so row 12 (sc2tog, sc) closes (all wings)."
+   },
+   {
+    "line": 97,
+    "before": "2 wings",
+    "after": "4 wings",
+    "reason": "English: Wings (make 4)."
+   },
+   {
+    "line": 145,
+    "before": "'Leg (1/2)' and 'Leg (2/2)': ring + 8ch + garbled rounds",
+    "after": "single Beak oval with labelled ch-9 (18 sc) and rnd 2 (24 sc)",
+    "reason": "These pieces were the English Beak (With A, ch 9) mislabelled and duplicated; rewritten with the oval idiom."
+   },
+   {
+    "line": 157,
+    "before": "one claw; 5sc@TA, 5sc@TB, 5sc@TC",
+    "after": "two claws (Claws make 2); 5sc@TC, 5sc@TB, 5sc@TA",
+    "reason": "English: Claws (make 2); join round works around 3rd, 2nd, 1st toe."
+   },
+   {
+    "line": 270,
+    "before": "17ch/17hdc; 17dc, turn, / 4*[sc6inc, sk, ss, sk], sc / 29sc (comb 2: 16ch ... 17dc)",
+    "after": "16ch / 17hdc / 17hdc / dc5inc, 3*[sk, ss, sk, dc7inc], sk, ss, sk, dc5inc (both combs)",
+    "reason": "Comb row 3 shell edge per English (consumes 17)."
+   },
+   {
+    "line": 290,
+    "before": "'Beak' with MC from ch 2 (wing rows 1-8)",
+    "after": "removed",
+    "reason": "Not in the English; the real beak is the ch-9 oval."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "Joining round around paired wings (sc evenly around, 3 sc in tip) not modelled (evenly-worked edge count unspecified).",
+  "suggested_confidence": 4
+ },
+ "SCC0334-005570M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Flags at lines 258 (bow tie row) and 267 (flower) left untouched: the whole file does not follow the paired English.",
+  "source_inconsistencies": "The English text is scrambled (Body section cut off after its 2nd rnd; Arms and the rest of Body appear out of order), but the pieces are recoverable.",
+  "missing_pieces": "CP is unrelated to the English: magic-ring head to 48 sts (English: 8 sc to 40 sts), hair as a dome (English: head rounds then 26-st turned rows), body continued from the neck (English: joined from the two legs, belt in hdc, shirt in BLO), legs from a magic ring (English: ch-5 oval shoe 10/16/24, pant cuff joined through both thicknesses), bow tie with ch 6 / 5 sc (English ch 5 / 4 sc), flowers/stems not as written. Appears generated from a picture.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-005572M": {
+  "status": "unfixable",
+  "changes": [],
+  "remaining": "Line 98/131 count flags (5sc, 3sc2tog, 6sc on 18 sts) left untouched: the whole file does not follow the paired English.",
+  "source_inconsistencies": "",
+  "missing_pieces": "CP is unrelated to the English: head uses magic ring of 6 to 42 sts (English: 8 sc to 40 sts, 11 even rnds), body worked from a magic ring (English: ch 30 ring, 30 to 24 to 18 sts), legs start from a magic ring with invented shoe shaping (English: ch-5 oval foot 10/16/24 sts, BLO rnd, 21/17/14 sts), arms lack the tr thumb, dress (ch 34 ring, decreasing 34/32/30...) replaced by an invented flared skirt, invented hair strands and bow pieces (English hair is a sewn fringe). Appears generated from a picture, not the text.",
+  "suggested_confidence": 1
+ },
+ "SCC0334-006891M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 323,
+    "before": "(single 13sc round for 6th and 7th rnds)",
+    "after": "13sc, ss@[%,0] added as the 7th rnd",
+    "reason": "English: '6th and 7th rnds' are both plain; one round was missing"
+   },
+   {
+    "line": 331,
+    "before": "3sc, 3dcfl, ssfl, 3dcfl, 4sc, ss@[%,0]",
+    "after": "3sc, dcfl3inc, ssfl, dcfl3inc, sc.MZ1, 3sc, ss@[%,0]",
+    "reason": "'3 dc in next sc' is one stitch consumed, not three; label added for the next round"
+   },
+   {
+    "line": 334,
+    "before": "3sc, 3hdc, 7sc, ss@[%,0]",
+    "after": "3sc, hdcbl@[-2,3], 2hdcbl, sc@MZ1, 3sc, ss@[%,0]",
+    "reason": "English works 3 hdc in back loops of 9th rnd (behind the front-loop ear stitches) then sc in remaining 4 sc of 10th rnd: 10 sts, which the 12th rnd needs"
+   }
+  ],
+  "remaining": "Line 334 still flagged by design: it skips the 7 front-loop stitches of rnd 10 and works 3 hdc into rnd 9 back loops, as the English says.",
+  "source_inconsistencies": "",
+  "missing_pieces": "",
+  "suggested_confidence": 4
+ },
+ "SCC0334-009380M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 242,
+    "before": "ring.R0 / 6sc@R0 ... 6*[3sc, sc2inc] (hair, 6-based to 30)",
+    "after": "start_a_new_chain, ring.R5, 8sc@R5 ... 8*[sc2inc, 3sc] (40 sc)",
+    "reason": "duplicate label R0 (compile error); English says hair = Head rnds 1-5 (8 sc start, 40 sc), then sc in next 30 and turn"
+   },
+   {
+    "line": 96,
+    "before": "ring.R1 (no new piece)",
+    "after": "start_a_new_chain / ring.R1",
+    "reason": "Arm 1 was not started as a separate piece (Arm 2 was)"
+   },
+   {
+    "line": 161,
+    "before": "ring.R3 / 5sc@R3 / 5sc2inc (extra round)",
+    "after": "oval: ch.L1[k], 2*ch.L1[++k], turn / sc, 2sc, sc3inc, sc@L1[0], sc@L1[1], sc2inc@L1[2]",
+    "reason": "Leg rnd 1 is worked around both sides of a ch 5 (10 sc), not a ring plus an increase round; same for Leg 2/2"
+   },
+   {
+    "line": 261,
+    "before": "shoe: ring.R1 (duplicate label), 16-st rounds, 6sc, hdc, 3dc2tog, hdc, sc",
+    "after": "two shoes: Leg rnds 1-4 (24 sc) then 6sc, hdc, 3dc2tog, hdc, 10sc",
+    "reason": "duplicate label; shoe omitted rnd 3 and the last 10 sc; English says make 2"
+   },
+   {
+    "line": 328,
+    "before": "2sk, dc7inc, 2sk, ss (x2)",
+    "after": "2sk, tr7inc, 2sk, ss (x2)",
+    "reason": "English heart row 5 is 7 tr, not dc (all 4 hearts)"
+   },
+   {
+    "line": 370,
+    "before": "garbled SH/SB label oval for small heart",
+    "after": "ch.SH[k], 5*ch.SH[++k], turn / sc, sc, sc3tog, sc, sc5inc, then remaining loops via SH labels (20 sc)",
+    "reason": "rnd 1 did not follow the English around the ch 8"
+   },
+   {
+    "line": 379,
+    "before": "... 3sc, sc, 3sc ...",
+    "after": "... 3sc, sc, ch, sc@[@], 3sc ...",
+    "reason": "The two single crochets on either side of the chain share one attachment point."
+   }
+  ],
+  "remaining": "Small heart rnd 2 still flagged: as written in the English it works 23 sts of a 20-st round. Hair curl row (15 ch-25 corkscrews, each worked back along its chain) is only approximated by one chain + hdc2inc row (info flags).",
+  "source_inconsistencies": "Small heart: rnd 1 yields 20 sc but rnd 2 instructions consume 23 sts.",
+  "missing_pieces": "Hair corkscrew curls not modelled; hearts are worked as separate chains instead of off the bodice foundation ch; body length 'until measures' rounds are estimated.",
+  "suggested_confidence": 3,
+  "source_quote_paraphrased": true
+ },
+ "SCC0334-026025M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 116,
+    "before": "8ch / ss@[%,0]  (ss alone on its own row)",
+    "after": "7ch, ss@[%,0]",
+    "reason": "Compile error: the joining sl st was a separate row with nothing to attach to. Tusk ch 8 ring = hidden start + 7 ch, 8 sc."
+   },
+   {
+    "line": 62,
+    "before": "one 18sc round after 42nd",
+    "after": "43rd-46th rnds: 4 x 18sc",
+    "reason": "English has 4 plain rounds (43rd-46th); CP had only 1."
+   },
+   {
+    "line": 86,
+    "before": "sc2tog, 12sc, sc2tog",
+    "after": "sc2tog, 14sc, sc2tog, ss@[%,0]",
+    "reason": "56th rnd on 18 sts -> 16 sc; CP made 14 and also dropped joins on rnds 56-58."
+   },
+   {
+    "line": 92,
+    "before": "sc5tog",
+    "after": "tie_up",
+    "reason": "Invented extra decrease; English draws end through rem 5 sts. Same for Tusk (sc6tog removed before tie_up)."
+   },
+   {
+    "line": 98,
+    "before": "(missing)",
+    "after": "sc@[%-9,18], 7sc, 2sc2inc, 8sc, ss@[%,0] + repeat of rnds 53-58 + tie_up",
+    "reason": "Second tail fin: English joins to the 18 sts skipped in 52nd rnd and repeats ** to **; CP omitted it."
+   },
+   {
+    "line": 140,
+    "before": "4ch, turn ... 5sc (one row)",
+    "after": "2ch, turn ... rows 3-6 as 4 x 5sc",
+    "reason": "Flippers: ch 4 -> 3 sc (dataset idiom 2ch); rows 3-6 were collapsed into one row. Both flippers."
+   }
+  ],
+  "remaining": "Line 82 (52nd rnd) count flag is intentional: English says skip the last 18 sts; they are picked up later by the second-fin round.",
+  "source_inconsistencies": "31st rnd states 36 sc, but 46 sts with (sc2tog) 4 times gives 42, and the following rounds (35th: 3+30+3 decreases to 36) require 42; kept 42 with an inline comment.",
+  "missing_pieces": "Turning at end of each round (RS/WS alternation) not modeled; Flipper edging (sc evenly around) not modeled.",
+  "suggested_confidence": 4
+ },
+ "SCC0334-026037M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 158,
+    "before": "22sc, ss@[%,0] (one round)",
+    "after": "22sc, ss@[%,0] x4",
+    "reason": "English 4th to 7th rnds: four even rounds, CP had one."
+   },
+   {
+    "line": 165,
+    "before": "comments '22 - 4 + 2 = 20', '20 - 2 = 18', '18 - 2 = 16'",
+    "after": "22, 20, 18 sts",
+    "reason": "Stitch code was right; the count comments were wrong (rnd 8 keeps 22)."
+   },
+   {
+    "line": 170,
+    "before": "ch.N chain row + sc@N..., sc@[8,0], 18sc, 3sc, sc2inc (28 sts)",
+    "after": "ch.N[0..3], ch / sc@N[3..0], sc@NA, 17sc, sc@N[0..2], sc2inc@N[3] (27 sts); rnd 10 first stitch labelled NA",
+    "reason": "Rnd 11 per English: 4 sc up the ch, 18 sc around, 3 sc + 2 sc in last ch on the other side = 27; old line attached to the wrong row and made 28."
+   },
+   {
+    "line": 175,
+    "before": "sc2inc, 26sc, 2sc2inc / 32sc x2 / 30sc, sc2tog / 2sc2tog, 23sc, 2sc2tog / 27sc / 6*[2sc, sc2tog], sc, sc2tog / 6*[sc, sc2tog], sc2tog / sc13tog",
+    "after": "sc2inc, 24sc, 2sc2inc (30) / 30sc x3 / 27sc, sc2tog, sk (28) / 2sc2tog, Nsc, 2sc2tog x3 (24, 20, 16) / 16sc / 4*[2sc, sc2tog] / 4*[sc, sc2tog] / 4sc2tog / sc4tog",
+    "reason": "Rest of head redone from English rnds 12-23 (13th-15th = 3 rnds, 17th-19th = 3 decrease rnds, 23rd rnd was missing); old rounds were built on the wrong 28/32 counts."
+   },
+   {
+    "line": 199,
+    "before": "7ch, turn + ch.E1[k], 6*ch.E1[++k]",
+    "after": "ch.E1[k], 6*ch.E1[++k], 2ch",
+    "reason": "Ears and tail made 14 chains (a dangling 7ch row plus the labelled chain); now one ch 9 (7 labelled + 2 turning). Same for EARS 2/2 and TAIL."
+   },
+   {
+    "line": 224,
+    "before": "8ch + ch.B1 chain; ... sc3inc@B1[k]",
+    "after": "ch.B1[k], 7*ch.B1[++k], ch; ... sc3inc@B1[++k]",
+    "reason": "Blanket: single ch 9; the final 3 sc go into the last ch (c8), not back into c7."
+   },
+   {
+    "line": 255,
+    "before": "..., 5sc, [3sc, sc2inc]*3",
+    "after": "..., 6sc, [3sc, sc2inc]*3",
+    "reason": "The round 5 comment puts six ordinary single crochets in the repeat, yielding 62 stitches."
+   },
+   {
+    "line": 261,
+    "before": "[4sc, sc2inc]*2, 6sc, [4sc, sc2inc]*5, 4sc, [2sc, sc2inc]*5",
+    "after": "[4sc, sc2inc]*2, 6sc, [4sc, sc2inc]*5, 6sc, [4sc, sc2inc]*3",
+    "reason": "Quoted rnd 6 consumes only 60 of 62; continued the established repeat (62 -> 72)."
+   }
+  ],
+  "remaining": "Lines 172-173 (neck rnd 11) are flagged by design: the ch 5 is written as its own chain row labelled N, and rnd 11 attaches by labels to it and to rnd 10 (sc@NA), skipping the tip ch.",
+  "source_inconsistencies": "the paired English stops after blanket rnd 2; blanket rnds 3-6 exist only in CP comments, and the quoted rnd 6 does not use all 62 sts (resolved by continuing the repeat).",
+  "missing_pieces": "Blanket rnds 3-6 cannot be checked against the English (text truncated).",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "SCC0334-036678M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 43,
+    "before": "(no plain 25th rnd; 6*[7sc, sc2tog] labelled 25th)",
+    "after": "54sc, ss@[%,0] inserted as 25th rnd; following comments renumbered 26-34",
+    "reason": "Body: English 25th rnd is 'As 9th rnd' (plain); CP skipped it so the body was one round short"
+   },
+   {
+    "line": 66,
+    "before": "(Legs missing)",
+    "after": "Legs (1/2) and (2/2) added",
+    "reason": "English 'Legs (make 2)' short and unambiguous: ch-10 ring, rnds 1-5 as ears (16 sts), 16 hdc bl, 12, 8, 6 sts"
+   },
+   {
+    "line": 104,
+    "before": "8sc@R1 ... 8sc (rnds 1-4)",
+    "after": "10sc@R1 ... 10sc",
+    "reason": "Blue Monster Ears: ch 10 ring, 1 sc in each ch = 10; rnd 5 consumes 10 to make 16. Same in Ears (2/2)"
+   },
+   {
+    "line": 114,
+    "before": "2*[2sc, sc2inc], 2hdc, 3tr2inc, dc2inc, 2hdc, 2*[sc2inc, 2sc]",
+    "after": "2*[2sc, sc2inc], 2hdc, dc2inc, 3tr2inc, dc2inc, 2hdc, 2*[sc2inc, 2sc]",
+    "reason": "rnd 7 omitted the first '2 dc in next sc' (21 -> 30 sts); both ears"
+   },
+   {
+    "line": 134,
+    "before": "2*[3sc, sc2tog] plus LLM musing comments",
+    "after": "3*[sc2tog, 2sc], sc2tog",
+    "reason": "Pink eyes rnd 3: (Sc2tog, 2 sc) 3 times, Sc2tog: 14 -> 10; all 3 eyes"
+   },
+   {
+    "line": 224,
+    "before": "file ended after '11sc, turn'",
+    "after": "completed Orange Monster Ear rows (inc to 15, 3 plain, dec to 5) and added Ear (2/2)",
+    "reason": "CP was truncated mid-piece; rows are unambiguous from English"
+   }
+  ],
+  "remaining": "line 230 '11sc, turn' flagged against comment '15 sc' - false alarm: the 15 sc is the count after the repeated block, reached two rows later.",
+  "source_inconsistencies": "Body round 10 only reaches 54 stitches if the final base stitch of each repeat is increased. The DSL already uses the increase.",
+  "missing_pieces": "Felt eyes/moustache/teeth and fringe are non-crochet; nothing else missing. Leg back-loop sc2tog approximated as plain sc2tog.",
+  "suggested_confidence": 4,
+  "source_quote_paraphrased": true
+ },
+ "SCC0501-002123M": {
+  "status": "fixed",
+  "changes": [
+   {
+    "line": 103,
+    "before": "5*[ss, 2ch, hdc, sc], ss@[%,0]",
+    "after": "2ch, hdc@[-1,0], sc@[@], 4*[ss, 2ch, hdc@[@], sc@[@]], ss@[%,0]",
+    "reason": "flower rnd 2 works a whole petal (hdc, sc / sl st, ch 2, hdc, sc) into ONE sc; old code spread each petal over 3 sts and wrapped around the 5-st round"
+   },
+   {
+    "line": 116,
+    "before": "14hdc, hdc2tog, hdc, turn",
+    "after": "14hdc, hdc@[-3,1], hdc@[-3,0], turn",
+    "reason": "short-row wedge: rows 2-3 leave 2 sts unworked; row 4 'then join with unworked' continues into those 2 sts to return to 16 (row 5 is 16 hdc). Applied to all 4 repeats (lines 116, 123, 128, 133); attachments verified."
+   },
+   {
+    "line": 142,
+    "before": "6*[3dc, 2ch, ss], ss@[%,0]",
+    "after": "6*[dc, dc@[@], dc@[@], 2ch, ss@[@]], ss@[%,0]",
+    "reason": "cactus flower rnd 2: (3 dc, ch 2, sl st) all in the same dc"
+   }
+  ],
+  "remaining": "4 INFO partial_row flags on the cactus short rows (leave 2 unworked) are intentional.",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English; checked against the CP comments only. The row-4 wedge join is interpreted from the brief comment '14 hdc, then join with unworked'.",
+  "suggested_confidence": 3
+ },
+ "SCC0518-005324M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 15,
+    "before": "8*[2hdc, hdc2inc], ss@[%,0]",
+    "after": "8*[hdc, hdc2inc], ss@[%,0]",
+    "reason": "Prev round 16 sts; comment states 24 puff sts."
+   },
+   {
+    "line": 17,
+    "before": "8*[3hdc, hdc2inc], ss@[%,0]",
+    "after": "8*[2hdc, hdc2inc], ss@[%,0]",
+    "reason": "24 -> 32 as the comment states (cascade of line 15)."
+   },
+   {
+    "line": 19,
+    "before": "8*[4hdc, hdc2inc], ss@[%,0]",
+    "after": "16*[hdc, hdc2inc], ss@[%,0]",
+    "reason": "Keeps the 48-st body the code then works; 32 -> 48. Comment's 56 is not reachable/known."
+   },
+   {
+    "line": 34,
+    "before": "5*[5hdc, hdc2tog], ss@[%,0]",
+    "after": "10*[2hdc, hdc2tog], ss@[%,0]",
+    "reason": "Old line consumed 35 of 40; keeps the intended 30."
+   },
+   {
+    "line": 35,
+    "before": "4*[4hdc, hdc2tog], ss@[%,0]",
+    "after": "10*[hdc, hdc2tog], ss@[%,0]",
+    "reason": "Old line consumed 24 of 30; keeps the intended 20."
+   },
+   {
+    "line": 70,
+    "before": "4*[hdc, dc, tr@[@], ...",
+    "after": "4*[hdc, dc@[@], tr@[@], ...",
+    "reason": "All 5 sts (hdc, dc, tr, dc, hdc) go in the same sc per the comment; dc was consuming a separate stitch."
+   },
+   {
+    "line": 76,
+    "before": "8*[3sc]",
+    "after": "8sc3inc",
+    "reason": "3 sc in each ch (curly stem), not 3 separate sc per ch."
+   },
+   {
+    "line": 153,
+    "before": "8*[3sc]",
+    "after": "8sc3inc",
+    "reason": "Same as line 76 (curly-q)."
+   }
+  ],
+  "remaining": "",
+  "source_inconsistencies": "",
+  "missing_pieces": "No the paired English. The big pumpkin body is LLM guesswork (its own comments say 'going to 40 to make sense', 'simplify', '7th rnd: 56 puff sts'); round counts from round 7 through the closing decreases cannot be verified and are only made internally consistent. Puff sts are approximated by hdc and the puff-st decrease/increase rounds (hdc2tog/hdc2inc) are interpretive.",
+  "suggested_confidence": 2
+ },
+ "SCC0534-035767M": {
+  "status": "partly_fixed",
+  "changes": [
+   {
+    "line": 4,
+    "before": "6ch, turn / ring.R1 / 5sc, sc3inc, 4sc, sc2inc, ss@[%,0]",
+    "after": "labelled 7-ch foundation; 5*sc@F1[k--], sc3inc@F1[k], 4*sc@F1[++k], sc3inc@F1[++k], ss@[%,0]",
+    "reason": "Foot rnd 1 is an oval around both sides of a ch-7 (15 sc); the CP used a stray magic ring and made 14. Both legs."
+   },
+   {
+    "line": 15,
+    "before": "4sc, 2sc, 4dc, 2sc, 13sc, sc4tog / 4sc, 13sc, sc6tog, sc6tog",
+    "after": "4sc, sc2tog, 2sc, dc2tog, 4dc, dc2tog, 2sc, sc2tog, 13sc / 4sc, 6hdc2tog, 13sc",
+    "reason": "Foot rnds 8-9 had the decreases (Sc2tog, Dc2tog, Hdc2tog x6) dropped and replaced by invented 'adjusting' stitches. Both legs."
+   },
+   {
+    "line": 19,
+    "before": "sc, 5sc2tog, 11sc",
+    "after": "sc, 5sc2tog, 12sc",
+    "reason": "23 -> 18 sts requires 12 sc after the decreases (source inconsistency). Both legs."
+   },
+   {
+    "line": 31,
+    "before": "18sc.LEG1, ss@[%,0]",
+    "after": "sc.L1A, 17sc.L1B (continuous rnds 15-22)",
+    "reason": "label inner sc and the other 17 so Body rnd 1 can attach precisely; rnds 15-22 are unjoined per English"
+   },
+   {
+    "line": 63,
+    "before": "Body rnds 1-28 with invented sc3tog 'adjusting' and ~counts (19 sts at end)",
+    "after": "Body rewritten from English: 37/38 -> 44 -> 46 -> 45 -> 44 -> 43 -> 41 -> 40 -> 36 -> 32 -> 28 -> 24 -> 20 -> 16",
+    "reason": "Rnd 2 omitted 5 sts (1 sc ... to end = 12 not 7); 7th-11th decreases, 4-repeat decreases (CP used 5 repeats) all wrong"
+   },
+   {
+    "line": 115,
+    "before": "12sc, sc7tog # adjusting to 12",
+    "after": "4*[sc2tog, 2sc], ss@[%,0]",
+    "reason": "Head Stabilizer rnd 29: 16 -> 12"
+   },
+   {
+    "line": 180,
+    "before": "3sc, sc2tog, 3sc, sc2tog, sc2tog / 6sc x15",
+    "after": "2*[sc2tog, 3sc] / 8sc x15",
+    "reason": "Arm rnd 6: (Sc2tog, 3 sc) around = 8 sts; arm stays 8 sts"
+   },
+   {
+    "line": 200,
+    "before": "(file ended at arm 1 rnd 16)",
+    "after": "finished Arm 1 rnds 17-21 and added Arm 2",
+    "reason": "truncated output; short and unambiguous"
+   }
+  ],
+  "remaining": "Body '9th to 11th' flag is a false alarm (43 is the count after the 3-round block). Body rnd 2 start position approximate (it works the 37 sc plus the ch-1, 38 attach points). Head is approximated as a new magic ring of 12 sc2inc instead of working into the free front loops of stabilizer rnd 30 (left as written).",
+  "source_inconsistencies": "Foot and leg round 10 starts with 23 stitches and aims for 18. It needs 12 single crochets after the five decreases, one more than written.",
+  "missing_pieces": "CP was truncated: missing Beard Layers 1 and 2 (x2 each), Hat and Brim, Holly (x2), Berries, and the entire second figure (Foot/Leg, Body, Head Stabilizer, Head, Hair Base, Bun, Hair Tie, Berry - English lines ~190-294).",
+  "suggested_confidence": 2,
+  "source_quote_paraphrased": true
+ }
+}

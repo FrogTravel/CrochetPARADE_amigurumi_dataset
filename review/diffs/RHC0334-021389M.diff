@@ -1,0 +1,31 @@
+--- a/RHC0334-021389M.cp
++++ b/RHC0334-021389M.cp
+@@ -1,4 +1,3 @@
+-```
+ # DOLL - HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -77,7 +76,7 @@
+ # 4th rnd: working in back loops only
+ 18scbl, ss@[%,0]
+ # 5th rnd: 4sc, 3sc2tog, 5sc. 12 sts.
+-4sc, 3sc2tog, 5sc, sc2tog, ss@[%,0]
++4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment "3sc2tog" read as 3 x sc3tog: 4+9+5=18 consumed, 12 made
+ # 6th to 8th: 1 sc in each st
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+@@ -102,7 +101,7 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc2inc, sc], ss@[%,0]
+ 18scbl, ss@[%,0]
+-4sc, 3sc2tog, 5sc, sc2tog, ss@[%,0]
++4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment "3sc2tog" read as 3 x sc3tog: 4+9+5=18 consumed, 12 made
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+ 12sc, ss@[%,0] # 8
+@@ -317,4 +316,3 @@
+ 6*[sc2inc, sc], ss@[%,0]
+ 6*[sc2inc, 2sc], ss@[%,0]
+ 6*[sc2inc, 3sc], ss@[%,0]
+-6*[sc2inc, 
+\ No newline at end of file

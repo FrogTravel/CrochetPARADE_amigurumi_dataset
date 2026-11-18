@@ -1,0 +1,13 @@
+--- a/SCC0334-004467M.cp
++++ b/SCC0334-004467M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -327,4 +326,3 @@
+ 8sc, turn
+ 8sc, turn
+ sc2tog, 4sc, sc2tog, turn
+-sc2tog, 2sc, sc2tog, turn
+\ No newline at end of file

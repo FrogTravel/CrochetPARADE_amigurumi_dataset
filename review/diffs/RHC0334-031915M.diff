@@ -1,0 +1,41 @@
+--- a/RHC0334-031915M.cp
++++ b/RHC0334-031915M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -129,15 +126,15 @@
+ 5sc, 3sc2tog, 6sc, ss@[%,0]
+ 4sc, 2sc2tog, 5sc, ss@[%,0]
+ 3sc, 2sc2tog, 4sc, ss@[%,0]
+-11sc, ss@[%,0] # 8
+-11sc, ss@[%,0] # 9
+-11sc, ss@[%,0] # 10
+-11sc, ss@[%,0] # 11
+-11sc, ss@[%,0] # 12
+-11sc, ss@[%,0] # 13
+-11sc, ss@[%,0] # 14
+-11sc, ss@[%,0] # 15
+-11sc, ss@[%,0] # 16
++9sc, ss@[%,0] # 8
++9sc, ss@[%,0] # 9
++9sc, ss@[%,0] # 10
++9sc, ss@[%,0] # 11
++9sc, ss@[%,0] # 12
++9sc, ss@[%,0] # 13
++9sc, ss@[%,0] # 14
++9sc, ss@[%,0] # 15
++9sc, ss@[%,0] # 16
+ 
+ # ARMS (1/2)
+ start_a_new_chain
+@@ -290,4 +287,4 @@
+ # 3rd rnd: 1 sc in each sc around.
+ 10sc, ss@[%,0]
+ tie_up
+-```
+\ No newline at end of file
++

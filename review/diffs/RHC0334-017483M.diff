@@ -1,0 +1,62 @@
+--- a/RHC0334-017483M.cp
++++ b/RHC0334-017483M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -168,14 +165,14 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc, sc2inc], ss@[%,0]
+ 6*[2sc, sc2inc], ss@[%,0]
+-30sc, ss@[%,0] # 5th
+-30sc, ss@[%,0] # 6th
+-30sc, ss@[%,0] # 7th
+-30sc, ss@[%,0] # 8th
+-30sc, ss@[%,0] # 9th
+-30sc, ss@[%,0] # 10th
+-30sc, ss@[%,0] # 11th
+-30sc, ss@[%,0] # 12th
++24sc, ss@[%,0] # 5th
++24sc, ss@[%,0] # 6th
++24sc, ss@[%,0] # 7th
++24sc, ss@[%,0] # 8th
++24sc, ss@[%,0] # 9th
++24sc, ss@[%,0] # 10th
++24sc, ss@[%,0] # 11th
++24sc, ss@[%,0] # 12th
+ 
+ # EARS (2/2) - Black floppy ears
+ start_a_new_chain
+@@ -184,14 +181,14 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc, sc2inc], ss@[%,0]
+ 6*[2sc, sc2inc], ss@[%,0]
+-30sc, ss@[%,0] # 5th
+-30sc, ss@[%,0] # 6th
+-30sc, ss@[%,0] # 7th
+-30sc, ss@[%,0] # 8th
+-30sc, ss@[%,0] # 9th
+-30sc, ss@[%,0] # 10th
+-30sc, ss@[%,0] # 11th
+-30sc, ss@[%,0] # 12th
++24sc, ss@[%,0] # 5th
++24sc, ss@[%,0] # 6th
++24sc, ss@[%,0] # 7th
++24sc, ss@[%,0] # 8th
++24sc, ss@[%,0] # 9th
++24sc, ss@[%,0] # 10th
++24sc, ss@[%,0] # 11th
++24sc, ss@[%,0] # 12th
+ 
+ # TAIL - small pompom
+ start_a_new_chain
+@@ -208,4 +205,4 @@
+ ring.R10
+ 4sc@R10, ss@[%,0]
+ 4sc, ss@[%,0]
+-```
+\ No newline at end of file
++

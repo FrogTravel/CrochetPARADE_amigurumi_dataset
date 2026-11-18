@@ -1,0 +1,14 @@
+--- a/RHC0334-37344M.cp
++++ b/RHC0334-37344M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -160,4 +159,4 @@
+ 6sc@R9, ss@[%,0]
+ 6sc, ss@[%,0]
+ 6sc, ss@[%,0]
+-```
+\ No newline at end of file
++

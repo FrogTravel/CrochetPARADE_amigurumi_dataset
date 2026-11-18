@@ -1,0 +1,16 @@
+--- a/SCC0334-003652M.cp
++++ b/SCC0334-003652M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # FISH TOY
+ # TAIL
+ # With MC, ch 2.
+@@ -101,4 +98,4 @@
+ 7sc, turn
+ sc2tog, 3sc, sc2tog, turn
+ sc2tog, sc, sc2tog
+-```
+\ No newline at end of file
++

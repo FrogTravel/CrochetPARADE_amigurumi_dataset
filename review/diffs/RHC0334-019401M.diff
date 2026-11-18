@@ -1,0 +1,14 @@
+--- a/RHC0334-019401M.cp
++++ b/RHC0334-019401M.cp
+@@ -1,4 +1,3 @@
+-```
+ # TURTLE SHELL (Top)
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -101,4 +100,4 @@
+ 4sc@R7, ss@[%,0]
+ 4sc, ss@[%,0]
+ 4sc, ss@[%,0]
+-```
+\ No newline at end of file
++

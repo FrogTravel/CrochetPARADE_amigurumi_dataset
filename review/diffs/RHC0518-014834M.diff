@@ -1,0 +1,26 @@
+--- a/RHC0518-014834M.cp
++++ b/RHC0518-014834M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEART BOX BASE
+ # With red, ch 2.
+ ring.R0
+@@ -26,7 +23,8 @@
+ 6*[sc2inc, 8sc], ss@[%,0]
+ # Shape into heart - top bumps
+ # 11th rnd: 2 sc in next sc. 1 sc in each of next 4 sc. 2 sc in each of next 3 sc. 1 sc in each of next 14 sc. sc2tog. 1 sc in each of next 10 sc. sc2tog. 1 sc in each of next 14 sc. 2 sc in each of next 3 sc. 1 sc in each of next 4 sc. 2 sc in next sc.
+-sc2inc, 4sc, 3sc2inc, 14sc, sc2tog, 10sc, sc2tog, 14sc, 3sc2inc, 4sc, sc2inc, ss@[%,0]
++# source inconsistency: the quoted rnd uses only 58 of 60 sts and makes 64, but the next rnds have 66; 14 sc -> 15 sc on both sides (60 -> 66)
++sc2inc, 4sc, 3sc2inc, 15sc, sc2tog, 10sc, sc2tog, 15sc, 3sc2inc, 4sc, sc2inc, ss@[%,0]
+ # 12th rnd: Working in back loops only. 1 sc in each sc around.
+ 66scbl, ss@[%,0]
+ # Sides 13th-17th rnds: 1 sc in each sc around.
+@@ -136,4 +134,4 @@
+ start_a_new_chain
+ 20ch, turn
+ 3*dc3inc, 4*dc5inc, 3*dc3inc
+-```
+\ No newline at end of file
++

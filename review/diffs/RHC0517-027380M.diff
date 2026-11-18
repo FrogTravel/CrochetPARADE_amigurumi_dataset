@@ -1,0 +1,16 @@
+--- a/RHC0517-027380M.cp
++++ b/RHC0517-027380M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # CHRISTMAS TREE
+ # Base/trunk - worked in continuous rounds from bottom up
+ 
+@@ -106,4 +103,4 @@
+ ring.R7
+ 5*[p1, ss@R7]
+ tie_up
+-```
+\ No newline at end of file
++

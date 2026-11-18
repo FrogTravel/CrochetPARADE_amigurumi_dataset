@@ -1,0 +1,16 @@
+--- a/RHC0518-022279M.cp
++++ b/RHC0518-022279M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # PENGUIN BODY (worked from bottom up)
+ # With C (white/grey), ch 2.
+ ring.R0
+@@ -125,4 +122,4 @@
+ 38ch, turn
+ 39sc, turn
+ 39sc
+-```
+\ No newline at end of file
++

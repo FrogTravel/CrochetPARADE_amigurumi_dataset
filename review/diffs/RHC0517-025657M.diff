@@ -1,0 +1,20 @@
+--- a/RHC0517-025657M.cp
++++ b/RHC0517-025657M.cp
+@@ -1,4 +1,3 @@
+-```
+ # SNOWMAN ORNAMENT
+ 
+ # BODY (bottom ball - larger, striped)
+@@ -114,9 +113,9 @@
+ ring.R4
+ 4sc@R4
+ 4sc
+-sc, sc2tog
++2sc2tog # was `sc, sc2tog` (left 1 of 4 sts unworked); no English source to confirm
+ 
+ # HANGING LOOP
+ start_a_new_chain
+ 20ch, ss@[%,0]
+-```
+\ No newline at end of file
++

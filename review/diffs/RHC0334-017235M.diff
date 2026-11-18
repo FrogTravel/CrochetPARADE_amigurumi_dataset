@@ -1,0 +1,14 @@
+--- a/RHC0334-017235M.cp
++++ b/RHC0334-017235M.cp
+@@ -1,4 +1,3 @@
+-```
+ # GRANDMA DOLL
+ 
+ # HEAD
+@@ -282,4 +281,4 @@
+ 6sc, ss@[%,0]
+ 6sc, ss@[%,0]
+ 6sc, ss@[%,0]
+-```
+\ No newline at end of file
++

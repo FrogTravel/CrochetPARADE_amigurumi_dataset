@@ -1,0 +1,14 @@
+--- a/RHC0518-023210M.cp
++++ b/RHC0518-023210M.cp
+@@ -1,4 +1,3 @@
+-```
+ # CUPCAKE BASE (Brown)
+ # 1st rnd: 6 sc in magic ring
+ ring.R1
+@@ -71,4 +70,4 @@
+ # CHERRY STEM
+ start_a_new_chain
+ 5ch
+-```
+\ No newline at end of file
++

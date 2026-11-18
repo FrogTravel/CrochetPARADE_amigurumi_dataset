@@ -1,0 +1,18 @@
+--- a/BRC0520-034507M.cp
++++ b/BRC0520-034507M.cp
+@@ -1,8 +1,3 @@
+-
+-
+-Looking at this image, I see daisy/flower-shaped pillows with rounded petals around a center circle. Each pillow has a yellow center and white petals (or vice versa). I need to create the pattern for individual stuffed petals and a center circle, all worked in the round as amigurumi-style pieces.
+-
+-```
+ # DAISY FLOWER PILLOW
+ # CENTER CIRCLE (Front)
+ ring.R0
+@@ -174,4 +169,4 @@
+ 6sc2tog, ss@[%,0]
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

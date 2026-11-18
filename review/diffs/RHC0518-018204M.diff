@@ -1,0 +1,53 @@
+--- a/RHC0518-018204M.cp
++++ b/RHC0518-018204M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # GINGERBREAD MAN (Make 2 pieces - front and back)
+ # With MC, ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -99,7 +96,7 @@
+ # 2nd rnd: 2 sc in each sc around. 12 sc.
+ 6sc2inc, ss@[%,0]
+ # 3rd rnd: 1 sc in each sc around.
+-12sc, ss@[%,0]
++6sc, sc.H1, 5sc, ss@[%,0]
+ # Split for top of heart - first bump
+ # 1st row: 1 sc in each of next 6 sc. Turn.
+ 6sc, turn
+@@ -109,9 +106,8 @@
+ 2sc2tog, turn
+ # 4th row: Sc2tog.
+ sc2tog
+-# Second bump
+-start_a_new_chain, turn
+-sc@[12,6], 5sc, turn
++# Second bump (worked over the remaining 6 sts of the 3rd rnd)
++sc@H1, 5sc, turn
+ sc2tog, 2sc, sc2tog, turn
+ 2sc2tog, turn
+ sc2tog
+@@ -179,13 +175,12 @@
+ ring.R7
+ 6sc@R7, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-12sc, ss@[%,0]
++6sc, sc.H2, 5sc, ss@[%,0]
+ 6sc, turn
+ sc2tog, 2sc, sc2tog, turn
+ 2sc2tog, turn
+ sc2tog
+-start_a_new_chain, turn
+-sc@[12,6], 5sc, turn
++sc@H2, 5sc, turn
+ sc2tog, 2sc, sc2tog, turn
+ 2sc2tog, turn
+ sc2tog
+@@ -198,4 +193,4 @@
+ 5sc, turn
+ 5sc, turn
+ 5sc
+-```
+\ No newline at end of file
++

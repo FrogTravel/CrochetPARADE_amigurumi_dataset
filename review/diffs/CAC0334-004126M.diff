@@ -1,0 +1,16 @@
+--- a/CAC0334-004126M.cp
++++ b/CAC0334-004126M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # RACCOON
+ 
+ # HEAD
+@@ -278,4 +275,4 @@
+ sc2tog, sc2tog, turn
+ # 8th row:
+ sc2tog
+-```
+\ No newline at end of file
++

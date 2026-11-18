@@ -1,0 +1,32 @@
+--- a/RHC0334-022189M.cp
++++ b/RHC0334-022189M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -92,7 +91,7 @@
+ # 4th rnd: Working in back loops only.
+ 18scbl, ss@[%,0]
+ # 5th rnd: 4sc, 3sc2tog, 5sc. 12 sts.
+-4sc, 3sc2tog, 5sc, ss@[%,0]
++4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment "3sc2tog" read as 3 x sc3tog: 4+9+5=18 consumed, 12 made
+ # 6th to 8th rnds: 1 sc in each st around.
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+@@ -124,7 +123,7 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc, sc2inc], ss@[%,0]
+ 18scbl, ss@[%,0]
+-4sc, 3sc2tog, 5sc, ss@[%,0]
++4sc, 3*[sc3tog], 5sc, ss@[%,0] # comment "3sc2tog" read as 3 x sc3tog: 4+9+5=18 consumed, 12 made
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+ 12sc, ss@[%,0] # 8
+@@ -322,4 +321,4 @@
+ # 5 petals
+ 5*[3ch, ss@[%,%-4]]
+ tie_up
+-```
+\ No newline at end of file
++
