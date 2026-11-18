@@ -1,0 +1,14 @@
+--- a/RHC0334-019366M.cp
++++ b/RHC0334-019366M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD/BODY (worked in one piece)
+ # With MC, make magic loop
+ ring.R0
+@@ -121,4 +120,4 @@
+ ring.R8
+ 6sc@R8, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

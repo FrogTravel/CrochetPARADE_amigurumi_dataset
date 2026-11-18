@@ -1,0 +1,12 @@
+--- a/BRC0234-033203M.cp
++++ b/BRC0234-033203M.cp
+@@ -168,6 +168,6 @@
+ # BALL BOTTOM
+ start_a_new_chain
+ ring.R1
+-6sc@R1, ss@[%,0]
++12sc@R1, ss@[%,0] # 1st rnd: sc evenly around, 2 sc into bottom of each of 6 Panels. 12 sc. (approximated as a ring; panels are joined by sewing)
+ 6sc2tog, ss@[%,0]
+-tie_up
+\ No newline at end of file
++tie_up

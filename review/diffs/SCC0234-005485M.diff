@@ -1,0 +1,16 @@
+--- a/SCC0234-005485M.cp
++++ b/SCC0234-005485M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ # With MC (skin color), ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -282,4 +279,4 @@
+ ring.R8
+ 6sc@R8, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

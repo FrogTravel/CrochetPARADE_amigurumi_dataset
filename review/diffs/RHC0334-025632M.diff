@@ -1,0 +1,16 @@
+--- a/RHC0334-025632M.cp
++++ b/RHC0334-025632M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SLOTH AMIGURUMI
+ 
+ # HEAD
+@@ -274,4 +271,4 @@
+ 6*[sc, sc2inc], ss@[%,0]
+ 6*[2sc, sc2inc], ss@[%,0]
+ 6*[3sc, sc2inc], ss@[%,0]
+-```
+\ No newline at end of file
++

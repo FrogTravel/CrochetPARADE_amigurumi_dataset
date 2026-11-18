@@ -1,0 +1,14 @@
+--- a/RHC0518-020167M.cp
++++ b/RHC0518-020167M.cp
+@@ -1,4 +1,3 @@
+-```
+ # BODY
+ # With A, ch 2.
+ ring.R0
+@@ -108,4 +107,4 @@
+ 41sc, turn
+ 41sc, turn
+ 41sc
+-```
+\ No newline at end of file
++

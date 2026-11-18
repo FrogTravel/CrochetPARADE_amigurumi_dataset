@@ -1,0 +1,16 @@
+--- a/SCC0334-005570M.cp
++++ b/SCC0334-005570M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ # With MC (skin color), make magic ring.
+ ring.R0
+@@ -268,4 +265,4 @@
+ DEF: p1=5ch,ss@[%,%-6]
+ 4*[3ch, 3p1]
+ 3ch
+-```
+\ No newline at end of file
++

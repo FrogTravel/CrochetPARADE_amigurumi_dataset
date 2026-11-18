@@ -1,0 +1,16 @@
+--- a/RHC0334-019749M.cp
++++ b/RHC0334-019749M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # AIRPLANE
+ # BODY
+ ring.R0
+@@ -321,4 +318,4 @@
+ 6sc, turn
+ 6sc
+ tie_up
+-```
+\ No newline at end of file
++

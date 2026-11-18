@@ -1,0 +1,16 @@
+--- a/RHC0517-025661M.cp
++++ b/RHC0517-025661M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # OUT OF THIS WORLD SPACESHIP
+ # BODY
+ # With MC, ch 2.
+@@ -201,4 +198,4 @@
+ # HANGING LOOP
+ start_a_new_chain
+ 12ch
+-```
+\ No newline at end of file
++

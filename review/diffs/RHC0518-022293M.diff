@@ -1,0 +1,34 @@
+--- a/RHC0518-022293M.cp
++++ b/RHC0518-022293M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BODY (Bottom ball - larger)
+ ring.R0
+ # 1st rnd: 8 sc in magic loop
+@@ -92,7 +89,7 @@
+ ring.R2
+ 5sc@R2, ss@[%,0]
+ 5sc, ss@[%,0]
+-5sc2tog, ss@[%,0]
++tie_up # was 5sc2tog (needs 10 sts, only 5 available); no English source to check, closed with a gather instead
+ 
+ # HAT
+ # With B, ch 2.
+@@ -123,7 +120,7 @@
+ 42sc, ss@[%,0] # 14
+ # Brim
+ # 15th rnd: *sc2inc, 5sc. 48 sc.
+-7*[sc2inc, 5sc], ss@[%,0]
++6*[sc2inc, 6sc], ss@[%,0] # source inconsistency: '*sc2inc, 5sc' on 42 sts gives 49, not the stated 48; 6 incs spread over 42 sts give 48
+ 48sc, ss@[%,0]
+ 
+ # SCARF
+@@ -137,4 +134,4 @@
+ 50sc, turn
+ 50sc, turn
+ 50sc
+-```
+\ No newline at end of file
++

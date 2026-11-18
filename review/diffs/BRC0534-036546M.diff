@@ -1,0 +1,16 @@
+--- a/BRC0534-036546M.cp
++++ b/BRC0534-036546M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # ROSY MAPLE MOTH
+ # BODY (main round body - yellow/pink)
+ ring.R0
+@@ -298,4 +295,4 @@
+ sc2tog, 2sc, sc2tog, turn
+ sc2tog, sc2tog
+ tie_up
+-```
+\ No newline at end of file
++

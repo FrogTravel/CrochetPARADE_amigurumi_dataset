@@ -1,0 +1,14 @@
+--- a/RHC0334-024019M.cp
++++ b/RHC0334-024019M.cp
+@@ -1,4 +1,3 @@
+-```
+ # DINOSAUR AMIGURUMI
+ 
+ # HEAD
+@@ -239,4 +238,4 @@
+ ring.R18
+ 6sc@R18, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

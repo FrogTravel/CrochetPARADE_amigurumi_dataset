@@ -1,0 +1,16 @@
+--- a/BRC0534-034501M.cp
++++ b/BRC0534-034501M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # MUSHROOM CAP (Red part)
+ ring.R0
+ # 1st rnd: 6 sc in magic loop
+@@ -198,4 +195,4 @@
+ ring.R11
+ 6sc@R11, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

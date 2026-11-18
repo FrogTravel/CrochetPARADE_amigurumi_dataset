@@ -1,0 +1,15 @@
+--- a/RHC0518-014126M.cp
++++ b/RHC0518-014126M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # NATIVITY SET
+ # JOSEPH - HEAD
+ ring.R0
+@@ -446,4 +443,3 @@
+ # SHEEP 2 - EARS (1/2)
+ start_a_new_chain
+ ring.R26
+-5sc@R26, ss@[%,0]
+\ No newline at end of file

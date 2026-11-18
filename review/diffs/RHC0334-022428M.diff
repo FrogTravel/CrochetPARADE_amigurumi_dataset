@@ -1,0 +1,15 @@
+--- a/RHC0334-022428M.cp
++++ b/RHC0334-022428M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # GNOME
+ 
+ # HEAD
+@@ -241,4 +238,3 @@
+ 18sc, ss@[%,0] # 14th
+ 18sc, ss@[%,0] # 15th
+ 18sc, ss@[%,0] # 16th
+-18sc, ss@[%,0]
+\ No newline at end of file

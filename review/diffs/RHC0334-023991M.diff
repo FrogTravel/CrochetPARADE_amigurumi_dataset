@@ -1,0 +1,14 @@
+--- a/RHC0334-023991M.cp
++++ b/RHC0334-023991M.cp
+@@ -1,4 +1,3 @@
+-```
+ # FLAMINGO
+ 
+ # HEAD AND BODY
+@@ -185,4 +184,4 @@
+ 4*[sc, sc2tog], ss@[%,0]
+ # 5th rnd: 1 sc in each sc around.
+ 8sc, ss@[%,0]
+-```
+\ No newline at end of file
++

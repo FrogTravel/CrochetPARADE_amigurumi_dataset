@@ -1,0 +1,16 @@
+--- a/BRC0534-034494M.cp
++++ b/BRC0534-034494M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BODY
+ # Make magic ring.
+ ring.R0
+@@ -266,4 +263,4 @@
+ 6sc2tog, ss@[%,0]
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

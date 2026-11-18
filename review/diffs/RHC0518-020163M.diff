@@ -1,0 +1,32 @@
+--- a/RHC0518-020163M.cp
++++ b/RHC0518-020163M.cp
+@@ -1,4 +1,3 @@
+-```
+ # RACCOON
+ 
+ # HEAD
+@@ -179,7 +178,7 @@
+ # 4th rnd: Working in back loops only
+ 18scbl, ss@[%,0]
+ # 5th rnd: 4sc, 3sc2tog, 5sc. 12 sc.
+-4sc, 3sc2tog, 5sc, ss@[%,0]
++3sc, 6sc2tog, 3sc, ss@[%,0] # source inconsistency: '4sc, 3sc2tog, 5sc' consumes 15 of 18; 6 decreases needed for the stated 12
+ # 6th-8th rnds: sc in each sc around.
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+@@ -194,7 +193,7 @@
+ 6sc2inc, ss@[%,0]
+ 6*[sc, sc2inc], ss@[%,0]
+ 18scbl, ss@[%,0]
+-4sc, 3sc2tog, 5sc, ss@[%,0]
++3sc, 6sc2tog, 3sc, ss@[%,0] # source inconsistency: '4sc, 3sc2tog, 5sc' consumes 15 of 18; 6 decreases needed for the stated 12
+ 12sc, ss@[%,0] # 6
+ 12sc, ss@[%,0] # 7
+ 12sc, ss@[%,0] # 8
+@@ -226,4 +225,4 @@
+ 4sc2tog, ss@[%,0]
+ sc4tog
+ tie_up
+-```
+\ No newline at end of file
++

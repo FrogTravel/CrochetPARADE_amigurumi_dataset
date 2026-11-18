@@ -1,0 +1,16 @@
+--- a/CAC0534-007294M.cp
++++ b/CAC0534-007294M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # FISH BODY
+ # With MC, make Magic Loop.
+ ring.R0
+@@ -158,4 +155,4 @@
+ 8sc2inc, ss@[%,0]
+ # 3rd rnd: 1 sc in each sc around.
+ 16sc, ss@[%,0]
+-```
+\ No newline at end of file
++

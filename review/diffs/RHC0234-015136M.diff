@@ -1,0 +1,14 @@
+--- a/RHC0234-015136M.cp
++++ b/RHC0234-015136M.cp
+@@ -1,4 +1,3 @@
+-```
+ # BEACH BALL TOY
+ # Panel 1 (Color A)
+ ring.R0
+@@ -87,4 +86,4 @@
+ 6sc2tog, ss@[%,0]
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

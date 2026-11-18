@@ -1,0 +1,16 @@
+--- a/BRC0534-036542M.cp
++++ b/BRC0534-036542M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -250,4 +247,4 @@
+ ch.SL3[k], ch.SL3[++k], ch.SL3[++k], ch.SL3[++k], ch.SL3[++k], ch.SL3[++k], ch.SL3[++k]
+ ss@SL3[k--], sc@SL3[k--], hdc@SL3[k--], dc@SL3[k--], hdc@SL3[k--], sc@SL3[k--], ss@SL3[k]
+ ss@SL3[++k], sc@SL3[++k], hdc@SL3[++k], dc@SL3[++k], hdc@SL3[++k], sc@SL3[++k], ss@SL3[k]
+-```
+\ No newline at end of file
++

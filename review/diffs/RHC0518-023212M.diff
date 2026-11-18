@@ -1,0 +1,78 @@
+--- a/RHC0518-023212M.cp
++++ b/RHC0518-023212M.cp
+@@ -1,4 +1,3 @@
+-```
+ # GINGERBREAD MAN (Make 2 pieces alike)
+ # BODY
+ # Start at top of head
+@@ -14,26 +13,26 @@
+ # 4th row: 1 sc in each sc.
+ 10sc, turn
+ # 5th row: sc2inc, 8sc, sc2inc. 12 sc.
+-sc2inc, 8sc, sc2inc, turn
++# (ch 4 at end of row for the first arm: 3 workable ch, turning ch not written)
++sc2inc, 8sc, sc2inc, 3ch, turn
+ 
+ # ARM - Right side
+ # 6th row: Ch 4. 1 sc in 2nd ch from hook. 1 sc in each of next 2 ch. 1 sc in each sc across. Ch 4, turn.
+-3ch, turn
+-4sc, 12sc, turn
+-# 7th row: 1 sc in 2nd ch from hook. 1 sc in each of next 2 ch. 1 sc in each sc across. 
+-3ch, turn
+-4sc, 16sc, turn
++15sc, 3ch, turn
++# 7th row: 1 sc in 2nd ch from hook. 1 sc in each of next 2 ch. 1 sc in each sc across. 18 sc.
++18sc, turn
+ 
+ # ARM rows
+-20sc, turn
+-20sc, turn
++18sc, turn
++18sc, turn
+ 
+ # Decrease back to body width after arms
+-sc2tog, 2sc, sc2tog, 4sc, sc2tog, 2sc, sc2tog, turn
++# source inconsistency: arms add 3 sc each (18 sts) but the old decrease row consumed 16 and made 12; now 18 -> 12
++3sc2tog, 6sc, 3sc2tog, turn
+ # Body middle rows
+ 12sc, turn
+ 12sc, turn
+-12sc, turn
++5sc, sc.LB, 6sc, turn
+ 
+ # LEG split - Left leg
+ 6sc, turn
+@@ -49,7 +48,7 @@
+ 
+ # LEG split - Right leg
+ start_a_new_chain, turn
+-sc@[22,0], 5sc, turn
++sc@LB, 5sc, turn
+ 6sc, turn
+ sc2inc, 4sc, sc2inc, turn
+ 8sc, turn
+@@ -68,7 +67,7 @@
+ # 2nd rnd: 2 sc in each sc around. 12 sc.
+ 6sc2inc, ss@[%,0]
+ # 3rd rnd: 1 sc in each sc around.
+-12sc, ss@[%,0]
++6sc, sc.HB, 5sc, ss@[%,0]
+ # Top of heart - first bump
+ # Split for two bumps
+ 6sc, turn
+@@ -79,7 +78,7 @@
+ 
+ # Second bump
+ start_a_new_chain, turn
+-sc@[7,0], 5sc, turn
++sc@HB, 5sc, turn
+ sc2inc, 2sc, sc2inc, turn
+ 6sc, turn
+ sc2tog, 2sc, sc2tog, turn
+@@ -88,4 +87,4 @@
+ # HANGING LOOP
+ start_a_new_chain
+ 12ch, ss@[%,0]
+-```
+\ No newline at end of file
++

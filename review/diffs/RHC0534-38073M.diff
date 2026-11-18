@@ -1,0 +1,16 @@
+--- a/RHC0534-38073M.cp
++++ b/RHC0534-38073M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # GNOME - HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -189,4 +186,4 @@
+ start_a_new_chain
+ 24ch, turn
+ 24sc
+-```
+\ No newline at end of file
++

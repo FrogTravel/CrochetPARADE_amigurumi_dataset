@@ -1,0 +1,41 @@
+--- a/RHC0534-023989M.cp
++++ b/RHC0534-023989M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SUGAR SKULL
+ # BODY/HEAD
+ ring.R
+@@ -101,7 +98,7 @@
+ # 2nd rnd: Ch 1. 2 sc in each sc around. 10 sc.
+ 5sc2inc, ss@[%,0]
+ # 3rd rnd: Petals. *(Sl st, ch 3, 3 dc, ch 3, sl st) in next sc. Skip next sc. Rep from * around.
+-5*[ss, 3ch, 3dc, 3ch, ss, sk]
++5*[ss, 3ch, dc@[@], dc@[@], dc@[@], 3ch, ss@[@], sk]
+ 
+ # SMALL FLOWER (1/2)
+ start_a_new_chain
+@@ -109,13 +106,13 @@
+ # 1st rnd: 5 sc in magic loop.
+ 5sc@R4, ss@[%,0]
+ # 2nd rnd: Petals. *(Sl st, ch 2, 2 dc, ch 2, sl st) in next sc. Rep from * around.
+-5*[ss, 2ch, 2dc, 2ch, ss]
++5*[ss, 2ch, dc@[@], dc@[@], 2ch, ss@[@]]
+ 
+ # SMALL FLOWER (2/2)
+ start_a_new_chain
+ ring.R5
+ 5sc@R5, ss@[%,0]
+-5*[ss, 2ch, 2dc, 2ch, ss]
++5*[ss, 2ch, dc@[@], dc@[@], 2ch, ss@[@]]
+ 
+ # LEAF (1/2)
+ start_a_new_chain
+@@ -138,4 +135,4 @@
+ 6sc@R6, ss@[%,0]
+ # 2nd rnd: 1 sc in each sc around.
+ 6sc, ss@[%,0]
+-```
+\ No newline at end of file
++

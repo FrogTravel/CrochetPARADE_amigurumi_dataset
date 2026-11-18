@@ -1,0 +1,23 @@
+--- a/RHC0517-025669M.cp
++++ b/RHC0517-025669M.cp
+@@ -1,4 +1,3 @@
+-```
+ # SNOWMAN BODY
+ # With MC (white), ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -63,7 +62,7 @@
+ 30sc, ss@[%,0] # 7
+ 30sc, ss@[%,0] # 8
+ # Brim rnd: Working in front loops only, 2 hdc in each sc around. 60 hdc.
+-30hdc2incfl, ss@[%,0]
++30hdcfl2inc, ss@[%,0]
+ # no tie_up needed
+ 
+ # SCARF
+@@ -86,4 +85,4 @@
+ 4sc, ss@[%,0]
+ # 3rd rnd: Sc2tog twice. 2 sts.
+ 2sc2tog, ss@[%,0]
+-```
+\ No newline at end of file
++

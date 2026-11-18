@@ -1,0 +1,15 @@
+--- a/RHC0518-020165M.cp
++++ b/RHC0518-020165M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SQUIRREL
+ 
+ # BODY
+@@ -251,4 +248,3 @@
+ 6*[2sc, sc2inc], ss@[%,0]
+ # 5th rnd: Ch 1. *1 sc in each of next 3 sc. 2 sc in next sc. 30 sc.
+ 6*[3sc, sc2inc], ss@[%,0]
+-# 6th rnd:
+\ No newline at end of file

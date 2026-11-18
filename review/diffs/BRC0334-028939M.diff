@@ -1,0 +1,269 @@
+--- a/BRC0334-028939M.cp
++++ b/BRC0334-028939M.cp
+@@ -88,54 +88,54 @@
+ # 26th rnd: 32 sc.
+ 8*[sc2tog, 3sc]
+ # 27th rnd: 24 sc.
+-8*[2sc, sc2tog]
+-8*[sc, sc2tog]
++8*[sc, sc2tog, sc]
+ # 28th rnd: 16 sc.
++8*[sc2tog, sc]
++# 29th rnd: 8 sc. Fasten off, thread end through rem sts.
+ 8sc2tog
+-# 29th rnd: 8 sc.
+-4sc2tog
+-# 30th rnd: 4 sc.
+-2sc2tog
+-sc2tog
+ 
+ # EARS - MC piece (1/2)
+ start_a_new_chain
+-7ch, turn
+-7sc, turn
+-7sc, turn
++# Ch 10. 1st row: 9 sc. 2nd row: 9 sc. 3rd-5th rows: 7, 5, 3 sc. 6th row: sc3tog.
++8ch, turn
++9sc, turn
++9sc, turn
++sc2tog, 5sc, sc2tog, turn
+ sc2tog, 3sc, sc2tog, turn
+ sc2tog, sc, sc2tog, turn
+-sc2tog, sc, turn
+ sc3tog
+ 
+ # EARS - MC piece (2/2)
+ start_a_new_chain
+-7ch, turn
+-7sc, turn
+-7sc, turn
++# Ch 10. 1st row: 9 sc. 2nd row: 9 sc. 3rd-5th rows: 7, 5, 3 sc. 6th row: sc3tog.
++8ch, turn
++9sc, turn
++9sc, turn
++sc2tog, 5sc, sc2tog, turn
+ sc2tog, 3sc, sc2tog, turn
+ sc2tog, sc, sc2tog, turn
+-sc2tog, sc, turn
+ sc3tog
+ 
+ # EARS - A piece (1/2)
+ start_a_new_chain
+-7ch, turn
+-7sc, turn
+-7sc, turn
++# Ch 10. 1st row: 9 sc. 2nd row: 9 sc. 3rd-5th rows: 7, 5, 3 sc. 6th row: sc3tog.
++8ch, turn
++9sc, turn
++9sc, turn
++sc2tog, 5sc, sc2tog, turn
+ sc2tog, 3sc, sc2tog, turn
+ sc2tog, sc, sc2tog, turn
+-sc2tog, sc, turn
+ sc3tog
+ 
+ # EARS - A piece (2/2)
+ start_a_new_chain
+-7ch, turn
+-7sc, turn
+-7sc, turn
++# Ch 10. 1st row: 9 sc. 2nd row: 9 sc. 3rd-5th rows: 7, 5, 3 sc. 6th row: sc3tog.
++8ch, turn
++9sc, turn
++9sc, turn
++sc2tog, 5sc, sc2tog, turn
+ sc2tog, 3sc, sc2tog, turn
+ sc2tog, sc, sc2tog, turn
+-sc2tog, sc, turn
+ sc3tog
+ 
+ # SNOUT
+@@ -162,12 +162,12 @@
+ 32sc
+ 8*[sc2tog, 2sc]
+ 24sc
+-6*[sc2tog, 2sc]
+-18scbl
+-18sc
+-18sc
+-18sc
+-18sc
++8*[sc2tog, sc]
++16scbl
++16sc
++16sc
++16sc
++16sc
+ 
+ # HOOVES (2/4)
+ start_a_new_chain
+@@ -181,12 +181,12 @@
+ 32sc
+ 8*[sc2tog, 2sc]
+ 24sc
+-6*[sc2tog, 2sc]
+-18scbl
+-18sc
+-18sc
+-18sc
+-18sc
++8*[sc2tog, sc]
++16scbl
++16sc
++16sc
++16sc
++16sc
+ 
+ # HOOVES (3/4)
+ start_a_new_chain
+@@ -200,12 +200,12 @@
+ 32sc
+ 8*[sc2tog, 2sc]
+ 24sc
+-6*[sc2tog, 2sc]
+-18scbl
+-18sc
+-18sc
+-18sc
+-18sc
++8*[sc2tog, sc]
++16scbl
++16sc
++16sc
++16sc
++16sc
+ 
+ # HOOVES (4/4)
+ start_a_new_chain
+@@ -219,12 +219,12 @@
+ 32sc
+ 8*[sc2tog, 2sc]
+ 24sc
+-6*[sc2tog, 2sc]
+-18scbl
+-18sc
+-18sc
+-18sc
+-18sc
++8*[sc2tog, sc]
++16scbl
++16sc
++16sc
++16sc
++16sc
+ 
+ # HORN
+ start_a_new_chain
+@@ -232,13 +232,13 @@
+ 4sc@R6
+ 4sc2inc
+ 8sc
+-4*[sc2inc, sc]
++4*[sc2inc, sc] # source inconsistency: English says *2 sc in next, 1 sc in each of next 2* (would need 12 sts); 8 -> 12 needs 1 sc between
+ 12sc
+ 12sc
+-4*[sc2inc, 3sc]
+-16sc
+-16sc
+-4*[4sc, sc2inc]
++4*[sc2inc, 2sc] # source inconsistency: English says *2 sc in next, 1 sc in each of next 3* (would need 16 sts); 12 -> 16 needs 2 sc between
++16sc
++16sc
++4*[3sc, sc2inc] # source inconsistency: English says *1 sc in each of next 4, 2 sc in next* (would need 20 sts); 16 -> 20 needs 3 sc
+ 20sc
+ 20sc
+ 20sc
+@@ -251,60 +251,60 @@
+ # MANE - 12 curls
+ # Curl 1
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 2
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 3
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 4
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 5
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 6
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 7
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 8
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 9
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 10
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 11
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ # Curl 12
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
++28ch, turn
++dc2inc, 28dc3inc
+ 
+ # TAIL - 3 curls
+ start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
+-start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
+-start_a_new_chain
+-29ch, turn
+-dc2inc, 29dc3inc
+\ No newline at end of file
++28ch, turn
++dc2inc, 28dc3inc
++start_a_new_chain
++28ch, turn
++dc2inc, 28dc3inc
++start_a_new_chain
++28ch, turn
++dc2inc, 28dc3inc

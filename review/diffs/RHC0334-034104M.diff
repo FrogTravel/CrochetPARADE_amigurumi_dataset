@@ -1,0 +1,13 @@
+--- a/RHC0334-034104M.cp
++++ b/RHC0334-034104M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ # With A (gold/orange), make magic ring.
+ ring.R0
+@@ -245,4 +244,3 @@
+ 12sc, ss@[%,0] # 20th
+ 12sc, ss@[%,0] # 21st
+ 12sc, ss@[%,0] # 22nd
+-12sc, ss@
+\ No newline at end of file

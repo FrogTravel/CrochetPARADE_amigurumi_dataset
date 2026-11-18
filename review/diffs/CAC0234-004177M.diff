@@ -1,0 +1,14 @@
+--- a/CAC0234-004177M.cp
++++ b/CAC0234-004177M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -242,4 +241,4 @@
+ 30sc, turn
+ 30sc, turn
+ 30sc
+-```
+\ No newline at end of file
++

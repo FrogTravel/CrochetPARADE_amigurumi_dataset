@@ -1,0 +1,50 @@
+--- a/RHC0234-023194M.cp
++++ b/RHC0234-023194M.cp
+@@ -1,4 +1,3 @@
+-```
+ # HEART (Make multiple in different colors)
+ # (Make 2 pieces alike per heart)
+ 
+@@ -16,7 +15,7 @@
+ # 5th rnd: Ch 1. 1 sc in each sc around.
+ 24sc, ss@[%,0]
+ # 6th rnd: Ch 1. 1 sc in each sc around.
+-24sc, ss@[%,0]
++12sc, sc.S1, 11sc, ss@[%,0]
+ 
+ # First Hump
+ # Ch 1. 1 sc in each of next 12 sc. Leave rem sts unworked.
+@@ -32,7 +31,7 @@
+ 
+ # Second Hump
+ start_a_new_chain
+-sc@[6,12], 11sc, ss@[%,0]
++sc@S1, 11sc, ss@[%,0]
+ sc2tog, 3sc, sc2tog, 3sc, sc2tog, ss@[%,0]
+ 9sc, ss@[%,0]
+ 4sc2tog, sc, ss@[%,0]
+@@ -46,7 +45,7 @@
+ 6*[sc, sc2inc], ss@[%,0]
+ 6*[2sc, sc2inc], ss@[%,0]
+ 24sc, ss@[%,0]
+-24sc, ss@[%,0]
++12sc, sc.S2, 11sc, ss@[%,0]
+ 
+ # First Hump (back)
+ 12sc, ss@[%,0]
+@@ -57,7 +56,7 @@
+ 
+ # Second Hump (back)
+ start_a_new_chain
+-sc@[6,12], 11sc, ss@[%,0]
++sc@S2, 11sc, ss@[%,0]
+ sc2tog, 3sc, sc2tog, 3sc, sc2tog, ss@[%,0]
+ 9sc, ss@[%,0]
+ 4sc2tog, sc, ss@[%,0]
+@@ -66,4 +65,4 @@
+ # STRING FOR HANGING
+ start_a_new_chain
+ 30ch
+-```
+\ No newline at end of file
++

@@ -1,0 +1,14 @@
+--- a/RHC0234-021038M.cp
++++ b/RHC0234-021038M.cp
+@@ -1,4 +1,3 @@
+-```
+ # SNAKE / WORM TOY
+ # HEAD
+ # With MC (green), make magic ring.
+@@ -85,4 +84,4 @@
+ ring.R2
+ 6sc@R2, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

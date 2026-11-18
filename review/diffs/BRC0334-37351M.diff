@@ -1,0 +1,16 @@
+--- a/BRC0334-37351M.cp
++++ b/BRC0334-37351M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # JELLYFISH HEAD
+ # Make Magic loop.
+ ring.R0
+@@ -85,4 +82,4 @@
+ start_a_new_chain
+ 18ch, turn
+ 18sc2inc
+-```
+\ No newline at end of file
++

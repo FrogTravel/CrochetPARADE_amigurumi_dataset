@@ -1,0 +1,16 @@
+--- a/BRC0534-034498M.cp
++++ b/BRC0534-034498M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SUCCULENT PILLOW - LARGE PETAL (make 5)
+ # With MC, make magic ring.
+ ring.R1
+@@ -224,4 +221,4 @@
+ 6sc2tog
+ sc6tog
+ tie_up
+-```
+\ No newline at end of file
++

@@ -1,0 +1,14 @@
+--- a/RHC0334-030785M.cp
++++ b/RHC0334-030785M.cp
+@@ -1,4 +1,3 @@
+-```
+ # SNAIL BODY
+ ring.R0
+ # 1st rnd: 6 sc in magic loop
+@@ -267,4 +266,4 @@
+ 5sc@R10, ss@[%,0]
+ # Petals: *(Ch 3, 2 dc in same st, ch 3, sl st in next st)
+ 5*[3ch, 2dc, 3ch, ss]
+-```
+\ No newline at end of file
++

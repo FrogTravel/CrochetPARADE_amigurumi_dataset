@@ -1,0 +1,41 @@
+--- a/CAC0201-033162M.cp
++++ b/CAC0201-033162M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # PINEAPPLE PILLOW
+ 
+ # PILLOW FRONT
+@@ -119,21 +116,21 @@
+ $k=0$
+ ch.L3[k], ch.L3[++k], ch.L3[++k], ch.L3[++k], ch.L3[++k], ch.L3[++k]
+ ch, sc@L3[k--], hdc@L3[k--], dc@L3[k--], hdc@L3[k--], sc3inc@L3[k]
+-sc@L3[++k], hdc@L3[++k], dc@L3[++k], hdc@L3[++k], sc@L3[++k], ss@L3[k]
++hdc@L3[++k], dc@L3[++k], hdc@L3[++k], sc@L3[++k], ss@L3[k] # mirror of the first side; the original ran one ch past the 6-ch foundation
+ 
+ # LEAF 4 (medium)
+ start_a_new_chain
+ $k=0$
+ ch.L4[k], ch.L4[++k], ch.L4[++k], ch.L4[++k], ch.L4[++k], ch.L4[++k]
+ ch, sc@L4[k--], hdc@L4[k--], dc@L4[k--], hdc@L4[k--], sc3inc@L4[k]
+-sc@L4[++k], hdc@L4[++k], dc@L4[++k], hdc@L4[++k], sc@L4[++k], ss@L4[k]
++hdc@L4[++k], dc@L4[++k], hdc@L4[++k], sc@L4[++k], ss@L4[k] # mirror of the first side; the original ran one ch past the 6-ch foundation
+ 
+ # LEAF 5 (small center leaf)
+ start_a_new_chain
+ $k=0$
+ ch.L5[k], ch.L5[++k], ch.L5[++k], ch.L5[++k], ch.L5[++k]
+ ch, sc@L5[k--], hdc@L5[k--], dc@L5[k--], sc3inc@L5[k]
+-sc@L5[++k], hdc@L5[++k], dc@L5[++k], sc@L5[++k], ss@L5[k]
++dc@L5[++k], hdc@L5[++k], sc@L5[++k], ss@L5[k] # mirror of the first side; the original ran one ch past the 5-ch foundation
+ 
+ # EYES / GLASSES
+ # With green, ch 2. 1st rnd: 6 sc in 2nd ch from hook.
+@@ -239,4 +236,4 @@
+ start_a_new_chain
+ 4ch, turn
+ 4sc
+-```
+\ No newline at end of file
++

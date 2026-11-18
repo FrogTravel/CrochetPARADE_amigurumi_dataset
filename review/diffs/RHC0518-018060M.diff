@@ -1,0 +1,16 @@
+--- a/RHC0518-018060M.cp
++++ b/RHC0518-018060M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # PUMPKIN BODY
+ # 1st rnd: 6 sc in magic ring
+ ring.R
+@@ -110,4 +107,4 @@
+ start_a_new_chain
+ 12ch, turn
+ 12sc
+-```
+\ No newline at end of file
++

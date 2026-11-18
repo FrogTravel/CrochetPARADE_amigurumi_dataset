@@ -1,0 +1,14 @@
+--- a/RHC0234-033289M.cp
++++ b/RHC0234-033289M.cp
+@@ -1,4 +1,3 @@
+-```
+ # BODY
+ # With MC, ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -186,4 +185,4 @@
+ ring.R10
+ 6sc@R10, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++

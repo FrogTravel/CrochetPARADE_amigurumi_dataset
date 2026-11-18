@@ -1,0 +1,16 @@
+--- a/RHC0334-020509M.cp
++++ b/RHC0334-020509M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BODY
+ # Beg at nose, with MC, make Magic Loop.
+ ring.R0
+@@ -198,4 +195,4 @@
+ 3sc, turn
+ sc2inc, sc, sc2inc, turn
+ 5sc
+-```
+\ No newline at end of file
++

@@ -1,0 +1,16 @@
+--- a/RHC0334-022072M.cp
++++ b/RHC0334-022072M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # BODY
+ # With A (blue), ch 2.
+ # 1st rnd: 6 sc in 2nd ch from hook.
+@@ -163,4 +160,4 @@
+ 6sc@R10, ss@[%,0]
+ 6sc2inc, ss@[%,0]
+ 12sc, ss@[%,0]
+-```
+\ No newline at end of file
++

@@ -1,0 +1,16 @@
+--- a/RHC0334-025735M.cp
++++ b/RHC0334-025735M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # SLOTH BODY
+ ring.R0
+ # 1st rnd: 6 sc in magic ring
+@@ -174,4 +171,4 @@
+ ch.B3[k], ch.B3[++k], ch.B3[++k], ch.B3[++k], ch.B3[++k], ch.B3[++k]
+ ss@B3[k--], sc@B3[k--], hdc@B3[k--], dc@B3[k--], hdc@B3[k--], ss@B3[k]
+ ss@B3[++k], hdc@B3[++k], dc@B3[++k], hdc@B3[++k], sc@B3[++k], ss@B3[k]
+-```
+\ No newline at end of file
++

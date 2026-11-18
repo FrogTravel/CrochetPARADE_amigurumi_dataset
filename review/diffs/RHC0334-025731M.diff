@@ -1,0 +1,14 @@
+--- a/RHC0334-025731M.cp
++++ b/RHC0334-025731M.cp
+@@ -1,4 +1,3 @@
+-```
+ # OCTOPUS BODY
+ # Make Magic loop.
+ ring.R
+@@ -270,4 +269,4 @@
+ 12sc, ss@[%,0]
+ 12sc, ss@[%,0]
+ tie_up
+-```
+\ No newline at end of file
++

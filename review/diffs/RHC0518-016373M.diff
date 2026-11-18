@@ -1,0 +1,38 @@
+--- a/RHC0518-016373M.cp
++++ b/RHC0518-016373M.cp
+@@ -1,8 +1,7 @@
+-```
+ # PIZZA SLICE (Make 2 pieces alike)
+ # With A (yellow), ch 2.
+ # Row 1: 3 sc in 2nd ch from hook.
+-3ch, turn
++4ch, turn
+ # Row 1: 1 sc in 2nd ch from hook. 1 sc in each ch to end.
+ 4sc, turn
+ # Row 2: Ch 1. 2 sc in first sc. 1 sc in each sc to last sc. 2 sc in last sc.
+@@ -18,15 +17,15 @@
+ # Row 7: Ch 1. 1 sc in each sc to end of row.
+ 14sc, turn
+ # Row 8: Ch 1. 1 sc in each sc to end of row.
+-14sc
++14sc, turn
+ 
+ # CRUST (with B - tan/beige)
+ # With B, ch 1. Working across top edge of pizza slice.
+ # 1 sc in each sc across. Turn.
+ # Ch 1. 1 sc in each sc to end of row. Turn.
+ # Ch 1. 1 sc in each sc to end of row.
+-start_a_new_chain, turn
+-sc@[14,0], 13sc, turn
++# (crust continues on the last row of the slice: color change only)
++14sc, turn
+ 14sc, turn
+ 14sc
+ 
+@@ -54,4 +53,4 @@
+ # HANGING LOOP
+ start_a_new_chain
+ 15ch
+-```
+\ No newline at end of file
++

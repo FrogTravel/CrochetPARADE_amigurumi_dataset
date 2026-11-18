@@ -1,0 +1,16 @@
+--- a/BRC0334-032095M.cp
++++ b/BRC0334-032095M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # OWL STUFFIE
+ # BODY
+ # With MC, ch 2.
+@@ -179,4 +176,4 @@
+ 5sc, turn
+ sc2tog, sc, sc2tog, turn
+ sc3tog
+-```
+\ No newline at end of file
++

@@ -1,0 +1,16 @@
+--- a/RHC0234-024333M.cp
++++ b/RHC0234-024333M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # DINOSAUR / DRAGON BODY (make 2 pieces)
+ # Start at bottom, ch 25
+ 23ch, turn
+@@ -116,4 +113,4 @@
+ DEF: p1=3ch, sc, hdc, dc
+ start_a_new_chain
+ 5p1
+-```
+\ No newline at end of file
++

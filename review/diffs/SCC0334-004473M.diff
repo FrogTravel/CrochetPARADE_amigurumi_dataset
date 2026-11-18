@@ -1,0 +1,16 @@
+--- a/SCC0334-004473M.cp
++++ b/SCC0334-004473M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # HEAD
+ ring.R0
+ # 1st rnd: 6 sc in magic loop.
+@@ -222,4 +219,4 @@
+ # Rep from * 5 times.
+ 5*[3ch, ss, ss, ss, ss], ss@[%,0]
+ tie_up
+-```
+\ No newline at end of file
++

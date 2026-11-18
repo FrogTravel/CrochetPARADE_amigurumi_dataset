@@ -1,0 +1,16 @@
+--- a/RHC0334-023577M.cp
++++ b/RHC0334-023577M.cp
+@@ -1,6 +1,3 @@
+-
+-
+-```
+ # FROG
+ 
+ # HEAD
+@@ -277,4 +274,4 @@
+ ring.R16
+ 5sc@R16, ss@[%,0]
+ 5sc2inc, ss@[%,0]
+-```
+\ No newline at end of file
++
