@@ -296,7 +296,7 @@ We checked all {total} entries at revision `{revision}` with the CrochetPARADE p
 
 - Markdown fences prevented {kinds['fenced']} entries from compiling. Of those, {kinds['prose_preamble']} also began with prose and {kinds['dropped_truncated_last_line']} ended mid-line.
 - The parser accepts some rounds that leave stitches unworked or work past the previous round. The round-closure check catches these cases.
-- The manual review found {statuses['unfixable']} entries whose DSL was unrelated to the paired English or was a placeholder. They received grade D. Some received mechanical repairs. The manual notes describe invented body shapes or pieces and comments that do not track the paired instructions. Those entries need a new conversion.
+- The review against the English found {statuses['unfixable']} entries whose DSL was unrelated to the paired English or was a placeholder. They received grade D. Some received mechanical repairs. The reviewer notes describe invented body shapes or pieces and comments that do not track the paired instructions. Those entries need a new conversion.
 - Some entries with the highest creator confidence diverge from the paired English despite compiling. The comparison assumes the pattern with the same image ID is the relevant source.
 - The paired English sometimes gives a stitch count that conflicts with the written instructions. The reviewer notes record these cases.
 - Recurring conversion errors include incorrect repeats, groups worked across multiple stitches instead of in one stitch, foundation-chain ovals written as magic rings, missing duplicate pieces, invented closing gathers, collapsed plain rounds, and undefined post stitches.
@@ -305,7 +305,9 @@ We checked all {total} entries at revision `{revision}` with the CrochetPARADE p
 
 {kind_table}
 
-The manual review covered {sum(statuses.values())} entries. The outcome was {statuses['fixed']} fixed, {statuses['partly_fixed']} partly fixed, {statuses['no_change']} requiring no change, and {statuses['unfixable']} unrelated to the paired English or placeholders.
+Claude (an AI model) made the edits in commit c with the CrochetPARADE parser in the loop. The edits were rechecked mechanically, and a sample was read by hand. The 78 edits were made against the earlier 234-entry English set, and the grades were recomputed against the 319 entries matched in the public CrochetBench release.
+
+The review against the English covered {sum(statuses.values())} entries. The outcome was {statuses['fixed']} fixed, {statuses['partly_fixed']} partly fixed, {statuses['no_change']} requiring no change, and {statuses['unfixable']} unrelated to the paired English or placeholders.
 
 The {len(REVERTED)} plain-round corrections excluded after review were {reverted}. The original counts fit a fold-flat closing row or a round picked up around an edge.
 
@@ -322,7 +324,7 @@ The table groups entries with paired English by creator confidence and alignment
 ## Review grade
 
 - A means strong alignment (at least 0.85) or a fix against the English with reviewer confidence of at least 4.
-- B means the DSL compiles and was assigned neither a high-confidence grade nor a lower grade by the checks and manual review.
+- B means the DSL compiles and was assigned neither a high-confidence grade nor a lower grade by the checks and the review against the English.
 - C means unresolved count flags outside the reviewed exceptions or English alignment from 0.30 to below 0.60.
 - D means compilation failed, the reviewer marked the entry unfixable, or alignment was below 0.30.
 
