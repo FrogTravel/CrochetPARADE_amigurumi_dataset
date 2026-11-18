@@ -305,7 +305,7 @@ We checked all {total} entries at revision `{revision}` with the CrochetPARADE p
 
 {kind_table}
 
-Claude (an AI model) made the edits in commit c with the CrochetPARADE parser in the loop. The edits were rechecked mechanically, and a sample was read by hand. The 78 edits were made against the earlier 234-entry English set, and the grades were recomputed against the 319 entries matched in the public CrochetBench release.
+The edits in commit c were made by Claude Opus 5.5 sub-agents (an AI model), coordinated by Claude Fable 5.2 with the CrochetPARADE parser in the loop. The edits were rechecked mechanically, and a sample was read by hand. The 78 edits were made against the earlier 234-entry English set, and the grades were recomputed against the 319 entries matched in the public CrochetBench release.
 
 The review against the English covered {sum(statuses.values())} entries. The outcome was {statuses['fixed']} fixed, {statuses['partly_fixed']} partly fixed, {statuses['no_change']} requiring no change, and {statuses['unfixable']} unrelated to the paired English or placeholders.
 

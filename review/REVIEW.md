@@ -31,7 +31,7 @@ We checked all 323 entries at revision `5ee0179` with the CrochetPARADE parser a
 | Corrected plain-round counts | 13 |
 | Checked against the English | 78 |
 
-Claude (an AI model) made the edits in commit c with the CrochetPARADE parser in the loop. The edits were rechecked mechanically, and a sample was read by hand. The 78 edits were made against the earlier 234-entry English set, and the grades were recomputed against the 319 entries matched in the public CrochetBench release.
+The edits in commit c were made by Claude Opus 5.5 sub-agents (an AI model), coordinated by Claude Fable 5.2 with the CrochetPARADE parser in the loop. The edits were rechecked mechanically, and a sample was read by hand. The 78 edits were made against the earlier 234-entry English set, and the grades were recomputed against the 319 entries matched in the public CrochetBench release.
 
 The review against the English covered 128 entries. The outcome was 63 fixed, 15 partly fixed, 2 requiring no change, and 48 unrelated to the paired English or placeholders.
 
